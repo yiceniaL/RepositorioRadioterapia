@@ -11,11 +11,6 @@ body,h1,h2,h3,h4,h5 {font-family: "arial", sans-serif}
 body {font-size:16px;}
 .w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
 .w3-half img:hover{opacity:1}
-.div2 {
-    width: 400px;
-    height: 200px;    
-    padding: 50px;
-}
 </style>
 <body>
 
@@ -40,6 +35,54 @@ body {font-size:16px;}
             <option value="2">Option 2</option>
         </select>
     </div>
+    <div class="w3-col s3 w3-bar">
+        <button class="w3-bar-item w3-text-grey w3-button w3-white w3-hover-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+            </svg>
+        </button>
+        <div class="w3-margin-bottom w3-tooltip">
+        <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-large w3-white w3-hover-white">
+            <span style="position:absolute;left:80px;top:10px" class="w3-text w3-tag w3-medium w3-white">
+            Agregar un otro Tipo de Cáncer
+            </span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-menu-up w3-xxxlarge" viewBox="0 0 16 16">
+                <path d="M7.646 15.854a.5.5 0 0 0 .708 0L10.207 14H14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3.793l1.853 1.854zM1 9V6h14v3H1zm14 1v2a1 1 0 0 1-1 1h-3.793a1 1 0 0 0-.707.293l-1.5 1.5-1.5-1.5A1 1 0 0 0 5.793 13H2a1 1 0 0 1-1-1v-2h14zm0-5H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v2zM2 11.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 0-1h-8a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h6a.5.5 0 0 0 0-1h-6a.5.5 0 0 0-.5.5z"/>
+            </svg>
+        </button>     
+        <div id="id01" class="w3-modal">
+            <div class="w3-modal-content">
+                <header class="w3-container"> 
+                    <span onclick="document.getElementById('id01').style.display='none'" 
+                    class="w3-button w3-display-topright">&times;</span>
+                    <h3>Agregar otro Tipo de Cáncer</h3>
+                </header>
+            <div class="w3-container">
+                <div class="w3-col s4 w3-margin-left">
+                    <p>Nombre del otro Tipo de Cáncer</p>
+                </div>
+                <div class="w3-col s4">
+                    <input class="w3-input w3-border" type="text" placeholder="Ingresa el nombre">
+                </div>
+            </div>
+            <div class="w3-container ">
+                <div class="w3-col s4 w3-margin-left">
+                    <p>Descripción breve del Tipo de Cáncer</p>
+                </div>
+                <div class="w3-col s4">
+                <textarea class="w3-input w3-border w3-rest" style="height: 200px  width: 300px" placeholder="Describe el significado"></textarea>
+                </div>
+            </div>
+            <div class="w3-container w3-center w3-margin-top">
+                <button class="w3-button w3-green">Ingresar nuevo dato</button>
+            </div>
+            <footer class="w3-padding-16"></footer>
+        </div>
+        </div>
+        </div>
+        </div>
+    </div>
 </div>
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
@@ -57,27 +100,45 @@ body {font-size:16px;}
             <option value="Ib">IV</option>
         </select>
     </div>
+    <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+        </svg>
+    </button>
 </div>
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
         <h3>Descripción del Caso*</h3>
     </div>
-    <div class="w3-col s3">
-        <input class=" div2 w3-input w3-border" type="text" placeholder="Describe el Caso">
+    <div class="w3-col s3 w3-center">
+        <textarea class="w3-input w3-border w3-rest" style="height: 200px  width: 300px" placeholder="Describe el Caso"></textarea>
+            <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                    <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                </svg>
+    </button>
     </div>
 </div>
-<div class="w3-row-padding w3-margin-left">
-    <div class="w3-col s3 w3-margin-top">
+<div class="w3-row-padding w3-margin-left w3-margin-top">
+    <div class="w3-col s3">
         <h3>Género del Paciente</h3>
     </div>
     <div class="w3-col s3">
-        <select class="w3-select w3-border w3-margin-top" name="option">
+        <select class="w3-select w3-border" name="option">
             <option value="" disabled selected>Selecciona el género del paciente</option>
             <option value="Femenino">Femenino</option>
             <option value="Masculino">Masculino</option>
             <option value="Otro">Otro</option>
         </select>
     </div>
+    <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+        </svg>
+    </button>
 </div>
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
@@ -94,6 +155,12 @@ body {font-size:16px;}
             <option value="Persona Mayor (60 años o mas)">Persona Mayor (60 años o mas)</option>
         </select>
     </div>
+    <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+        </svg>
+    </button>
 </div>
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
@@ -109,6 +176,12 @@ body {font-size:16px;}
             <option value="Radioterapia paliativa">Radioterapia paliativa</option>
         </select>
     </div>
+    <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+        </svg>
+    </button>
 </div>
 <!-- Titulo segunda parte -->
 <div class="w3-container w3-margin-left" style="margin-top:20px">
@@ -125,6 +198,55 @@ body {font-size:16px;}
             <option value="2">Option 2</option>
         </select>
     </div>
+    <div class="w3-col s3 w3-bar">
+        <button class="w3-bar-item w3-text-grey w3-button w3-white w3-hover-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+            </svg>
+        </button>
+        <div class="w3-margin-bottom w3-tooltip">
+        <button onclick="document.getElementById('id02').style.display='block'" class="w3-button w3-large w3-white w3-hover-white">
+            <span style="position:absolute;left:80px;top:10px" class="w3-text w3-tag w3-medium w3-white">
+            Agregar un otro tipo de tratamiento
+            </span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-menu-up w3-xxxlarge" viewBox="0 0 16 16">
+                <path d="M7.646 15.854a.5.5 0 0 0 .708 0L10.207 14H14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3.793l1.853 1.854zM1 9V6h14v3H1zm14 1v2a1 1 0 0 1-1 1h-3.793a1 1 0 0 0-.707.293l-1.5 1.5-1.5-1.5A1 1 0 0 0 5.793 13H2a1 1 0 0 1-1-1v-2h14zm0-5H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v2zM2 11.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 0-1h-8a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h6a.5.5 0 0 0 0-1h-6a.5.5 0 0 0-.5.5z"/>
+            </svg>
+        </button>     
+        <div id="id02" class="w3-modal">
+            <div class="w3-modal-content">
+                <header class="w3-container"> 
+                    <span onclick="document.getElementById('id02').style.display='none'" 
+                    class="w3-button w3-display-topright">&times;</span>
+                    <h3>Agregar otro tipo de tratamiento</h3>
+                </header>
+            <div class="w3-container">
+                <div class="w3-col s4 w3-margin-left">
+                    <p>Nombre del otro tipo de tratamiento</p>
+                </div>
+                <div class="w3-col s4">
+                    <input class="w3-input w3-border" type="text" placeholder="Ingresa el nombre">
+                </div>
+            </div>
+            <div class="w3-container ">
+                <div class="w3-col s4 w3-margin-left">
+                    <p>Descripción breve del tratamiento</p>
+                </div>
+                <div class="w3-col s4">
+                <textarea class="w3-input w3-border w3-rest" style="height: 200px  width: 300px" placeholder="Describe el significado"></textarea>
+                </div>
+            </div>
+            <div class="w3-container w3-center w3-margin-top">
+                <button class="w3-button w3-green">Ingresar nuevo dato</button>
+            </div>
+            <footer class="w3-padding-16"></footer>
+        </div>
+        </div>
+        </div>
+        </div>
+    </div>
+</div>
 </div>
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
@@ -137,7 +259,58 @@ body {font-size:16px;}
             <option value="2">Option 2</option>
         </select>
     </div>
+    <div class="w3-col s3 w3-bar">
+        <button class="w3-bar-item w3-text-grey w3-button w3-white w3-hover-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+            </svg>
+        </button>
+        <div class="w3-margin-bottom w3-tooltip">
+        <button onclick="document.getElementById('id03').style.display='block'" class="w3-button w3-large w3-white w3-hover-white">
+            <span style="position:absolute;left:80px;top:10px" class="w3-text w3-tag w3-medium w3-white">
+            Agregar un otro tipo de optimización
+            </span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-menu-up w3-xxxlarge" viewBox="0 0 16 16">
+                <path d="M7.646 15.854a.5.5 0 0 0 .708 0L10.207 14H14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3.793l1.853 1.854zM1 9V6h14v3H1zm14 1v2a1 1 0 0 1-1 1h-3.793a1 1 0 0 0-.707.293l-1.5 1.5-1.5-1.5A1 1 0 0 0 5.793 13H2a1 1 0 0 1-1-1v-2h14zm0-5H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v2zM2 11.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 0-1h-8a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h6a.5.5 0 0 0 0-1h-6a.5.5 0 0 0-.5.5z"/>
+            </svg>
+        </button>     
+        <div id="id03" class="w3-modal">
+            <div class="w3-modal-content">
+                <header class="w3-container"> 
+                    <span onclick="document.getElementById('id03').style.display='none'" 
+                    class="w3-button w3-display-topright">&times;</span>
+                    <h3>Agregar otro tipo de optimización</h3>
+                </header>
+            <div class="w3-container">
+                <div class="w3-col s4 w3-margin-left">
+                    <p>Nombre del otro tipo de optimización</p>
+                </div>
+                <div class="w3-col s4">
+                    <input class="w3-input w3-border" type="text" placeholder="Ingresa el nombre">
+                </div>
+            </div>
+            <div class="w3-container ">
+                <div class="w3-col s4 w3-margin-left">
+                    <p>Descripción breve de la optimización</p>
+                </div>
+                <div class="w3-col s4">
+                <textarea class="w3-input w3-border w3-rest" style="height: 200px  width: 300px" placeholder="Describe el significado"></textarea>
+                </div>
+            </div>
+            <div class="w3-container w3-center w3-margin-top">
+                <button class="w3-button w3-green">Ingresar nuevo dato</button>
+            </div>
+            <footer class="w3-padding-16"></footer>
+        </div>
+        </div>
+        </div>
+        </div>
+    </div>
 </div>
+</div>
+</div>
+
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
         <h3>Número total de beamlets</h3>
@@ -145,6 +318,12 @@ body {font-size:16px;}
     <div class="w3-col s3">
         <input class="w3-input w3-border" type="text" placeholder="Ingresa el número total de beamlets">
     </div>
+    <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+        </svg>
+    </button>
 </div>
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
@@ -165,6 +344,12 @@ body {font-size:16px;}
                 <option value="in">in</option>
                 <option value="ft">ft</option>
         </select>  
+        <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+        </svg>
+    </button>
 </div>
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
@@ -177,6 +362,12 @@ body {font-size:16px;}
             <option value="2">No</option>
         </select>
     </div>
+    <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+        </svg>
+    </button>
 </div>
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
@@ -185,10 +376,22 @@ body {font-size:16px;}
     <div class="w3-col s3">
         <input class="w3-input w3-border" type="text" placeholder="Ingresa el número de ángulos">
     </div>
+    <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+        </svg>
+    </button>
 </div>
 <!-- Titulo tercera parte -->
 <div class="w3-container w3-margin-left" style="margin-top:20px">
     <h2 style="margin-top:40px"><b>3. Informacón de la región de interés</b></h2>
+</div>
+<div class="w3-row w3-center">
+  <div class="w3-container w3-quarter"></div>
+  <div class="w3-col s3">
+        <h3>1</h3>
+    </div>
 </div>
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
@@ -201,6 +404,56 @@ body {font-size:16px;}
             <option value="2">Option 2</option>
         </select>
     </div>
+    <div class="w3-col s3 w3-bar">
+        <button class="w3-bar-item w3-text-grey w3-button w3-white w3-hover-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+            </svg>
+        </button>
+        <div class="w3-margin-bottom w3-tooltip">
+        <button onclick="document.getElementById('id04').style.display='block'" class="w3-button w3-large w3-white w3-hover-white">
+            <span style="position:absolute;left:80px;top:10px" class="w3-text w3-tag w3-medium w3-white">
+            Agregar un otro tipo de órgano
+            </span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-menu-up w3-xxxlarge" viewBox="0 0 16 16">
+                <path d="M7.646 15.854a.5.5 0 0 0 .708 0L10.207 14H14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3.793l1.853 1.854zM1 9V6h14v3H1zm14 1v2a1 1 0 0 1-1 1h-3.793a1 1 0 0 0-.707.293l-1.5 1.5-1.5-1.5A1 1 0 0 0 5.793 13H2a1 1 0 0 1-1-1v-2h14zm0-5H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v2zM2 11.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 0-1h-8a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h6a.5.5 0 0 0 0-1h-6a.5.5 0 0 0-.5.5z"/>
+            </svg>
+        </button>     
+        <div id="id04" class="w3-modal">
+            <div class="w3-modal-content">
+                <header class="w3-container"> 
+                    <span onclick="document.getElementById('id04').style.display='none'" 
+                    class="w3-button w3-display-topright">&times;</span>
+                    <h3>Agregar otro tipo de órgano</h3>
+                </header>
+            <div class="w3-container">
+                <div class="w3-col s4 w3-margin-left">
+                    <p>Nombre del otro tipo de órgano</p>
+                </div>
+                <div class="w3-col s4">
+                    <input class="w3-input w3-border" type="text" placeholder="Ingresa el nombre">
+                </div>
+            </div>
+            <div class="w3-container ">
+                <div class="w3-col s4 w3-margin-left">
+                    <p>Descripción breve de la órgano</p>
+                </div>
+                <div class="w3-col s4">
+                <textarea class="w3-input w3-border w3-rest" style="height: 200px  width: 300px" placeholder="Describe el significado"></textarea>
+                </div>
+            </div>
+            <div class="w3-container w3-center w3-margin-top">
+                <button class="w3-button w3-green">Ingresar nuevo dato</button>
+            </div>
+            <footer class="w3-padding-16"></footer>
+        </div>
+        </div>
+        </div>
+        </div>
+    </div>
+</div>
+</div>
 </div>
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
@@ -213,6 +466,12 @@ body {font-size:16px;}
             <option value="2">No</option>
         </select>
     </div>
+    <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+        </svg>
+    </button>
 </div>
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
@@ -221,6 +480,12 @@ body {font-size:16px;}
     <div class="w3-col s3">
         <input class="w3-input w3-border" type="text" placeholder="Ingresa el nivel de prioridad del Órgano ">
     </div>
+    <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+        </svg>
+    </button>
 </div>
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
@@ -237,6 +502,12 @@ body {font-size:16px;}
                 <option value="in">in^3</option>
                 <option value="ft">ft^3</option>
         </select>  
+        <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+        </svg>
+    </button>
 </div>
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
@@ -245,6 +516,12 @@ body {font-size:16px;}
     <div class="w3-col s3">
         <input class="w3-input w3-border" type="text" placeholder="Ingresa el número de vóxels objetivo">
     </div>
+    <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+        </svg>
+    </button>
 </div>
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
@@ -257,6 +534,56 @@ body {font-size:16px;}
             <option value="2">Option 2</option>
         </select>
     </div>
+    <div class="w3-col s3 w3-bar">
+        <button class="w3-bar-item w3-text-grey w3-button w3-white w3-hover-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+            </svg>
+        </button>
+        <div class="w3-margin-bottom w3-tooltip">
+        <button onclick="document.getElementById('id05').style.display='block'" class="w3-button w3-large w3-white w3-hover-white">
+            <span style="position:absolute;left:80px;top:10px" class="w3-text w3-tag w3-medium w3-white">
+            Agregar un otro tipo de indicador
+            </span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-menu-up w3-xxxlarge" viewBox="0 0 16 16">
+                <path d="M7.646 15.854a.5.5 0 0 0 .708 0L10.207 14H14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3.793l1.853 1.854zM1 9V6h14v3H1zm14 1v2a1 1 0 0 1-1 1h-3.793a1 1 0 0 0-.707.293l-1.5 1.5-1.5-1.5A1 1 0 0 0 5.793 13H2a1 1 0 0 1-1-1v-2h14zm0-5H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v2zM2 11.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 0-1h-8a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h6a.5.5 0 0 0 0-1h-6a.5.5 0 0 0-.5.5z"/>
+            </svg>
+        </button>     
+        <div id="id05" class="w3-modal">
+            <div class="w3-modal-content">
+                <header class="w3-container"> 
+                    <span onclick="document.getElementById('id05').style.display='none'" 
+                    class="w3-button w3-display-topright">&times;</span>
+                    <h3>Agregar otro tipo de indicador</h3>
+                </header>
+            <div class="w3-container">
+                <div class="w3-col s4 w3-margin-left">
+                    <p>Nombre del otro tipo de indicador</p>
+                </div>
+                <div class="w3-col s4">
+                    <input class="w3-input w3-border" type="text" placeholder="Ingresa el nombre">
+                </div>
+            </div>
+            <div class="w3-container ">
+                <div class="w3-col s4 w3-margin-left">
+                    <p>Descripción breve del indicador</p>
+                </div>
+                <div class="w3-col s4">
+                <textarea class="w3-input w3-border w3-rest" style="height: 200px  width: 300px" placeholder="Describe el significado"></textarea>
+                </div>
+            </div>
+            <div class="w3-container w3-center w3-margin-top">
+                <button class="w3-button w3-green">Ingresar nuevo dato</button>
+            </div>
+            <footer class="w3-padding-16"></footer>
+        </div>
+        </div>
+        </div>
+        </div>
+    </div>
+</div>
+</div>
 </div>
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
@@ -265,11 +592,20 @@ body {font-size:16px;}
     <div class="w3-col s3">
         <input class="w3-input w3-border" type="text" placeholder="Ingresa el valor del indicador 1">
     </div>
+    <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+        </svg>
+    </button>
 </div>
 <div class="w3-row w3-center">
   <div class="w3-container w3-quarter"></div>
-  <div class="w3-container w3-quarter w3-margin-bottom">
-    <button class="w3-button w3-large w3-circle w3-grey">+</button>
+  <div class="w3-container w3-quarter w3-margin-bottom w3-tooltip">
+    <button class="w3-button w3-large w3-circle w3-grey">
+        <span style="position:absolute;left:-50px;top:10px" class="w3-text w3-tag w3-large w3-white w3-tiny">
+        Agregar otro indicador
+        </span>+</button>
   </div>
 </div>
 <div class="w3-row-padding w3-margin-left">
@@ -279,6 +615,12 @@ body {font-size:16px;}
     <div class="w3-container w3-quarter">
         <button class="w3-button w3-block w3-grey">Subir archivos</button>
     </div>
+    <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+        </svg>
+    </button>
 </div>
 <!-- Titulo cuarta parte -->
 <div class="w3-container w3-margin-left" style="margin-top:20px">
@@ -312,7 +654,7 @@ body {font-size:16px;}
             <option value="Belice">Belice</option>
             <option value="Benin">Benin</option>
             <option value="Bhután">Bhután</option>
-            <option value="Bolivia (Estado Plurinacional de)">Bolivia (Estado Plurinacional de)</option>
+            <option value="Bolivia">Bolivia</option>
             <option value="Bosnia y Herzegovina">Bosnia y Herzegovina</option>
             <option value="Botswana">Botswana</option>
             <option value="Brasil">Brasil</option>
@@ -408,7 +750,7 @@ body {font-size:16px;}
             <option value="Marruecos">Marruecos</option>
             <option value="Mauricio">Mauricio</option>
             <option value="Mauritania">Mauritania</option>
-            <option value="Micronesia (Estados Federados de)">Micronesia (Estados Federados de)</option>
+            <option value="Micronesia">Micronesia</option>
             <option value="Mongolia">Mongolia</option>
             <option value="Montenegro">Montenegro</option>
             <option value="Mozambique">Mozambique</option>
@@ -489,6 +831,12 @@ body {font-size:16px;}
             <option value="Zimbabwe">Zimbabwe</option>
         </select>
     </div>
+    <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+        </svg>
+    </button>
 </div>
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
@@ -501,6 +849,56 @@ body {font-size:16px;}
             <option value="2">Option 2</option>
         </select>
     </div>
+    <div class="w3-col s3 w3-bar">
+        <button class="w3-bar-item w3-text-grey w3-button w3-white w3-hover-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+            </svg>
+        </button>
+        <div class="w3-margin-bottom w3-tooltip">
+        <button onclick="document.getElementById('id06').style.display='block'" class="w3-button w3-large w3-white w3-hover-white">
+            <span style="position:absolute;left:80px;top:10px" class="w3-text w3-tag w3-medium w3-white">
+            Agregar un otro tipo de institución
+            </span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-menu-up w3-xxxlarge" viewBox="0 0 16 16">
+                <path d="M7.646 15.854a.5.5 0 0 0 .708 0L10.207 14H14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3.793l1.853 1.854zM1 9V6h14v3H1zm14 1v2a1 1 0 0 1-1 1h-3.793a1 1 0 0 0-.707.293l-1.5 1.5-1.5-1.5A1 1 0 0 0 5.793 13H2a1 1 0 0 1-1-1v-2h14zm0-5H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v2zM2 11.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 0-1h-8a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h6a.5.5 0 0 0 0-1h-6a.5.5 0 0 0-.5.5z"/>
+            </svg>
+        </button>     
+        <div id="id06" class="w3-modal">
+            <div class="w3-modal-content">
+                <header class="w3-container"> 
+                    <span onclick="document.getElementById('id06').style.display='none'" 
+                    class="w3-button w3-display-topright">&times;</span>
+                    <h3>Agregar otro tipo de institución</h3>
+                </header>
+            <div class="w3-container">
+                <div class="w3-col s4 w3-margin-left">
+                    <p>Nombre del otro tipo de institución</p>
+                </div>
+                <div class="w3-col s4">
+                    <input class="w3-input w3-border" type="text" placeholder="Ingresa el nombre">
+                </div>
+            </div>
+            <div class="w3-container ">
+                <div class="w3-col s4 w3-margin-left">
+                    <p>Descripción breve de la institución</p>
+                </div>
+                <div class="w3-col s4">
+                <textarea class="w3-input w3-border w3-rest" style="height: 200px  width: 300px" placeholder="Describe el significado"></textarea>
+                </div>
+            </div>
+            <div class="w3-container w3-center w3-margin-top">
+                <button class="w3-button w3-green">Ingresar nuevo dato</button>
+            </div>
+            <footer class="w3-padding-16"></footer>
+        </div>
+        </div>
+        </div>
+        </div>
+    </div>
+</div>
+</div>
 </div>
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
@@ -509,6 +907,12 @@ body {font-size:16px;}
     <div class="w3-col s3">
         <input class="w3-input w3-border" type="text" placeholder="Ingresa el nombre del Autor">
     </div>
+    <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+        </svg>
+    </button>
 </div>
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
@@ -517,17 +921,57 @@ body {font-size:16px;}
     <div class="w3-col s3">
         <input class="w3-input w3-border" type="text" placeholder="Ingresa el email de Contacto">
     </div>
+    <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+        </svg>
+    </button>
 </div>
 <div class="w3-row">
     <div class="w3-container" style="margin-top:30px"></div>
     <div class="w3-col w3-container w3-margin " style="width:20%"></div>
-    <button class="w3-button w3-teal w3-xlarge" style="width:18%">Subir archivos</button>
+    <button class="w3-button w3-teal w3-xlarge" style="width:18%">Ingresar Datos </button>
   </div>
 </div>
 
 
-<textarea class="w3-input w3-border" style="resize:none"></textarea>
+<button onclick="myFunction('Demo1')" class="w3-button w3-light-grey">
+    Normal button
+</button>
+<div id="Demo1" class="w3-hide w3-container">
+    <div class="w3-row-padding w3-margin-left">
+        <div class="w3-col s3">
+            <h3>Nombre del Indicador 2*</h3>
+        </div>
+        <div class="w3-col s3">
+            <select class="w3-select w3-border " name="option">
+                <option value="" disabled selected>Selecciona indicador</option>
+                <option value="1">lista5</option>
+                <option value="2">Option 2</option>
+            </select>
+        </div>
+    </div>
+    <div class="w3-row-padding w3-margin-left">
+        <div class="w3-col s3">
+            <h3>Valor del indicador 2*</h3>
+        </div>
+        <div class="w3-col s3">
+            <input class="w3-input w3-border" type="text" placeholder="Ingresa el valor del indicador 1">
+        </div>
+    </div>
+</div>
 
+<script>
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
 
 
 </body>
