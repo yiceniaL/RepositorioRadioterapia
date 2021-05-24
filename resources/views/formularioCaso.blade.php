@@ -936,42 +936,19 @@ body {font-size:16px;}
 </div>
 
 
-<button onclick="myFunction('Demo1')" class="w3-button w3-light-grey">
-    Normal button
-</button>
-<div id="Demo1" class="w3-hide w3-container">
-    <div class="w3-row-padding w3-margin-left">
-        <div class="w3-col s3">
-            <h3>Nombre del Indicador 2*</h3>
-        </div>
-        <div class="w3-col s3">
-            <select class="w3-select w3-border " name="option">
-                <option value="" disabled selected>Selecciona indicador</option>
-                <option value="1">lista5</option>
-                <option value="2">Option 2</option>
-            </select>
-        </div>
-    </div>
-    <div class="w3-row-padding w3-margin-left">
-        <div class="w3-col s3">
-            <h3>Valor del indicador 2*</h3>
-        </div>
-        <div class="w3-col s3">
-            <input class="w3-input w3-border" type="text" placeholder="Ingresa el valor del indicador 1">
-        </div>
-    </div>
-</div>
 
-<script>
-function myFunction(id) {
-  var x = document.getElementById(id);
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else { 
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
-</script>
+<div class="w3-row-padding w3-margin-left">
+    <div class="w3-col s3"><h3>Nombre del Indicador 2*</h3></div>
+    <div class="w3-col s3"><select class="w3-select w3-border " name="option">
+    <option value="" disabled selected>Selecciona el indicador</option><option value="1">lista5</option><option value="2">Option 2</option></select></div></div>
+<div class="w3-row-padding w3-margin-left">
+    <div class="w3-col s3"><h3>Valor del indicador 2*</h3></div>
+    <div class="w3-col s3"><input class="w3-input w3-border" type="text" placeholder="Ingresa el valor del indicador 1"></div></div>
+             
+               
+
+    
+   
 
 
 </body>
