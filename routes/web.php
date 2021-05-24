@@ -40,3 +40,7 @@ Route::get('/formularioPropuesta', function () {
 Route::get('/formularioDetalle', function () {
     return view('formularioDetalle');
 });
+
+Route::get('/prueba', function () {
+    return view('prueba');
+});
