@@ -523,9 +523,11 @@ body {font-size:16px;}
         </svg>
     </button>
 </div>
+<div class="w3-row w3-center w3-container w3-quarter w3-col s2">
+        <h>1</h></div></div>
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
-        <h3>Nombre del Indicador 1*</h3>
+        <h3>Nombre del Indicador*</h3>
     </div>
     <div class="w3-col s3">
         <select class="w3-select w3-border " name="option">
@@ -587,7 +589,7 @@ body {font-size:16px;}
 </div>
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
-        <h3>Valor del indicador 1*</h3>
+        <h3>Valor del indicador*</h3>
     </div>
     <div class="w3-col s3">
         <input class="w3-input w3-border" type="text" placeholder="Ingresa el valor del indicador 1">
@@ -599,10 +601,42 @@ body {font-size:16px;}
         </svg>
     </button>
 </div>
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+<script>
+var suma = 1;
+var num = 1;
+$(document).ready(function(){
+    $("#btn1").click(function(){
+    suma = suma + num;
+    var code00 ='<div class="w3-row w3-container w3-quarter w3-col s1">'+
+    '    <h4>'
+    ;
+    var code0 ='</h4></div></div>'
+    ;
+    var code1 ='<div class="w3-row-padding w3-margin-left">'+
+    '    <div class="w3-col s3"><h3>Nombre del Indicador*</h3></div>'+
+    '    <div class="w3-col s3"><select class="w3-select w3-border " name="option">'+
+    '    <option value="" disabled selected>Selecciona el indicador</option><option value="1">lista5</option><option value="2">Option 2</option></select></div></div>'
+    ;
+    var code2 = '<div class="w3-row-padding w3-margin-left">'+
+    '    <div class="w3-col s3"><h3>Valor del indicador*</h3></div>'+
+    '    <div class="w3-col s3"><input class="w3-input w3-border" type="text" placeholder="Ingresa el valor del indicador 1"></div></div>'
+    ;
+        $("#someElement").append($(code00));
+        $("#someElement").append($(code0));
+        $("#someElement").append(suma);
+        $("#someElement").append($(code1));
+        $("#someElement").append($(code2));
+  });
+});
+</script>
+</head>
+<body>
+<div id="someElement"></div>
 <div class="w3-row w3-center">
   <div class="w3-container w3-quarter"></div>
   <div class="w3-container w3-quarter w3-margin-bottom w3-tooltip">
-    <button class="w3-button w3-large w3-circle w3-grey">
+    <button id="btn1" class="w3-button w3-large w3-circle w3-grey">
         <span style="position:absolute;left:-50px;top:10px" class="w3-text w3-tag w3-large w3-white w3-tiny">
         Agregar otro indicador
         </span>+</button>
@@ -937,18 +971,8 @@ body {font-size:16px;}
 
 
 
-<div class="w3-row-padding w3-margin-left">
-    <div class="w3-col s3"><h3>Nombre del Indicador 2*</h3></div>
-    <div class="w3-col s3"><select class="w3-select w3-border " name="option">
-    <option value="" disabled selected>Selecciona el indicador</option><option value="1">lista5</option><option value="2">Option 2</option></select></div></div>
-<div class="w3-row-padding w3-margin-left">
-    <div class="w3-col s3"><h3>Valor del indicador 2*</h3></div>
-    <div class="w3-col s3"><input class="w3-input w3-border" type="text" placeholder="Ingresa el valor del indicador 1"></div></div>
-             
-               
 
-    
-   
+
 
 
 </body>
