@@ -620,7 +620,7 @@ $(document).ready(function(){
     ;
     var code2 = '<div class="w3-row-padding w3-margin-left">'+
     '    <div class="w3-col s3"><h3>Valor del indicador*</h3></div>'+
-    '    <div class="w3-col s3"><input class="w3-input w3-border" type="text" placeholder="Ingresa el valor del indicador 1"></div></div>'
+    '    <div class="w3-col s3"><input class="w3-input w3-border" type="text" placeholder="Ingresa el valor del indicador"></div></div>'
     ;
         $("#someElement").append($(code00));
         $("#someElement").append($(code0));
