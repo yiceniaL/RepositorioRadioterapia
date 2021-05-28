@@ -23,29 +23,33 @@ body {font-size:16px;}
   <div class="w3-dropdown-hover ">
     <a class="w3-bar-item w3-button w3-margin-top" onclick="myAccFunc1()">Tipo de cáncer ▾</a>
       <div id="demoAcc1" class="w3-hide w3-bar-block">
-        <a class="w3-bar-item w3-button">Link</a>
-        <a class="w3-bar-item w3-button">Link</a>
+        <a class="w3-bar-item w3-button"><input type="checkbox" id="tipoCancer1" name="tipoCancer1" value="1"><label for="tipoCancer1">  Opcion1</label></a>
+        <a class="w3-bar-item w3-button"><input type="checkbox" id="tipoCancer2" name="tipoCancer2" value="2"><label for="tipoCancer2">  Opcion2</label></a>
+        <a class="w3-bar-item w3-button"><input type="checkbox" id="tipoCancer3" name="tipoCancer3" value="3"><label for="tipoCancer3">  Opcion3</label></a>
       </div>
   </div>
   <div class="w3-dropdown-hover">
     <a class="w3-bar-item w3-button w3-margin-top" onclick="myAccFunc2()">Técnica ▾</a>
       <div id="demoAcc2" class="w3-hide w3-bar-block">
-        <a class="w3-bar-item w3-button">Link 1</a>
-        <a class="w3-bar-item w3-button">Link 2</a>
+        <a class="w3-bar-item w3-button"><input type="checkbox" id="tipoTecnica1" name="tipoTecnica1" value="1"><label for="tipoTecnica1">  Opcion1</label></a>
+        <a class="w3-bar-item w3-button"><input type="checkbox" id="tipoTecnica2" name="tipoTecnica2" value="2"><label for="tipoTecnica2">  Opcion2</label></a>
+        <a class="w3-bar-item w3-button"><input type="checkbox" id="tipoTecnica3" name="tipoTecnica3" value="3"><label for="tipoTecnica3">  Opcion3</label></a>
       </div>
   </div>
   <div class="w3-dropdown-hover">
     <a class="w3-bar-item w3-button w3-margin-top" onclick="myAccFunc3()">Tipo de Optimización ▾</a>
       <div id="demoAcc3" class="w3-hide w3-bar-block">
-        <a class="w3-bar-item w3-button">Link 3</a>
-        <a class="w3-bar-item w3-button">Link 4</a>
+        <a class="w3-bar-item w3-button"><input type="checkbox" id="tipoOpt1" name="tipoOpt1" value="1"><label for="tipoOpt1">  Opcion1</label></a>
+        <a class="w3-bar-item w3-button"><input type="checkbox" id="tipoOpt2" name="tipoOpt2" value="2"><label for="tipoOpt2">  Opcion2</label></a>
+        <a class="w3-bar-item w3-button"><input type="checkbox" id="tipoOpt3" name="tipoOpt3" value="3"><label for="tipoOpt3">  Opcion3</label></a>
       </div>
   </div>
   <div class="w3-dropdown-hover">
     <a class="w3-bar-item w3-button w3-margin-top" onclick="myAccFunc4()">Institución ▾</a>
       <div id="demoAcc4" class="w3-hide w3-bar-block">
-        <a class="w3-bar-item w3-button">Link 5</a>
-        <a class="w3-bar-item w3-button">Link 5</a>
+        <a class="w3-bar-item w3-button"><input type="checkbox" id="tipoInstitucion1" name="tipoInstitucion1" value="1"><label for="tipoInstitucion1">  Opcion1</label></a>
+        <a class="w3-bar-item w3-button"><input type="checkbox" id="tipoInstitucion2" name="tipoInstitucion2" value="2"><label for="tipoInstitucion2">  Opcion2</label></a>
+        <a class="w3-bar-item w3-button"><input type="checkbox" id="tipoInstitucion3" name="tipoInstitucion3" value="3"><label for="tipoInstitucion3">  Opcion3</label></a>
       </div>
   </div>
   <div class="w3-dropdown-hover ">
