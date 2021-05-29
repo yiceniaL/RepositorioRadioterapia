@@ -41,7 +41,12 @@ Route::get('/formularioDetalle', function () {
     return view('formularioDetalle');
 });
 
+Route::get('/confirmacion', function () {
+    return view('confirmacion');
+});
+
 Route::get('/prueba', function () {
     return view('prueba');
 });
+
 

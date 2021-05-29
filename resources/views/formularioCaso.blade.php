@@ -21,9 +21,10 @@ body {font-size:16px;}
     <hr style="width:80px;border:5px solid rgb(0, 128, 128)" class="w3-round">
     <h2 style="margin-top:10px">Es necesario completar este formulario para ingresar un <i>Caso Nuevo</i> al sistema. </h2>
     <h3>* Es necesario completar este campo</h3>
-<!-- Titulo primera parte -->
+<!-- 1. Titulo primera parte -->
     <h2 style="margin-top:40px"><b>1. Información general del Caso</b></h2>
 </div>
+<!-- Tipo de cancer -->
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
         <h3>Tipo de Cáncer*</h3>
@@ -84,6 +85,7 @@ body {font-size:16px;}
         </div>
     </div>
 </div>
+<!-- Nivel de cancer -->
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
         <h3>Nivel del cáncer*</h3>
@@ -107,12 +109,13 @@ body {font-size:16px;}
         </svg>
     </button>
 </div>
+<!-- Descripcion del caso -->
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
         <h3>Descripción del Caso*</h3>
     </div>
     <div class="w3-col s3 w3-center">
-        <textarea name="namedescripcion" autocomplete="on" class="w3-input w3-border w3-rest" style="height: 200px  width: 300px" placeholder="Describe el Caso"></textarea>
+        <textarea maxlength="700" name="namedescripcion" autocomplete="on" class="w3-input w3-border w3-rest" style="height: 200px  width: 300px" placeholder="Describe el Caso"></textarea>
             <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
                     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
@@ -121,6 +124,7 @@ body {font-size:16px;}
     </button>
     </div>
 </div>
+<!-- Genero del paciente -->
 <div class="w3-row-padding w3-margin-left w3-margin-top">
     <div class="w3-col s3">
         <h3>Género del Paciente</h3>
@@ -140,6 +144,7 @@ body {font-size:16px;}
         </svg>
     </button>
 </div>
+<!-- Rango de edad del paciente -->
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
         <h3>Rango de Edad del Paciente</h3>
@@ -162,6 +167,7 @@ body {font-size:16px;}
         </svg>
     </button>
 </div>
+<!-- Condicion de Radioterapia -->
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
         <h3>Condición de Radioterapia*</h3>
@@ -183,10 +189,11 @@ body {font-size:16px;}
         </svg>
     </button>
 </div>
-<!-- Titulo segunda parte -->
+<!-- 2. Titulo segunda parte -->
 <div class="w3-container w3-margin-left" style="margin-top:20px">
     <h2 style="margin-top:40px"><b>2. Información técnica del tratamiento</b></h2>
 </div>
+<!-- Tecnica de Tratamiento -->
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
         <h3>Técnica de Tratamiento*</h3>
@@ -248,6 +255,7 @@ body {font-size:16px;}
     </div>
 </div>
 </div>
+<!-- Tipo de Optimizacion -->
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
         <h3>Tipo de Optimización*</h3>
@@ -310,13 +318,13 @@ body {font-size:16px;}
 </div>
 </div>
 </div>
-
+<!-- Numero total de beamlets -->
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
         <h3>Número total de beamlets</h3>
     </div>
     <div class="w3-col s3">
-        <input name="namebeamlets" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el número total de beamlets">
+        <input maxlength="3" name="namebeamlets" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el número total de beamlets">
     </div>
     <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
@@ -325,6 +333,7 @@ body {font-size:16px;}
         </svg>
     </button>
 </div>
+<!-- Tamano del beamlets -->
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
         <h3>Tamaño del beamlets</h3>
@@ -351,6 +360,7 @@ body {font-size:16px;}
         </svg>
     </button>
 </div>
+<!-- Coplanar -->
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
         <h3>Coplanar</h3>
@@ -369,12 +379,13 @@ body {font-size:16px;}
         </svg>
     </button>
 </div>
+<!-- Numero de angulos -->
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
         <h3>Número de Ángulos</h3>
     </div>
     <div class="w3-col s3">
-        <input name="nameangulo" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el número de ángulos">
+        <input maxlength="3" name="nameangulo" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el número de ángulos">
     </div>
     <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
@@ -383,7 +394,7 @@ body {font-size:16px;}
         </svg>
     </button>
 </div>
-<!-- Titulo tercera parte -->
+<!-- 3. Titulo tercera parte -->
 <div class="w3-container w3-margin-left" style="margin-top:20px">
     <h2 style="margin-top:40px"><b>3. Informacón de la región de interés</b></h2>
 </div>
@@ -391,6 +402,7 @@ body {font-size:16px;}
 <div class="w3-container w3-margin-left" style="background-color:rgb(240, 240, 240);">
     <h3>Órgano 1</h3>
 </div>
+<!-- Organo a irradiar -->
 <div class="w3-row-padding w3-margin-left" style="margin-top:10px">
     <div class="w3-col s3">
         <h3>Órgano a irradiar*</h3>
@@ -453,6 +465,7 @@ body {font-size:16px;}
 </div>
 </div>
 </div>
+<!-- Organo contien el tumor -->
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
         <h3>El órgano contien el tumor*</h3>
@@ -471,12 +484,13 @@ body {font-size:16px;}
         </svg>
     </button>
 </div>
+<!-- Nivel de prioridad del organo -->
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
         <h3>Nivel de prioridad del Órgano </h3>
     </div>
     <div class="w3-col s3">
-        <input name="nameprioridad" class="w3-input w3-border" type="text" placeholder="Ingresa el nivel de prioridad del Órgano ">
+        <input maxlength="3" name="nameprioridad" class="w3-input w3-border" type="text" placeholder="Ingresa el nivel de prioridad del Órgano ">
     </div>
     <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
@@ -485,12 +499,13 @@ body {font-size:16px;}
         </svg>
     </button>
 </div>
+<!-- Volumen total del objetivo -->
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
         <h3>Volumen total del objetivo*</h3>
     </div>
         <div class="w3-col s1">
-            <input name="namevolumen" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Volumen">
+            <input maxlength="10" name="namevolumen" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Volumen">
         </div>
         <select class="w3-select w3-border" style="width: 150px" name="option">
                 <option value="" disabled selected>Unidad</option>
@@ -507,12 +522,13 @@ body {font-size:16px;}
         </svg>
     </button>
 </div>
+<!-- Numero de voxels objetivo -->
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
         <h3>Número de vóxels objetivo</h3>
     </div>
     <div class="w3-col s3">
-        <input name="namevoxel" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el número de vóxels objetivo">
+        <input maxlength="10" name="namevoxel" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el número de vóxels objetivo">
     </div>
     <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
@@ -521,6 +537,7 @@ body {font-size:16px;}
         </svg>
     </button>
 </div>
+<!-- Nombre del Indicador -->
 <div class="w3-row w3-center w3-container w3-quarter w3-col s2">
         <h4>1</h4></div></div>
 <div class="w3-row-padding w3-margin-left">
@@ -585,12 +602,13 @@ body {font-size:16px;}
 </div>
 </div>
 </div>
+<!-- Valor del indicador -->
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
         <h3>Valor del indicador*</h3>
     </div>
     <div class="w3-col s3">
-        <input name="nameindicador" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el valor del indicador">
+        <input maxlength="10" name="nameindicador" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el valor del indicador">
     </div>
     <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
@@ -619,7 +637,7 @@ let nuevo = function() {
         <option value="" disabled selected>Selecciona el indicador</option><option value="1">lista5</option><option value="2">Option 2</option></select></div></div>
     <div class="w3-row-padding w3-margin-left">
         <div class="w3-col s3"><h3>Valor del indicador*</h3></div>
-        <div class="w3-col s3"><input name="indicador" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el valor del indicador"></div></div></section>`
+        <div class="w3-col s3"><input maxlength="10" name="indicador" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el valor del indicador"></div></div></section>`
     );   
 }
 let eliminar = function(n) {
@@ -728,7 +746,7 @@ let nuevo1 = function() {
             <h3>Valor del indicador*</h3>
         </div>
         <div class="w3-col s3">
-            <input name="nameindicador" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el valor del indicador">
+            <input maxlength="10" name="nameindicador" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el valor del indicador">
         </div>
     </div>
     <div class="inputs"></div>
@@ -761,6 +779,7 @@ let eliminar1 = function(n1) {
   </div>
 </div>
 </form>
+<!-- Archivo Medico comprimido -->
 <div for="myfile" class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
         <h3>Archivo Médico comprimido* </h3>
@@ -775,10 +794,11 @@ let eliminar1 = function(n1) {
         </svg>
     </button>
 </div>
-<!-- Titulo cuarta parte -->
+<!-- 4. Titulo cuarta parte -->
 <div class="w3-container w3-margin-left" style="margin-top:20px">
     <h2 style="margin-top:40px"><b>4. Información de contacto </b></h2>
 </div>
+<!-- Pais de Planificacion -->
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
         <h3>Pais de Planificación*</h3>
@@ -991,6 +1011,7 @@ let eliminar1 = function(n1) {
         </svg>
     </button>
 </div>
+<!-- Nombre de la Institucion -->
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
         <h3>Nombre de la Institución*</h3>
@@ -1053,12 +1074,13 @@ let eliminar1 = function(n1) {
 </div>
 </div>
 </div>
+<!-- Nombre del Autor -->
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
         <h3>Nombre del Autor*</h3>
     </div>
     <div class="w3-col s3">
-        <input name="fname" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el nombre del Autor">
+        <input maxlength="50" name="fname" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el nombre del Autor">
     </div>
     <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
@@ -1067,12 +1089,13 @@ let eliminar1 = function(n1) {
         </svg>
     </button>
 </div>
+<!-- Email de Contacto -->
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
         <h3>Email de Contacto*</h3>
     </div>
     <div class="w3-col s3">
-        <input name="email" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el email de Contacto">
+        <input maxlength="50" name="email" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el email de Contacto">
     </div>
     <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
@@ -1084,7 +1107,7 @@ let eliminar1 = function(n1) {
 <div class="w3-row">
     <div class="w3-container" style="margin-top:30px"></div>
     <div class="w3-col w3-container w3-margin " style="width:20%"></div>
-    <button class="w3-button w3-teal w3-xlarge" style="width:18%">Ingresar Datos </button>
+    <button onclick="location.href='http://127.0.0.1:8000/confirmacion'" class="w3-button w3-teal w3-xlarge" style="width:18%">Ingresar Datos </button>
   </div>
 </div>
 
@@ -1093,8 +1116,45 @@ let eliminar1 = function(n1) {
 
 
 
+<style>
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+.progress-bar {
+  height: 8px;
+  background: #009D9D;
+  width: 0%;
+}
+</style>
 
-</body>
+
+<div class="header">
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>  
+</div>
+
+<script>
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
+
 <!-- Pie de Pagina -->
 <footer class="w3-padding-64"></footer>
 </html>
