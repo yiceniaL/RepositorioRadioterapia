@@ -43,6 +43,7 @@ body {font-size:16px;}
                 <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
             </svg>
         </button>
+<!-- Boton para agregar otro tipo -->
         <div class="w3-margin-bottom w3-tooltip">
         <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-large w3-white w3-hover-white">
             <span style="position:absolute;left:80px;top:10px" class="w3-text w3-tag w3-medium w3-white">
@@ -64,7 +65,7 @@ body {font-size:16px;}
                     <p>Nombre del otro Tipo de Cáncer</p>
                 </div>
                 <div class="w3-col s4">
-                    <input name="namei" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el nombre">
+                    <input maxlength="100" name="namei" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el nombre">
                 </div>
             </div>
             <div class="w3-container ">
@@ -72,7 +73,7 @@ body {font-size:16px;}
                     <p>Descripción breve del Tipo de Cáncer</p>
                 </div>
                 <div class="w3-col s4">
-                <textarea name="named" autocomplete="on" class="w3-input w3-border w3-rest" style="height: 200px  width: 300px" placeholder="Describe el significado"></textarea>
+                <textarea maxlength="500" name="named" autocomplete="on" class="w3-input w3-border w3-rest" style="height: 200px  width: 300px" placeholder="Describe el significado"></textarea>
                 </div>
             </div>
             <div class="w3-container w3-center w3-margin-top">
@@ -212,6 +213,7 @@ body {font-size:16px;}
                 <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
             </svg>
         </button>
+<!-- Boton para agregar otro tipo -->
         <div class="w3-margin-bottom w3-tooltip">
         <button onclick="document.getElementById('id02').style.display='block'" class="w3-button w3-large w3-white w3-hover-white">
             <span style="position:absolute;left:80px;top:10px" class="w3-text w3-tag w3-medium w3-white">
@@ -233,7 +235,7 @@ body {font-size:16px;}
                     <p>Nombre del otro tipo de tratamiento</p>
                 </div>
                 <div class="w3-col s4">
-                    <input name="namei2" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el nombre">
+                    <input maxlength="100" name="namei2" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el nombre">
                 </div>
             </div>
             <div class="w3-container ">
@@ -241,7 +243,7 @@ body {font-size:16px;}
                     <p>Descripción breve del tratamiento</p>
                 </div>
                 <div class="w3-col s4">
-                <textarea name="named2" autocomplete="on" class="w3-input w3-border w3-rest" style="height: 200px  width: 300px" placeholder="Describe el significado"></textarea>
+                <textarea maxlength="500" name="named2" autocomplete="on" class="w3-input w3-border w3-rest" style="height: 200px  width: 300px" placeholder="Describe el significado"></textarea>
                 </div>
             </div>
             <div class="w3-container w3-center w3-margin-top">
@@ -274,6 +276,7 @@ body {font-size:16px;}
                 <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
             </svg>
         </button>
+<!-- Boton para agregar otro tipo -->        
         <div class="w3-margin-bottom w3-tooltip">
         <button onclick="document.getElementById('id03').style.display='block'" class="w3-button w3-large w3-white w3-hover-white">
             <span style="position:absolute;left:80px;top:10px" class="w3-text w3-tag w3-medium w3-white">
@@ -295,7 +298,7 @@ body {font-size:16px;}
                     <p>Nombre del otro tipo de optimización</p>
                 </div>
                 <div class="w3-col s4">
-                    <input name="namei3" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el nombre">
+                    <input maxlength="100" name="namei3" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el nombre">
                 </div>
             </div>
             <div class="w3-container ">
@@ -303,7 +306,7 @@ body {font-size:16px;}
                     <p>Descripción breve de la optimización</p>
                 </div>
                 <div class="w3-col s4">
-                <textarea name="named3" autocomplete="on" class="w3-input w3-border w3-rest" style="height: 200px  width: 300px" placeholder="Describe el significado"></textarea>
+                <textarea maxlength="500" name="named3" autocomplete="on" class="w3-input w3-border w3-rest" style="height: 200px  width: 300px" placeholder="Describe el significado"></textarea>
                 </div>
             </div>
             <div class="w3-container w3-center w3-margin-top">
@@ -421,6 +424,7 @@ body {font-size:16px;}
                 <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
             </svg>
         </button>
+<!-- Boton para agregar otro tipo -->
         <div class="w3-margin-bottom w3-tooltip">
         <button onclick="document.getElementById('id04').style.display='block'" class="w3-button w3-large w3-white w3-hover-white">
             <span style="position:absolute;left:80px;top:10px" class="w3-text w3-tag w3-medium w3-white">
@@ -442,7 +446,7 @@ body {font-size:16px;}
                     <p>Nombre del otro tipo de órgano</p>
                 </div>
                 <div class="w3-col s4">
-                    <input name="namei4" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el nombre">
+                    <input maxlength="100" name="namei4" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el nombre">
                 </div>
             </div>
             <div class="w3-container ">
@@ -450,7 +454,7 @@ body {font-size:16px;}
                     <p>Descripción breve de la órgano</p>
                 </div>
                 <div class="w3-col s4">
-                <textarea name="named4" autocomplete="on" class="w3-input w3-border w3-rest" style="height: 200px  width: 300px" placeholder="Describe el significado"></textarea>
+                <textarea maxlength="500" name="named4" autocomplete="on" class="w3-input w3-border w3-rest" style="height: 200px  width: 300px" placeholder="Describe el significado"></textarea>
                 </div>
             </div>
             <div class="w3-container w3-center w3-margin-top">
@@ -558,6 +562,7 @@ body {font-size:16px;}
                 <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
             </svg>
         </button>
+<!-- Boton para agregar otro tipo -->
         <div class="w3-margin-bottom w3-tooltip">
         <button onclick="document.getElementById('id05').style.display='block'" class="w3-button w3-large w3-white w3-hover-white">
             <span style="position:absolute;left:80px;top:10px" class="w3-text w3-tag w3-medium w3-white">
@@ -579,7 +584,7 @@ body {font-size:16px;}
                     <p>Nombre del otro tipo de indicador</p>
                 </div>
                 <div class="w3-col s4">
-                    <input name="namei5" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el nombre">
+                    <input maxlength="100" name="namei5" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el nombre">
                 </div>
             </div>
             <div class="w3-container ">
@@ -587,7 +592,7 @@ body {font-size:16px;}
                     <p>Descripción breve del indicador</p>
                 </div>
                 <div class="w3-col s4">
-                <textarea name="named5" autocomplete="on" class="w3-input w3-border w3-rest" style="height: 200px  width: 300px" placeholder="Describe el significado"></textarea>
+                <textarea maxlength="500" name="named5" autocomplete="on" class="w3-input w3-border w3-rest" style="height: 200px  width: 300px" placeholder="Describe el significado"></textarea>
                 </div>
             </div>
             <div class="w3-container w3-center w3-margin-top">
@@ -1030,6 +1035,7 @@ let eliminar1 = function(n1) {
                 <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
             </svg>
         </button>
+<!-- Boton para agregar otro tipo -->
         <div class="w3-margin-bottom w3-tooltip">
         <button onclick="document.getElementById('id06').style.display='block'" class="w3-button w3-large w3-white w3-hover-white">
             <span style="position:absolute;left:80px;top:10px" class="w3-text w3-tag w3-medium w3-white">
@@ -1051,7 +1057,7 @@ let eliminar1 = function(n1) {
                     <p>Nombre del otro tipo de institución</p>
                 </div>
                 <div class="w3-col s4">
-                    <input name="namei6" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el nombre">
+                    <input maxlength="100" name="namei6" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el nombre">
                 </div>
             </div>
             <div class="w3-container ">
@@ -1059,7 +1065,7 @@ let eliminar1 = function(n1) {
                     <p>Descripción breve de la institución</p>
                 </div>
                 <div class="w3-col s4">
-                <textarea name="named6" autocomplete="on" class="w3-input w3-border w3-rest" style="height: 200px  width: 300px" placeholder="Describe el significado"></textarea>
+                <textarea maxlength="500" name="named6" autocomplete="on" class="w3-input w3-border w3-rest" style="height: 200px  width: 300px" placeholder="Describe el significado"></textarea>
                 </div>
             </div>
             <div class="w3-container w3-center w3-margin-top">
