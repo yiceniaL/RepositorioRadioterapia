@@ -13,15 +13,18 @@ body {font-size:16px;}
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 
-<div style="margin-top:420px" class="w3-container">
+<div style="margin-top:120px" class="w3-container">
 
-  <p>
-    <button a href="http://127.0.0.1:8000/tratamientos" style="margin-left:220px" class="w3-xxlarge w3-bar-item w3-button w3-hover-none w3-light-grey w3-hover-text-teal">Tratamientos</a></button>
-    <button a href="http://127.0.0.1:8000/casos" class="w3-xxlarge w3-bar-item w3-button w3-hover-none w3-light-grey w3-hover-text-teal">Casos</a></button>
-    <button a href="http://127.0.0.1:8000/formularioCaso"class="w3-xxlarge w3-bar-item w3-button w3-hover-none w3-light-grey w3-hover-text-teal">Subir un Caso</a></a></button>
-  </p>
-
+  <div class="w3-teal w3-hover-shadow w3-padding-24 w3-center" style="width:15%">
+    <h2>X casos publicados </h2>
+  </div>
+  <div class="w3-teal w3-hover-shadow w3-padding-24 w3-center" style="width:15%">
+    <h2>X casos publicados </h2>
+  </div>
+  
 </div>
+
+
 
 </body>
 </html>

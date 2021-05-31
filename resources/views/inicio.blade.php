@@ -49,19 +49,19 @@ body {font-size:16px;}
     <h1 class="w3-xxxlarge" style="margin-top:70px"><b>Repositorio de Radioterapia</b></h1>
   </div>
 
-<div class=" w3-display-middle" style="height:40px">
-  <a href="http://127.0.0.1:8000/tratamientos">
-    <button class="w3-button w3-round-large w3-xxlarge" style="background-color:LightGray" >Tratamientos</button>
-  </a>
-  <a href="http://127.0.0.1:8000/casos">
-    <button class="w3-button w3-round-large w3-xxlarge" style="background-color:LightGray" >Casos</button>
-  </a>
-  <a href="http://127.0.0.1:8000/formularioCaso">
-    <button class="w3-button w3-round-large w3-xxlarge" style="background-color:LightGray" >Publica tu caso</button>
-  </a>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+
+<div style="margin-top:100px" class="w3-container">
+  <p>
+    <button a onclick="location.href='http://127.0.0.1:8000/tratamientos'" style="margin-left:280px" class="w3-xxlarge w3-bar-item w3-button w3-hover-none w3-light-grey w3-hover-text-teal">Tratamientos</a></button>
+    <button a onclick="location.href='http://127.0.0.1:8000/casos'" class="w3-xxlarge w3-bar-item w3-button w3-hover-none w3-light-grey w3-hover-text-teal">Casos</a></button>
+    <button a onclick="location.href='http://127.0.0.1:8000/formularioCaso'"class="w3-xxlarge w3-bar-item w3-button w3-hover-none w3-light-grey w3-hover-text-teal">Publicar un Caso</a></a></button>
+  </p>
 </div>
+
  <!-- Detalle de los primeros textos -->
-<div class="w3-container w3-margin-left" style="margin-top:300px">
+<div class="w3-container w3-margin-left" style="margin-top:100px">
     <hr style="width:80px;border:5px  solid white" id="comoPublicar" class="w3-round">
     <h1 class="w3-xxlarge"  style="margin-top:50px"><b>¿Cómo publicar?</b></h1>
     <hr style="width:80px;border:5px  solid teal" class="w3-round">
