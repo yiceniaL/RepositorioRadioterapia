@@ -631,7 +631,9 @@ let nuevo = function() {
     `<section id="${numero}">
     <div class="w3-row w3-center w3-container w3-quarter w3-col s2">
         <h4>${numero} 
-        <button class="btn-danger w3-button w3-large w3-hover-grey" onclick="eliminar(${numero})">x</button>
+        <button class="btn-danger w3-button w3-large w3-hover-grey" onclick="eliminar(${numero})">
+            <span style="position:absolute;right:-50px;top:10px" class="w3-text w3-tag w3-large w3-white w3-tiny">
+            Quitar otro indicador</span>x</button>
         </h4>
         </div></div>
     <div class="w3-row-padding w3-margin-left">
@@ -669,7 +671,8 @@ let nuevo1 = function() {
     `<section1 id="${numero1}">
     <div class="w3-container w3-margin-left" style="background-color:rgb(240, 240, 240);">
         <h3>Órgano ${numero1}
-        <button class="btn-danger w3-button w3-large w3-hover-black" onclick="eliminar1(${numero1})">x</button></h3>
+        <button class="btn-danger w3-button w3-large w3-hover-black" onclick="eliminar1(${numero1})">
+x</button></h3>
     </div>
     <div class="w3-row-padding w3-margin-left" style="margin-top:10px">
         <div class="w3-col s3">
