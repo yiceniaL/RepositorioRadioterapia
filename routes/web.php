@@ -45,6 +45,14 @@ Route::get('/confirmacion', function () {
     return view('confirmacion');
 });
 
+Route::get('/vistaDetalleCaso', function () {
+    return view('vistaDetalleCaso');
+});
+
+Route::get('/vistaDetallePropuesta', function () {
+    return view('vistaDetallePropuesta');
+});
+
 Route::get('/prueba', function () {
     return view('prueba');
 });

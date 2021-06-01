@@ -60,7 +60,7 @@ body {font-size:16px;}
     <h3>Condición de Radioterapia:</h3> 
     <h3>Región objetivo de Interes:</h3> 
     <h3>Volumen total del objetivo:</h3> 
-    <h3>Pais de Planificación:</h3> 
+    <h3>País de Planificación:</h3> 
     <h3>Autor:</h3> 
   </div>
 </div>
@@ -598,11 +598,11 @@ let eliminar1 = function(n1) {
 <!-- Pais de Planificacion -->
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
-        <h3>Pais de Planificación*</h3>
+        <h3>País de Planificación*</h3>
     </div>
     <div class="w3-col s3">
         <select class="w3-select w3-border " name="option">
-            <option value="" disabled selected>Selecciona el pais de Planificación</option>
+            <option value="" disabled selected>Selecciona el país de Planificación</option>
             <option value="Afganistán">Afganistán</option>
             <option value="Albania">Albania</option>
             <option value="Alemania">Alemania</option>

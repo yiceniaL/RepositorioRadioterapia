@@ -11,49 +11,25 @@ body,h1,h2,h3,h4,h5 {font-family: "arial", sans-serif}
 body {font-size:16px;}
 .w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
 .w3-half img:hover{opacity:1}
+
+
+
 </style>
 <body>
 
 <!-- Menu del costado -->
-<nav class="w3-sidebar w3-teal w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:270px;font-weight:bold;"><br>
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+<!-- Datos de informacion de contacto -->
+<nav class="w3-sidebar w3-teal w3-collapse w3-top w3-large " style="z-index:3;width:335px;font-weight:bold;"><br>
   <div class="w3-container">
-    <h3 class="w3-padding-64"><b>Filtros</b></h3>
+    <h3 class="w3-padding-12"><b>Información de contacto</b></h3>
+    <h5>Nombre del Autor:</h5>
+    <h5>País de Planificación:</h5>
+    <h5>Nombre de la Institución:</h5>
   </div>
-  <div class="w3-dropdown-hover ">
-    <a class="w3-bar-item w3-button w3-margin-top" onclick="myAccFunc1()">Tipo de cáncer ▾</a>
-      <div id="demoAcc1" class="w3-hide w3-bar-block">
-        <a class="w3-bar-item w3-button"><input type="checkbox" id="tipoCancer1" name="tipoCancer1" value="1"><label for="tipoCancer1">  Opcion1</label></a>
-        <a class="w3-bar-item w3-button"><input type="checkbox" id="tipoCancer2" name="tipoCancer2" value="2"><label for="tipoCancer2">  Opcion2</label></a>
-        <a class="w3-bar-item w3-button"><input type="checkbox" id="tipoCancer3" name="tipoCancer3" value="3"><label for="tipoCancer3">  Opcion3</label></a>
-      </div>
-  </div>
-  <div class="w3-dropdown-hover">
-    <a class="w3-bar-item w3-button w3-margin-top" onclick="myAccFunc2()">Técnica ▾</a>
-      <div id="demoAcc2" class="w3-hide w3-bar-block">
-        <a class="w3-bar-item w3-button"><input type="checkbox" id="tipoTecnica1" name="tipoTecnica1" value="1"><label for="tipoTecnica1">  Opcion1</label></a>
-        <a class="w3-bar-item w3-button"><input type="checkbox" id="tipoTecnica2" name="tipoTecnica2" value="2"><label for="tipoTecnica2">  Opcion2</label></a>
-        <a class="w3-bar-item w3-button"><input type="checkbox" id="tipoTecnica3" name="tipoTecnica3" value="3"><label for="tipoTecnica3">  Opcion3</label></a>
-      </div>
-  </div>
-  <div class="w3-dropdown-hover">
-    <a class="w3-bar-item w3-button w3-margin-top" onclick="myAccFunc3()">Tipo de Optimización ▾</a>
-      <div id="demoAcc3" class="w3-hide w3-bar-block">
-        <a class="w3-bar-item w3-button"><input type="checkbox" id="tipoOpt1" name="tipoOpt1" value="1"><label for="tipoOpt1">  Opcion1</label></a>
-        <a class="w3-bar-item w3-button"><input type="checkbox" id="tipoOpt2" name="tipoOpt2" value="2"><label for="tipoOpt2">  Opcion2</label></a>
-        <a class="w3-bar-item w3-button"><input type="checkbox" id="tipoOpt3" name="tipoOpt3" value="3"><label for="tipoOpt3">  Opcion3</label></a>
-      </div>
-  </div>
-  <div class="w3-dropdown-hover">
-    <a class="w3-bar-item w3-button w3-margin-top" onclick="myAccFunc4()">Institución ▾</a>
-      <div id="demoAcc4" class="w3-hide w3-bar-block">
-        <a class="w3-bar-item w3-button"><input type="checkbox" id="tipoInstitucion1" name="tipoInstitucion1" value="1"><label for="tipoInstitucion1">  Opcion1</label></a>
-        <a class="w3-bar-item w3-button"><input type="checkbox" id="tipoInstitucion2" name="tipoInstitucion2" value="2"><label for="tipoInstitucion2">  Opcion2</label></a>
-        <a class="w3-bar-item w3-button"><input type="checkbox" id="tipoInstitucion3" name="tipoInstitucion3" value="3"><label for="tipoInstitucion3">  Opcion3</label></a>
-      </div>
-  </div>
-  <div class="w3-dropdown-hover ">
-    <button class=" w3-center w3-round w3-teal w3-hover-white w3-margin-top w3-border w3-button w3-medium w3-mobile " >Aplicar Filtros</button>
+  <div class="w3-center">
+    <button class="w3-center w3-teal w3-hover-white w3-margin-top w3-border w3-button w3-medium w3-mobile " >Contactar al Autor</button>
+    <button class="w3-center w3-teal w3-hover-white w3-margin-top w3-border w3-button w3-medium w3-mobile" >
+        <p> Subir una Nueva propuesta a este Caso</p> </button>
   </div>
 </nav>
 <!-- Menu del costado queto -->
@@ -152,18 +128,10 @@ body {font-size:16px;}
       <p>Descricpion del caso 1. Some text about our services - what we do and what we offer. We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua boris nisi ut aliquip ex ea commodo consequat. Duis aute irure gergtrgergegre erge e</p>
       </div>
     </div>
-<!-- Paginas siguentes -->
-    <footer class="w3-padding-64">
-    <div class="w3-bar w3-center">
-      <a href="#" class="w3-button">&laquo;</a>
-      <a href="#" class="w3-button">1</a>
-      <a href="#" class="w3-button">2</a>
-      <a href="#" class="w3-button">3</a>
-      <a href="#" class="w3-button">4</a>
-      <a href="#" class="w3-button">5</a>
-      <a href="#" class="w3-button">&raquo;</a>
-    </div>
-    </footer>
+
+
+
+
 <!-- Funcciones con alguna accion -->
 <script>
 // Accordion 1,2,3,4
