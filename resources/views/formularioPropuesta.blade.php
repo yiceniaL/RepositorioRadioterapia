@@ -40,9 +40,21 @@ body {font-size:16px;}
 }
 </style>
 
-<div class="card w3-row-padding w3-margin-left">
+<div style="background-color:rgb(240, 240, 240);" class="card w3-row-padding w3-margin-left">
   <div class="container">
     <h2><b>Caso Referido</b></h2> 
+    <div class="w3-row-padding">
+    <div class="w3-col s4">
+        <h3>Código de Identificación*:</h3>
+    </div>
+    <div class="w3-col s3">
+        <select class="w3-select w3-border" name="option">
+            <option value="" disabled selected>Selecciona el código del caso</option>
+            <option value="1">lista2</option>
+            <option value="2">Option 2</option>
+        </select>
+    </div>
+    </div>
     <h3>Tipo de Cáncer:</h3> 
     <h3>Descripción del Caso:</h3> 
     <h3>Condición de Radioterapia:</h3> 
@@ -452,9 +464,7 @@ let nuevo = function() {
     `<section id="${numero}">
     <div class="w3-row w3-center w3-container w3-quarter w3-col s2">
         <h4>${numero} 
-        <button class="btn-danger w3-button w3-large w3-hover-grey" onclick="eliminar(${numero})">
-            <span style="position:absolute;right:-50px;top:10px" class="w3-text w3-tag w3-large w3-white w3-tiny">
-            Quitar otro indicador</span>x</button>
+        <button class="btn-danger w3-button w3-large w3-hover-grey" onclick="eliminar(${numero})">x</button>
         </h4>
         </div></div>
     <div class="w3-row-padding w3-margin-left">
@@ -492,10 +502,7 @@ let nuevo1 = function() {
     `<section1 id="${numero1}">
     <div class="w3-container w3-margin-left" style="background-color:rgb(240, 240, 240);">
         <h3>Órgano ${numero1}
-        <button class="btn-danger w3-button w3-large w3-hover-black" onclick="eliminar1(${numero1})">
-            <span style="position:absolute;left:-50px;top:10px" class="w3-text w3-tag w3-large w3-white w3-tiny">
-                Quitar otro órgano
-        </span>x</button></h3>
+        <button class="btn-danger w3-button w3-large w3-hover-black" onclick="eliminar1(${numero1})">x</button></h3>
     </div>
     <div class="w3-row-padding w3-margin-left" style="margin-top:10px">
         <div class="w3-col s3">
@@ -898,7 +905,7 @@ let eliminar1 = function(n1) {
 <div class="w3-row">
     <div class="w3-container" style="margin-top:30px"></div>
     <div class="w3-col w3-container w3-margin " style="width:20%"></div>
-    <button onclick="location.href='http://127.0.0.1:8000/confirmacion'" class="w3-button w3-teal w3-xlarge" style="width:18%">Ingresar Datos </button>
+    <button onclick="location.href='http://127.0.0.1:8000/confirmacion'" onclick="alert('Hello World!')" class="w3-button w3-teal w3-xlarge" style="width:18%">Ingresar Datos </button>
   </div>
 </div>
 
@@ -926,8 +933,6 @@ let eliminar1 = function(n1) {
   width: 0%;
 }
 </style>
-
-
 <div class="header">
   <div class="progress-container">
     <div class="progress-bar" id="myBar"></div>
