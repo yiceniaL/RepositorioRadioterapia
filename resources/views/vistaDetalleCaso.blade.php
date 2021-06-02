@@ -12,8 +12,6 @@ body {font-size:16px;}
 .w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
 .w3-half img:hover{opacity:1}
 
-
-
 </style>
 <body>
 
@@ -26,11 +24,11 @@ body {font-size:16px;}
     <h5>País de Planificación:</h5>
     <h5>Nombre de la Institución:</h5>
   </div>
-  <div class="w3-center">
-    <button class="w3-center w3-teal w3-hover-white w3-margin-top w3-border w3-button w3-medium w3-mobile " >Contactar al Autor</button>
-    <button class="w3-center w3-teal w3-hover-white w3-margin-top w3-border w3-button w3-medium w3-mobile" >
-        <p> Subir una Nueva propuesta a este Caso</p> </button>
-  </div>
+    <div class="w3-center">
+        <button style = "margin-top:60px" class="w3-center w3-teal w3-hover-white  w3-border w3-button w3-medium w3-mobile " >Contactar al Autor</button>
+        <button class="w3-center w3-teal w3-margin-top w3-hover-white w3-border w3-button w3-medium w3-mobile " >Descargar el Archivo Médico</button>
+        <button class="w3-center w3-teal w3-margin-top w3-hover-white w3-border w3-button w3-medium w3-mobile " >Nueva propuesta a este Caso</button>
+    </div>
 </nav>
 <!-- Menu del costado queto -->
 <header class="w3-container w3-top w3-hide-large w3-rgb(0, 128, 128) w3-xlarge w3-padding">
@@ -42,140 +40,81 @@ body {font-size:16px;}
 
 <!-- Contenido de la pagina -->
 <div class="w3-main" style="margin-left:340px;margin-right:40px">
-<!-- Titulo -->
-  <div class="w3-container" style="margin-top:20px" id="showcase">
-    <h1 class="w3-xxxlarge"><b>Casos</b></h1>
-    <hr style="width:80px;border:5px solid rgb(0, 128, 128)" class="w3-round">
-  </div>
-<!-- Texto ordenado de los casos --> 
-    <div class="w3-col">
-      <div class=" w3-col s3 w3-center">
-        <h3>Titulo del Caso 1</h3>
-        <p class="w3-opacity">Autor 1</p>
-        <button class=" w3-center w3-bar-item w3-button w3-teal w3-large w3-mobile " >Ver más</button>
-        <button class="w3-button w3-xlarge" >
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
-          <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
-          <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
-        </svg>
-        </button>
-      </div>
-      <div class=" w3-col s9">
-        <p>Descricpion del caso 1. Some text about our services - what we do and what we offer. We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua boris nisi ut aliquip ex ea commodo consequat. Duis aute irure gergtrgergegre erge e</p>
-      </div>
-    </div>
-    <div class="w3-col" >
-      <div class="w3-margin-top w3-col s3 w3-center">
-        <h3>Titulo del Caso 2</h3>
-        <p class="w3-opacity">Autor 2</p>
-        <button class=" w3-center w3-bar-item w3-button w3-teal w3-large w3-mobile " >Ver más</button>
-        <button class="w3-button w3-xlarge" >
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
-          <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
-          <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
-        </svg>
-        </button>
-      </div>
-      <div class="w3-margin-top w3-col s9">
-      <p>Descricpion del caso 1. Some text about our services - what we do and what we offer. We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua boris nisi ut aliquip ex ea commodo consequat. Duis aute irure gergtrgergegre erge e</p>
-      </div>
-    </div>
-    <div class="w3-col" >
-      <div class="w3-margin-top w3-col s3 w3-center">
-        <h3>Titulo del Caso 3</h3>
-        <p class="w3-opacity">Autor 3</p>
-        <button class=" w3-center w3-bar-item w3-button w3-teal w3-large w3-mobile " >Ver más</button>
-        <button class="w3-button w3-xlarge" >
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
-          <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
-          <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
-        </svg>
-        </button>
-      </div>
-      <div class="w3-margin-top w3-col s9">
-      <p>Descricpion del caso 1. Some text about our services - what we do and what we offer. We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua boris nisi ut aliquip ex ea commodo consequat. Duis aute irure gergtrgergegre erge e</p>
-      </div>
-    </div>
-    <div class="w3-col" >
-      <div class="w3-margin-top w3-col s3 w3-center">
-        <h3>Titulo del Caso 4</h3>
-        <p class="w3-opacity">Autor 4</p>
-        <button class=" w3-center w3-bar-item w3-button w3-teal w3-large w3-mobile " >Ver más</button>
-        <button class="w3-button w3-xlarge" >
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
-          <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
-          <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
-        </svg>
-        </button>
-      </div>
-      <div class="w3-margin-top w3-col s9">
-      <p>Descricpion del caso 1. Some text about our services - what we do and what we offer. We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua boris nisi ut aliquip ex ea commodo consequat. Duis aute irure gergtrgergegre erge e</p>
-      </div>
-    </div>
-    <div class="w3-col" >
-      <div class="w3-margin-top w3-col s3 w3-center">
-        <h3>Titulo del Caso 5</h3>
-        <p class="w3-opacity">Autor 5</p>
-        <button class=" w3-center w3-bar-item w3-button w3-teal w3-large w3-mobile " >Ver más</button>
-        <button class="w3-button w3-xlarge" >
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
-          <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
-          <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
-        </svg>
-        </button>
-      </div>
-      <div class="w3-margin-top w3-col s9">
-      <p>Descricpion del caso 1. Some text about our services - what we do and what we offer. We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua boris nisi ut aliquip ex ea commodo consequat. Duis aute irure gergtrgergegre erge e</p>
-      </div>
-    </div>
 
+    <div class="w3-container w3-margin-left" style="margin-top:20px">
+        <h1 class="w3-xxxlarge"><b>Caso</b></h1>
+        <hr style="width:80px;border:5px solid rgb(0, 128, 128)" class="w3-round">
+    <!-- 1. Titulo primera parte -->
+        <h2 style="margin-top:40px"><b>Información general del Caso</b></h2>
+    </div>
+        <div class="w3-row-padding w3-margin-left">
+            <h3>Tipo de Cáncer: </h3>
+            <h3>Nivel del cáncer: </h3>
+            <h3>Descripción del Caso: </h3>
+            <h3>Género del Paciente: </h3>
+            <h3>Rango de Edad del Paciente: </h3>
+            <h3>Condición de Radioterapia: </h3>
+        <h2 style="margin-top:20px"><b>Información técnica del tratamiento</b></h2>
+    </div>
+        <div class="w3-row-padding w3-margin-left">
+            <h3>Técnica de Tratamiento: </h3>
+            <h3>Tipo de Optimización: </h3>
+            <h3>Número total de beamlets: </h3>
+            <h3>Tamaño del beamlets: </h3>
+            <h3>Coplanar: </h3>
+            <h3>Número de Ángulos: </h3>
+        <h2 style="margin-top:20px"><b>Informacón de la región de interés</b></h2>
+    </div>
+        <div class="w3-row-padding w3-margin-left">
+            <h3><b>Órgano 1</b></h3>
+            <h3>Órgano a irradiar: </h3>
+            <h3>El órgano contien el tumor: </h3>
+            <h3>Nivel de prioridad del Órgano: </h3>
+            <h3>Volumen total del objetivo: </h3>
+            <h3>Número de vóxels objetivo: </h3>
+            <h3>1. Nombre del Indicador: </h3>
+            <h3>1. Valor del indicador: </h3>
+            <div class="clonIndicadores"></div>
+        </div>    
+        <div class="clonOrgano"></div>
 
-
-
-<!-- Funcciones con alguna accion -->
-<script>
-// Accordion 1,2,3,4
-function myAccFunc1() {
-  var x = document.getElementById("demoAcc1");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else {
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
-function myAccFunc2() {
-  var x = document.getElementById("demoAcc2");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else {
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
-function myAccFunc3() {
-  var x = document.getElementById("demoAcc3");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else {
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
-function myAccFunc4() {
-  var x = document.getElementById("demoAcc4");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else {
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
-document.getElementById("myBtn").click();
-function w3_open() {
-  document.getElementById("mySidebar").style.display = "block";
-  document.getElementById("myOverlay").style.display = "block";
-}
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-  document.getElementById("myOverlay").style.display = "none";
-}
-</script>
+    <!-- Clonador de indicadores -->
+    <script>
+    let numero = 1;
+    let nuevo = function() {
+    numero++;
+    jQuery('.clonIndicadores').append(
+        `<h3>${numero}. Nombre del Indicador: </h3>
+        <h3>${numero}. Valor del indicador: </h3>`
+        );   
+    }
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+  
+    <!-- Clonador de Organos -->
+    <script>
+    let numero1 = 1;
+    let nuevo1 = function() {
+    numero1++;
+    jQuery('.clonOrgano').append(
+        `<div class="w3-row-padding w3-margin-left">
+            <h3><b>Órgano ${numero1}</b></h3>
+            <h3>Órgano a irradiar: </h3>
+            <h3>El órgano contien el tumor: </h3>
+            <h3>Nivel de prioridad del Órgano: </h3>
+            <h3>Volumen total del objetivo: </h3>
+            <h3>Número de vóxels objetivo: </h3>
+            <h3>1. Nombre del Indicador: </h3>
+            <h3>1. Valor del indicador: </h3>
+            <div class="clonIndicadores"></div>
+        </div>` 
+        );   
+    }
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <form method="post" action="gestionArticulos.php">
+        <div class="inputs1"></div>
+    </form>    
+<footer class="w3-padding-48"></footer>
 </body>
 </html>
