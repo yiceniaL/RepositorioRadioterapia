@@ -43,10 +43,10 @@ body {font-size:16px;}
 
     <div class="w3-container w3-margin-left" style="margin-top:20px">
         <h1 class="w3-xxxlarge"><b>Caso</b></h1>
-        <hr style="width:80px;border:5px solid rgb(0, 128, 128)" class="w3-round">
+        <hr style="width:80px;border:5px solid rgb(0, 128, 128)" class="w3-round"></hr>
     <!-- 1. Titulo primera parte -->
         <h2 style="margin-top:40px"><b>Información general del Caso</b></h2>
-    </div>
+    
         <div class="w3-row-padding w3-margin-left">
             <h3>Tipo de Cáncer: </h3>
             <h3>Nivel del cáncer: </h3>
@@ -114,7 +114,8 @@ body {font-size:16px;}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
     <form method="post" action="gestionArticulos.php">
         <div class="inputs1"></div>
-    </form>    
+    </form> 
+    </div>   
 <footer class="w3-padding-48"></footer>
 </body>
 </html>
