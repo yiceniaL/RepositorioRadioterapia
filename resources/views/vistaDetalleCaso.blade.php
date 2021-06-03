@@ -9,9 +9,6 @@
 <style>
 body,h1,h2,h3,h4,h5 {font-family: "arial", sans-serif}
 body {font-size:16px;}
-.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
-.w3-half img:hover{opacity:1}
-
 </style>
 <body>
 
@@ -27,7 +24,7 @@ body {font-size:16px;}
     <div class="w3-center">
         <button style = "margin-top:60px" class="w3-center w3-teal w3-hover-white  w3-border w3-button w3-medium w3-mobile " >Contactar al Autor</button>
         <button class="w3-center w3-teal w3-margin-top w3-hover-white w3-border w3-button w3-medium w3-mobile " >Descargar el Archivo Médico</button>
-        <button class="w3-center w3-teal w3-margin-top w3-hover-white w3-border w3-button w3-medium w3-mobile " >Nueva propuesta a este Caso</button>
+        <button onclick="location.href='http://127.0.0.1:8000/formularioPropuesta'" class="w3-center w3-teal w3-margin-top w3-hover-white w3-border w3-button w3-medium w3-mobile " >Nueva propuesta a este Caso</button>
     </div>
 </nav>
 <!-- Menu del costado queto -->
@@ -45,8 +42,8 @@ body {font-size:16px;}
         <h1 class="w3-xxxlarge"><b>Caso</b></h1>
         <hr style="width:80px;border:5px solid rgb(0, 128, 128)" class="w3-round"></hr>
     <!-- 1. Titulo primera parte -->
-        <h2 style="margin-top:40px"><b>Información general del Caso</b></h2>
-    
+        <h2 class="w3-margin-left" style="margin-top:40px"><b>Código:</b></h2>
+        <h2 class="w3-margin-left"><b>Información general del Caso</b></h2>
         <div class="w3-row-padding w3-margin-left">
             <h3>Tipo de Cáncer: </h3>
             <h3>Nivel del cáncer: </h3>
