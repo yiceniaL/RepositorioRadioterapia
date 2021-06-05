@@ -63,7 +63,8 @@ body {font-size:16px;}
         <h2 style="margin-top:20px"><b>Informacón de la región de interés</b></h2>
     </div>
         <div class="w3-row-padding w3-margin-left">
-            <h3><b>Órgano 1</b></h3>
+            <div style="background-color:#E5E7E9;">
+            <h3 ><b>Órgano 1</b></h3></div>
             <h3>Órgano a irradiar: </h3>
             <h3>El órgano contien el tumor: </h3>
             <h3>Nivel de prioridad del Órgano: </h3>
@@ -78,7 +79,8 @@ body {font-size:16px;}
         </div>   
         <div class="w3-row-padding w3-margin-left">
             <?php foreach (range(1, 3) as $num1): ?>
-                <h3 style="margin-top:20px" ><b>Órgano <?php echo $num1 +1 ; ?></b></h3>
+                <div style="background-color:#E5E7E9;">
+                <h3 style="margin-top:20px" ><b>Órgano <?php echo $num1 +1 ; ?></b></h3></div>
                 <h3>Órgano a irradiar: </h3>
                 <h3>El órgano contien el tumor: </h3>
                 <h3>Nivel de prioridad del Órgano: </h3>

@@ -40,7 +40,7 @@ body {font-size:16px;}
 }
 </style>
 
-<div style="background-color:rgb(240, 240, 240);" class="card w3-row-padding w3-margin-left">
+<div style="background-color:#E5E7E9;" class="card w3-row-padding w3-margin-left">
   <div class="container">
     <h2><b>Caso Referido</b></h2> 
     <div class="w3-row-padding">
@@ -292,7 +292,7 @@ body {font-size:16px;}
     <h2 style="margin-top:40px"><b>3. Informacón de la región de interés</b></h2>
 </div>
 <!-- Organo -->
-<div class="w3-container w3-margin-left" style="background-color:rgb(240, 240, 240);">
+<div class="w3-container w3-margin-left" style="background-color:#E5E7E9;">
     <h3>Órgano 1</h3>
 </div>
 <!-- Organo a irradiar -->
@@ -500,7 +500,7 @@ let nuevo1 = function() {
   numero1++;
   jQuery('.inputs1').append(
     `<section1 id="${numero1}">
-    <div class="w3-container w3-margin-left" style="background-color:rgb(240, 240, 240);">
+    <div class="w3-container w3-margin-left" style="background-color:#E5E7E9;">
         <h3>Órgano ${numero1}
         <button class="btn-danger w3-button w3-large w3-hover-black" onclick="eliminar1(${numero1})">x</button></h3>
     </div>
