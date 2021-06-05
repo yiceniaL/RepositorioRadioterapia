@@ -42,7 +42,7 @@ body {font-size:16px;}
         <h1 class="w3-xxxlarge"><b>Caso</b></h1>
         <hr style="width:80px;border:5px solid rgb(0, 128, 128)" class="w3-round"></hr>
     <!-- 1. Titulo primera parte -->
-        <h2 class="w3-margin-left" style="margin-top:40px"><b>Código:</b></h2>
+        <h2 class="w3-margin-left" style="margin-top:40px"><b>Código: NUMEROXX</b></h2>
         <h2 class="w3-margin-left"><b>Información general del Caso</b></h2>
         <div class="w3-row-padding w3-margin-left">
             <h3>Tipo de Cáncer: </h3>
@@ -71,48 +71,35 @@ body {font-size:16px;}
             <h3>Número de vóxels objetivo: </h3>
             <h3>1. Nombre del Indicador: </h3>
             <h3>1. Valor del indicador: </h3>
-            <div class="clonIndicadores"></div>
-        </div>    
-        <div class="clonOrgano"></div>
+            <?php foreach (range(1, 2) as $num): ?>
+                <h3><?php echo $num +1 ; ?>. Nombre del Indicador: </h3>
+                <h3><?php echo $num +1 ; ?>. Valor del indicador: </h3>
+            <?php endforeach; ?>
+        </div>   
+        <div class="w3-row-padding w3-margin-left">
+            <?php foreach (range(1, 3) as $num1): ?>
+                <h3 style="margin-top:20px" ><b>Órgano <?php echo $num1 +1 ; ?></b></h3>
+                <h3>Órgano a irradiar: </h3>
+                <h3>El órgano contien el tumor: </h3>
+                <h3>Nivel de prioridad del Órgano: </h3>
+                <h3>Volumen total del objetivo: </h3>
+                <h3>Número de vóxels objetivo: </h3>
+                <h3>1. Nombre del Indicador: </h3>
+                <h3>1. Valor del indicador: </h3>
+                <?php foreach (range(1, 2) as $num2): ?>
+                <h3><?php echo $num2 +1 ; ?>. Nombre del Indicador: </h3>
+                <h3><?php echo $num2 +1 ; ?>. Valor del indicador: </h3>
+                <?php endforeach; ?>
+            <?php endforeach; ?> 
 
-    <!-- Clonador de indicadores -->
-    <script>
-    let numero = 1;
-    let nuevo = function() {
-    numero++;
-    jQuery('.clonIndicadores').append(
-        `<h3>${numero}. Nombre del Indicador: </h3>
-        <h3>${numero}. Valor del indicador: </h3>`
-        );   
-    }
-    </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-  
-    <!-- Clonador de Organos -->
-    <script>
-    let numero1 = 1;
-    let nuevo1 = function() {
-    numero1++;
-    jQuery('.clonOrgano').append(
-        `<div class="w3-row-padding w3-margin-left">
-            <h3><b>Órgano ${numero1}</b></h3>
-            <h3>Órgano a irradiar: </h3>
-            <h3>El órgano contien el tumor: </h3>
-            <h3>Nivel de prioridad del Órgano: </h3>
-            <h3>Volumen total del objetivo: </h3>
-            <h3>Número de vóxels objetivo: </h3>
-            <h3>1. Nombre del Indicador: </h3>
-            <h3>1. Valor del indicador: </h3>
-            <div class="clonIndicadores"></div>
-        </div>` 
-        );   
-    }
-    </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-    <form method="post" action="gestionArticulos.php">
-        <div class="inputs1"></div>
-    </form> 
+
+
+
     </div>   
+
+
+
+
 <footer class="w3-padding-48"></footer>
 </body>
 </html>
