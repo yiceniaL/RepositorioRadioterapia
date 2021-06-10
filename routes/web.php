@@ -18,39 +18,39 @@ Route::get('/', function () {
 });
 
 Route::get('/tratamientos', function () {
-    return view('tratamientos');
+    return view('3_tratamientos');
 });
 
 Route::get('/casos', function () {
-    return view('casos');
+    return view('2_casos');
 });
 
 Route::get('/inicio', function () {
-    return view('inicio');
+    return view('1_inicio');
 });
 
 Route::get('/formularioCaso', function () {
-    return view('formularioCaso');
+    return view('4_formularioCaso');
 });
 
 Route::get('/formularioPropuesta', function () {
-    return view('formularioPropuesta');
+    return view('5_formularioPropuesta');
 });
 
-Route::get('/formularioDetalle', function () {
-    return view('formularioDetalle');
+Route::get('/formularioGlosario', function () {
+    return view('6_formularioGlosario');
 });
 
 Route::get('/confirmacion', function () {
-    return view('confirmacion');
+    return view('7_confirmacion');
 });
 
 Route::get('/vistaDetalleCaso', function () {
-    return view('vistaDetalleCaso');
+    return view('8_vistaDetalleCaso');
 });
 
 Route::get('/vistaDetallePropuesta', function () {
-    return view('vistaDetallePropuesta');
+    return view('9_vistaDetallePropuesta');
 });
 
 Route::get('/prueba', function () {
