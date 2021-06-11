@@ -1,26 +1,22 @@
 <!DOCTYPE html>
-
+<!-- Detalles de la pagina-->
 <html lang="en">
-<head>
-
-     <meta charset="UTF-8">
-     <title>Document</title>
-     <style>
-     label{
-     width: 50px;
-     display: inline-block;}
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<!-- Detalles del estilo de la pagina-->
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "arial", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
 </style>
-</head>
+<html>
 <body>
 
-    <form method="post" action="pagina2.php">
-    <label for="name">Name:</label>
-    <input type="text" name="nombre" id="nombre"><br>
-    <label for="email">Email</label>
-    <input type="text" name="asunto" id="asunto"><br>
-    <label for="mensaje">Mensaje: </label>
-    <textarea name="mensaje" id="mensaje" cols="25" rows="5"></textarea><br>
-    <input type="submit"><br>
-</form>
+
+
+
 </body>
 </html>
