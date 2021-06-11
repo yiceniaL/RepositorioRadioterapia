@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('/tratamientos', function () {
-    return view('3_tratamientos');
+    return view('3_propuestas');
 });
 
 Route::get('/casos', function () {
