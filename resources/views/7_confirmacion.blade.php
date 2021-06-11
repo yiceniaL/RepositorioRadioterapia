@@ -37,7 +37,7 @@ body {font-size:16px;}
 <div class="w3-bar" style="margin-top:420px">
   <a href="http://127.0.0.1:8000/inicio" style="margin-left:220px" class="w3-xlarge w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-teal w3-hover-text-teal">Ir a el Inicio</a>
   <a href="http://127.0.0.1:8000/casos" class="w3-xlarge w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-teal w3-hover-text-teal">Ir a los Casos</a>
-  <a href="http://127.0.0.1:8000/tratamientos"class="w3-xlarge w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-teal w3-hover-text-teal">Ir a los Tratamientos</a>
+  <a href="http://127.0.0.1:8000/propuestas"class="w3-xlarge w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-teal w3-hover-text-teal">Ir a los Tratamientos</a>
   <a href="http://127.0.0.1:8000/formularioCaso"class="w3-xlarge w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-teal w3-hover-text-teal">Subir otro Caso</a>
 </div>
 <br>

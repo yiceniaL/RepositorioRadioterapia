@@ -54,7 +54,7 @@ body {font-size:16px;}
 
 <div style="margin-top:100px" class="w3-container">
   <p>
-    <button a onclick="location.href='http://127.0.0.1:8000/tratamientos'" style="margin-left:280px" class="w3-xxlarge w3-bar-item w3-button w3-hover-none w3-light-grey w3-hover-text-teal">Tratamientos</a></button>
+    <button a onclick="location.href='http://127.0.0.1:8000/propuestas'" style="margin-left:280px" class="w3-xxlarge w3-bar-item w3-button w3-hover-none w3-light-grey w3-hover-text-teal">Tratamientos</a></button>
     <button a onclick="location.href='http://127.0.0.1:8000/casos'" class="w3-xxlarge w3-bar-item w3-button w3-hover-none w3-light-grey w3-hover-text-teal">Casos</a></button>
     <button a onclick="location.href='http://127.0.0.1:8000/formularioCaso'"class="w3-xxlarge w3-bar-item w3-button w3-hover-none w3-light-grey w3-hover-text-teal">Publicar un Caso</a></a></button>
   </p>
@@ -144,7 +144,7 @@ body {font-size:16px;}
             <li>Es estado que se encuentra el cáncer.</li>
             <li>Una descripción breve del caso.</li>
             <li>La condición en la que se encuentra la Radioterapia.</li>
-            <li>La técnica de tratamiento utilizada.</li>
+            <li>La técnica de propuestas utilizada.</li>
             <li>El tipo de optimización utilizada en la simulación.</li>
             <li>Los órganos a irradiar e identificar que órgano contiene el tumor.</li>
             <li>El volumen total del objetivo del órgano.</li>
@@ -157,7 +157,7 @@ body {font-size:16px;}
         <ul class="w3-ul w3-large" style="margin-left:300px width:50%">
             <li>El código referenciado del caso ya expuesto.</li>
             <li>Una descripción breve de la propuesta.</li>
-            <li>La técnica de tratamiento utilizada.</li>
+            <li>La técnica de propuestas utilizada.</li>
             <li>El tipo de optimización utilizada en la simulación.</li>
             <li>El nombre y valor del indicador seleccionado.</li>
             <li>El Archivo medico comprimido.</li>
