@@ -42,7 +42,7 @@ body {font-size:16px;}
         <h1 class="w3-xxxlarge"><b>Caso</b></h1>
         <hr style="width:80px;border:5px solid rgb(0, 128, 128)" class="w3-round"></hr>
     <!-- 1. Titulo primera parte -->
-        <h2 class="w3-margin-left" style="margin-top:40px"><b>Código: NUMEROXX</b></h2>
+        <h2 class="w3-margin-left" style="margin-top:40px"><b>Código de Identificación: NUMEROXX</b></h2>
         <h2 class="w3-margin-left"><b>Información general del Caso</b></h2>
         <div class="w3-row-padding w3-margin-left">
             <h3>Tipo de Cáncer: </h3>
@@ -78,7 +78,7 @@ body {font-size:16px;}
             <?php endforeach; ?>
         </div>   
         <div class="w3-row-padding w3-margin-left">
-            <?php foreach (range(1, 3) as $num1): ?>
+            <?php foreach (range(1, 7) as $num1): ?>
                 <div style="background-color:#E5E7E9;">
                 <h3 style="margin-top:20px" ><b>Órgano <?php echo $num1 +1 ; ?></b></h3></div>
                 <h3>Órgano a irradiar: </h3>
