@@ -53,6 +53,10 @@ Route::get('/vistaDetallePropuesta', function () {
     return view('9_vistaDetallePropuesta');
 });
 
+Route::get('/administrador', function () {
+    return view('10_administrador');
+});
+
 Route::get('/prueba', function () {
     return view('prueba');
 });
