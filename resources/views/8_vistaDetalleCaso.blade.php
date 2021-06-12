@@ -113,6 +113,7 @@ body {font-size:16px;}
             <h3>Número de Ángulos: </h3>
         <h2 style="margin-top:20px"><b>Informacón de la región de interés</b></h2>
     </div>
+    <!-- Organo 1 e indicadores-->
         <div class="w3-row-padding w3-margin-left">
             <div style="background-color:#E5E7E9;">
             <h3 ><b>Órgano 1</b></h3></div>
@@ -128,6 +129,7 @@ body {font-size:16px;}
                 <h3><?php echo $num +1 ; ?>. Valor del indicador: </h3>
             <?php endforeach; ?>
         </div>   
+        <!-- Ciclo de Organos e indicadores -->
         <div class="w3-row-padding w3-margin-left">
             <?php foreach (range(1, 7) as $num1): ?>
                 <div style="background-color:#E5E7E9;">
