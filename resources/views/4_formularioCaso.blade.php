@@ -125,14 +125,14 @@ body {font-size:16px;}
     </button>
     </div>
 </div>
-<!-- Genero del paciente -->
+<!-- Sexo del paciente -->
 <div class="w3-row-padding w3-margin-left w3-margin-top">
     <div class="w3-col s3">
-        <h3>Género del Paciente</h3>
+        <h3>Sexo del Paciente</h3>
     </div>
     <div class="w3-col s3">
         <select class="w3-select w3-border" name="option">
-            <option value="" disabled selected>Selecciona el género del paciente</option>
+            <option value="" disabled selected>Selecciona el sexo del paciente</option>
             <option value="Femenino">Femenino</option>
             <option value="Masculino">Masculino</option>
             <option value="Otro">Otro</option>
@@ -469,10 +469,10 @@ body {font-size:16px;}
 </div>
 </div>
 </div>
-<!-- Organo contien el tumor -->
+<!-- Organo contiene el tumor -->
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
-        <h3>El órgano contien el tumor*</h3>
+        <h3>El órgano contiene el tumor*</h3>
     </div>
     <div class="w3-col s3">
         <select class="w3-select w3-border " name="option">
@@ -691,7 +691,7 @@ x</button></h3>
     </div>
     <div class="w3-row-padding w3-margin-left">
         <div class="w3-col s3">
-            <h3>El órgano contien el tumor*</h3>
+            <h3>El órgano contiene el tumor*</h3>
         </div>
         <div class="w3-col s3">
             <select class="w3-select w3-border " name="option">
