@@ -68,14 +68,6 @@ body {font-size:16px;}
                     <input maxlength="100" name="namei" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el nombre">
                 </div>
             </div>
-            <div class="w3-container ">
-                <div class="w3-col s4 w3-margin-left">
-                    <p>Descripción breve del Tipo de Cáncer</p>
-                </div>
-                <div class="w3-col s4">
-                <textarea maxlength="500" name="named" autocomplete="on" class="w3-input w3-border w3-rest" style="height: 200px  width: 300px" placeholder="Describe el significado"></textarea>
-                </div>
-            </div>
             <div class="w3-container w3-center w3-margin-top">
                 <button class="w3-button w3-green">Ingresar nuevo dato</button>
             </div>
@@ -447,14 +439,6 @@ body {font-size:16px;}
                 </div>
                 <div class="w3-col s4">
                     <input maxlength="100" name="namei4" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el nombre">
-                </div>
-            </div>
-            <div class="w3-container ">
-                <div class="w3-col s4 w3-margin-left">
-                    <p>Descripción breve de la órgano</p>
-                </div>
-                <div class="w3-col s4">
-                <textarea maxlength="500" name="named4" autocomplete="on" class="w3-input w3-border w3-rest" style="height: 200px  width: 300px" placeholder="Describe el significado"></textarea>
                 </div>
             </div>
             <div class="w3-container w3-center w3-margin-top">
@@ -1069,14 +1053,6 @@ let eliminar1 = function(n1) {
                 </div>
                 <div class="w3-col s4">
                     <input maxlength="100" name="namei6" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el nombre">
-                </div>
-            </div>
-            <div class="w3-container ">
-                <div class="w3-col s4 w3-margin-left">
-                    <p>Descripción breve de la institución</p>
-                </div>
-                <div class="w3-col s4">
-                <textarea maxlength="500" name="named6" autocomplete="on" class="w3-input w3-border w3-rest" style="height: 200px  width: 300px" placeholder="Describe el significado"></textarea>
                 </div>
             </div>
             <div class="w3-container w3-center w3-margin-top">
