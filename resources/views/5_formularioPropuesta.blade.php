@@ -54,6 +54,15 @@ body {font-size:16px;}
             <option value="2">Option 2</option>
         </select>
     </div>
+    <div class="w3-col s3">
+    <a href="http://127.0.0.1:8000/formularioGlosario#indice1" target="_blank" > 
+    <button class="w3-text-grey w3-button w3-circle w3-#E5E7E9 w3-small w3-hover-#E5E7E9">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+        </svg>
+    </button></a>
+    </div>
     </div>
     <h3>Tipo de Cáncer:</h3> 
     <h3>Descripción del Caso:</h3> 
@@ -72,12 +81,13 @@ body {font-size:16px;}
     </div>
     <div class="w3-margin-top w3-col s3 w3-center">
         <textarea maxlength="700" name="namedescripcion" autocomplete="on" class="w3-input w3-border w3-rest" style="height: 200px  width: 300px" placeholder="Describe la Propuesta"></textarea>
+        <a href="http://127.0.0.1:8000/formularioGlosario#indice4_1" target="_blank" > 
             <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
                     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
                     <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
                 </svg>
-    </button>
+    </button></a>
     </div>
 </div>
 <!-- 2. Titulo segunda parte -->
@@ -219,12 +229,13 @@ body {font-size:16px;}
     <div class="w3-col s3">
         <input maxlength="3" name="namebeamlets" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el número total de beamlets">
     </div>
+    <a href="http://127.0.0.1:8000/formularioGlosario#indice10" target="_blank" > 
     <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
             <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
         </svg>
-    </button>
+    </button></a>
 </div>
 <!-- Tamano del beamlets -->
 <div class="w3-row-padding w3-margin-left">
@@ -246,12 +257,13 @@ body {font-size:16px;}
                 <option value="in">in</option>
                 <option value="ft">ft</option>
         </select>  
+        <a href="http://127.0.0.1:8000/formularioGlosario#indice11" target="_blank" >
         <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
             <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
         </svg>
-    </button>
+    </button></a>
 </div>
 <!-- Coplanar -->
 <div class="w3-row-padding w3-margin-left">
@@ -265,12 +277,13 @@ body {font-size:16px;}
             <option value="2">No</option>
         </select>
     </div>
+    <a href="http://127.0.0.1:8000/formularioGlosario#indice12" target="_blank" >
     <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
             <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
         </svg>
-    </button>
+    </button></a>
 </div>
 <!-- Numero de angulos -->
 <div class="w3-row-padding w3-margin-left">
@@ -280,12 +293,13 @@ body {font-size:16px;}
     <div class="w3-col s3">
         <input maxlength="3" name="nameangulo" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el número de ángulos">
     </div>
+    <a href="http://127.0.0.1:8000/formularioGlosario#indice13" target="_blank" >
     <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
             <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
         </svg>
-    </button>
+    </button></a>
 </div>
 <!-- 3. Titulo tercera parte -->
 <div class="w3-container w3-margin-left" style="margin-top:20px">
@@ -367,12 +381,13 @@ body {font-size:16px;}
     <div class="w3-col s3">
         <input maxlength="3" name="nameprioridad" class="w3-input w3-border" type="text" placeholder="Ingresa el nivel de prioridad del Órgano ">
     </div>
+    <a href="http://127.0.0.1:8000/formularioGlosario#indice16" target="_blank" > 
     <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
             <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
         </svg>
-    </button>
+    </button></a>
 </div>
 <!-- Nombre del Indicador -->
 <div class="w3-row w3-center w3-container w3-quarter w3-col s2"></div>
@@ -447,12 +462,13 @@ body {font-size:16px;}
     <div class="w3-col s3">
         <input maxlength="10" name="nameindicador" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el valor del indicador">
     </div>
+    <a href="http://127.0.0.1:8000/formularioGlosario#indice19" target="_blank" > 
     <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
             <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
         </svg>
-    </button>
+    </button></a>
 </div>
 <!-- Clonador de indicadores -->
 <script>
@@ -599,12 +615,13 @@ let eliminar1 = function(n1) {
     <div class="w3-container w3-quarter w3-margin-top">
         <input type="file" id="myfile" name="myfile">
     </div>
+    <a href="http://127.0.0.1:8000/formularioGlosario#indice20" target="_blank" > 
     <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white  w3-margin-top">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
             <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
         </svg>
-    </button>
+    </button></a>
 </div>
 <!-- 4. Titulo cuarta parte -->
 <div class="w3-container w3-margin-left" style="margin-top:20px">
@@ -816,12 +833,13 @@ let eliminar1 = function(n1) {
             <option value="Zimbabwe">Zimbabwe</option>
         </select>
     </div>
+    <a href="http://127.0.0.1:8000/formularioGlosario#indice21" target="_blank" > 
     <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
             <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
         </svg>
-    </button>
+    </button></a>
 </div>
 <!-- Nombre de la Institucion -->
 <div class="w3-row-padding w3-margin-left">
@@ -895,12 +913,13 @@ let eliminar1 = function(n1) {
     <div class="w3-col s3">
         <input maxlength="50" name="fname" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el nombre del Autor">
     </div>
+    <a href="http://127.0.0.1:8000/formularioGlosario#indice23" target="_blank" > 
     <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
             <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
         </svg>
-    </button>
+    </button></a>
 </div>
 <!-- Email de Contacto -->
 <div class="w3-row-padding w3-margin-left">
@@ -910,12 +929,13 @@ let eliminar1 = function(n1) {
     <div class="w3-col s3">
         <input maxlength="50" name="email" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el email de Contacto">
     </div>
+    <a href="http://127.0.0.1:8000/formularioGlosario#indice24" target="_blank" > 
     <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
             <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
         </svg>
-    </button>
+    </button></a>
 </div>
 <div class="w3-row">
     <div class="w3-container" style="margin-top:30px"></div>

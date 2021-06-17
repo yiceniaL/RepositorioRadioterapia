@@ -78,88 +78,6 @@ body {font-size:16px;}
         </div>
     </div>
 </div>
-<!-- Nivel de cancer -->
-<div class="w3-row-padding w3-margin-left">
-    <div class="w3-col s3">
-        <h3>Nivel del cáncer*</h3>
-    </div>
-    <div class="w3-col s3">
-        <select class="w3-select w3-border" name="option">
-            <option value="" disabled selected>Selecciona el nivel del cáncer</option>
-            <option value="Ia">Ia</option>
-            <option value="Ib">Ib</option>
-            <option value="Ib">IIa</option>
-            <option value="Ib">IIb</option>
-            <option value="Ib">IIIa</option>
-            <option value="Ib">IIIb</option>
-            <option value="Ib">IV</option>
-        </select>
-    </div>
-    <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-        </svg>
-    </button>
-</div>
-<!-- Descripcion del caso -->
-<div class="w3-row-padding w3-margin-left">
-    <div class="w3-col s3">
-        <h3>Descripción del Caso*</h3>
-    </div>
-    <div class="w3-col s3 w3-center">
-        <textarea maxlength="700" name="namedescripcion" autocomplete="on" class="w3-input w3-border w3-rest" style="height: 200px  width: 300px" placeholder="Describe el Caso"></textarea>
-            <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                    <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-                </svg>
-    </button>
-    </div>
-</div>
-<!-- Sexo del paciente -->
-<div class="w3-row-padding w3-margin-left w3-margin-top">
-    <div class="w3-col s3">
-        <h3>Sexo del Paciente</h3>
-    </div>
-    <div class="w3-col s3">
-        <select class="w3-select w3-border" name="option">
-            <option value="" disabled selected>Selecciona el sexo del paciente</option>
-            <option value="Femenino">Femenino</option>
-            <option value="Masculino">Masculino</option>
-            <option value="Otro">Otro</option>
-        </select>
-    </div>
-    <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-        </svg>
-    </button>
-</div>
-<!-- Rango de edad del paciente -->
-<div class="w3-row-padding w3-margin-left">
-    <div class="w3-col s3">
-        <h3>Rango de Edad del Paciente</h3>
-    </div>
-    <div class="w3-col s3">
-        <select class="w3-select w3-border" name="option">
-            <option value="" disabled selected>Selecciona el rango de edad</option>
-            <option value="Primera Infancia (0-5 años)">Primera Infancia (0-5 años)</option>
-            <option value="Infancia (6 - 11 años)">Infancia (6 - 11 años)</option>
-            <option value="Adolescencia (12 - 18 años)">Adolescencia (12 - 18 años)</option>
-            <option value="Juventud (14 - 26 años)">Juventud (14 - 26 años)</option>
-            <option value="Adultez (27- 59 años)">Adultez (27- 59 años)</option>
-            <option value="Persona Mayor (60 años o mas)">Persona Mayor (60 años o mas)</option>
-        </select>
-    </div>
-    <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-        </svg>
-    </button>
-</div>
 <!-- Condicion de Radioterapia -->
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
@@ -175,12 +93,13 @@ body {font-size:16px;}
             <option value="Radioterapia paliativa">Radioterapia paliativa</option>
         </select>
     </div>
+    <a href="http://127.0.0.1:8000/formularioGlosario#indice7" target="_blank" > 
     <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
             <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
         </svg>
-    </button>
+    </button></a>
 </div>
 <!-- 2. Titulo segunda parte -->
 <div class="w3-container w3-margin-left" style="margin-top:20px">
@@ -321,12 +240,13 @@ body {font-size:16px;}
     <div class="w3-col s3">
         <input maxlength="3" name="namebeamlets" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el número total de beamlets">
     </div>
+    <a href="http://127.0.0.1:8000/formularioGlosario#indice10" target="_blank" > 
     <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
             <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
         </svg>
-    </button>
+    </button></a>
 </div>
 <!-- Tamano del beamlets -->
 <div class="w3-row-padding w3-margin-left">
@@ -348,12 +268,13 @@ body {font-size:16px;}
                 <option value="in">in</option>
                 <option value="ft">ft</option>
         </select>  
+        <a href="http://127.0.0.1:8000/formularioGlosario#indice11" target="_blank" > 
         <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
             <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
         </svg>
-    </button>
+    </button></a>
 </div>
 <!-- Coplanar -->
 <div class="w3-row-padding w3-margin-left">
@@ -367,12 +288,13 @@ body {font-size:16px;}
             <option value="2">No</option>
         </select>
     </div>
+    <a href="http://127.0.0.1:8000/formularioGlosario#indice12" target="_blank" > 
     <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
             <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
         </svg>
-    </button>
+    </button></a>
 </div>
 <!-- Numero de angulos -->
 <div class="w3-row-padding w3-margin-left">
@@ -382,418 +304,19 @@ body {font-size:16px;}
     <div class="w3-col s3">
         <input maxlength="3" name="nameangulo" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el número de ángulos">
     </div>
+    <a href="http://127.0.0.1:8000/formularioGlosario#indice13" target="_blank" > 
     <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
             <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
         </svg>
-    </button>
+    </button></a>
 </div>
 <!-- 3. Titulo tercera parte -->
 <div class="w3-container w3-margin-left" style="margin-top:20px">
     <h2 style="margin-top:40px"><b>3. Informacón de la región de interés</b></h2>
 </div>
-<!-- Organo -->
-<div class="w3-container w3-margin-left" style="background-color:#E5E7E9;">
-    <h3>Órgano 1</h3>
-</div>
-<!-- Organo a irradiar -->
-<div class="w3-row-padding w3-margin-left" style="margin-top:10px">
-    <div class="w3-col s3">
-        <h3>Órgano a irradiar*</h3>
-    </div>
-    <div class="w3-col s3">
-        <select class="w3-select w3-border " name="option">
-            <option value="" disabled selected>Selecciona el órgano a irradiar</option>
-            <option value="1">lista4</option>
-            <option value="2">Option 2</option>
-        </select>
-    </div>
-    <div class="w3-col s3 w3-bar">
-        <button class="w3-bar-item w3-text-grey w3-button w3-white w3-hover-white">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-            </svg>
-        </button>
-<!-- Boton para agregar otro tipo -->
-        <div class="w3-margin-bottom w3-tooltip">
-        <button onclick="document.getElementById('id04').style.display='block'" class="w3-button w3-large w3-white w3-hover-white">
-            <span style="position:absolute;left:80px;top:10px" class="w3-text w3-tag w3-medium w3-white">
-            Agregar un otro tipo de órgano
-            </span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-menu-up w3-xxxlarge" viewBox="0 0 16 16">
-                <path d="M7.646 15.854a.5.5 0 0 0 .708 0L10.207 14H14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3.793l1.853 1.854zM1 9V6h14v3H1zm14 1v2a1 1 0 0 1-1 1h-3.793a1 1 0 0 0-.707.293l-1.5 1.5-1.5-1.5A1 1 0 0 0 5.793 13H2a1 1 0 0 1-1-1v-2h14zm0-5H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v2zM2 11.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 0-1h-8a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h6a.5.5 0 0 0 0-1h-6a.5.5 0 0 0-.5.5z"/>
-            </svg>
-        </button>     
-        <div id="id04" class="w3-modal">
-            <div class="w3-modal-content">
-                <header class="w3-container"> 
-                    <span onclick="document.getElementById('id04').style.display='none'" 
-                    class="w3-button w3-display-topright">&times;</span>
-                    <h3>Agregar otro tipo de órgano</h3>
-                </header>
-            <div class="w3-container">
-                <div class="w3-col s4 w3-margin-left">
-                    <p>Nombre del otro tipo de órgano</p>
-                </div>
-                <div class="w3-col s4">
-                    <input maxlength="100" name="namei4" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el nombre">
-                </div>
-            </div>
-            <div class="w3-container w3-center w3-margin-top">
-                <button class="w3-button w3-green">Ingresar nuevo dato</button>
-            </div>
-            <footer class="w3-padding-16"></footer>
-        </div>
-        </div>
-        </div>
-        </div>
-    </div>
-</div>
-</div>
-</div>
-<!-- Organo contiene el tumor -->
-<div class="w3-row-padding w3-margin-left">
-    <div class="w3-col s3">
-        <h3>El órgano contiene el tumor*</h3>
-    </div>
-    <div class="w3-col s3">
-        <select class="w3-select w3-border " name="option">
-            <option value="" disabled selected>¿El órgano contiene tumor?</option>
-            <option value="1">Si</option>
-            <option value="2">No</option>
-        </select>
-    </div>
-    <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-        </svg>
-    </button>
-</div>
-<!-- Nivel de prioridad del organo -->
-<div class="w3-row-padding w3-margin-left">
-    <div class="w3-col s3">
-        <h3>Nivel de prioridad del Órgano </h3>
-    </div>
-    <div class="w3-col s3">
-        <input maxlength="3" name="nameprioridad" class="w3-input w3-border" type="text" placeholder="Ingresa el nivel de prioridad del Órgano ">
-    </div>
-    <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-        </svg>
-    </button>
-</div>
-<!-- Volumen total del objetivo -->
-<div class="w3-row-padding w3-margin-left">
-    <div class="w3-col s3">
-        <h3>Volumen total del objetivo*</h3>
-    </div>
-        <div class="w3-col s1">
-            <input maxlength="10" name="namevolumen" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Volumen">
-        </div>
-        <select class="w3-select w3-border" style="width: 150px" name="option">
-                <option value="" disabled selected>Unidad</option>
-                <option value="mm">mm^3</option>
-                <option value="cm">cm^3</option>
-                <option value="dm">dm^3</option>
-                <option value="in">in^3</option>
-                <option value="ft">ft^3</option>
-        </select>  
-        <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-        </svg>
-    </button>
-</div>
-<!-- Numero de voxels objetivo -->
-<div class="w3-row-padding w3-margin-left">
-    <div class="w3-col s3">
-        <h3>Número de vóxels objetivo</h3>
-    </div>
-    <div class="w3-col s3">
-        <input maxlength="10" name="namevoxel" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el número de vóxels objetivo">
-    </div>
-    <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-        </svg>
-    </button>
-</div>
-<!-- Nombre del Indicador -->
-<div class="w3-row w3-center w3-container w3-quarter w3-col s2">
-        </div></div>
-<div class="w3-row-padding w3-margin-left">
-    <div class="w3-col s3">
-        <h3>1. Nombre del Indicador*</h3>
-    </div>
-    <div class="w3-col s3">
-        <select class="w3-select w3-border " name="option">
-            <option value="" disabled selected>Selecciona indicador</option>
-            <option value="1">lista5</option>
-            <option value="2">Option 2</option>
-        </select>
-    </div>
-    <div class="w3-col s3 w3-bar">
-        <button class="w3-bar-item w3-text-grey w3-button w3-white w3-hover-white">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-            </svg>
-        </button>
-<!-- Boton para agregar otro tipo -->
-        <div class="w3-margin-bottom w3-tooltip">
-        <button onclick="document.getElementById('id05').style.display='block'" class="w3-button w3-large w3-white w3-hover-white">
-            <span style="position:absolute;left:80px;top:10px" class="w3-text w3-tag w3-medium w3-white">
-            Agregar un otro tipo de indicador
-            </span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-menu-up w3-xxxlarge" viewBox="0 0 16 16">
-                <path d="M7.646 15.854a.5.5 0 0 0 .708 0L10.207 14H14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3.793l1.853 1.854zM1 9V6h14v3H1zm14 1v2a1 1 0 0 1-1 1h-3.793a1 1 0 0 0-.707.293l-1.5 1.5-1.5-1.5A1 1 0 0 0 5.793 13H2a1 1 0 0 1-1-1v-2h14zm0-5H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v2zM2 11.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 0-1h-8a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h6a.5.5 0 0 0 0-1h-6a.5.5 0 0 0-.5.5z"/>
-            </svg>
-        </button>     
-        <div  id="id05" class="w3-modal">
-            <div class="w3-modal-content">
-                <header class="w3-container"> 
-                    <span onclick="document.getElementById('id05').style.display='none'" 
-                    class="w3-button w3-display-topright">&times;</span>
-                    <h3>Agregar otro tipo de indicador</h3>
-                </header>
-            <div class="w3-container">
-                <div class="w3-col s4 w3-margin-left">
-                    <p>Nombre del otro tipo de indicador</p>
-                </div>
-                <div class="w3-col s4">
-                    <input maxlength="100" name="namei5" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el nombre">
-                </div>
-            </div>
-            <div class="w3-container ">
-                <div class="w3-col s4 w3-margin-left">
-                    <p>Descripción breve del indicador</p>
-                </div>
-                <div class="w3-col s4">
-                <textarea maxlength="500" name="named5" autocomplete="on" class="w3-input w3-border w3-rest" style="height: 200px  width: 300px" placeholder="Describe el significado"></textarea>
-                </div>
-            </div>
-            <div class="w3-container w3-center w3-margin-top">
-                <button class="w3-button w3-green">Ingresar nuevo dato</button>
-            </div>
-            <footer class="w3-padding-16"></footer>
-        </div>
-        </div>
-        </div>
-        </div>
-    </div>
-</div>
-</div>
-</div>
-<!-- Valor del indicador -->
-<div class="w3-row-padding w3-margin-left">
-    <div class="w3-col s3">
-        <h3>1. Valor del indicador*</h3>
-    </div>
-    <div class="w3-col s3">
-        <input maxlength="10" name="nameindicador" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el valor del indicador">
-    </div>
-    <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-        </svg>
-    </button>
-</div>
-<!-- Clonador de indicadores -->
-<script>
-let numero = 1;
-let nn = 0;
-let nuevo = function() {
-  numero++;
-  nn++;
-  jQuery('.inputs').append(
-    `<section id="${numero}">
-    <div class="w3-row w3-center w3-container w3-quarter w3-col s2">
-        
-        </div></div>
-    <div class="w3-row-padding w3-margin-left">
-        <div class="w3-col s3"><h3>${numero}. Nombre del Indicador*</h3></div>
-        <div class="w3-col s3"><select class="w3-select w3-border " name="option"><option value="" disabled selected>Selecciona el indicador</option><option value="1">lista5</option><option value="2">Option 2</option></select>
-        </div><button class="btn-danger w3-button w3-large w3-hover-grey" onclick="eliminar(${numero})">x</button></div>
-    <div class="w3-row-padding w3-margin-left">
-        <div class="w3-col s3"><h3>${numero}. Valor del indicador*</h3></div>
-        <div class="w3-col s3"><input maxlength="10" name="indicador" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el valor del indicador"></div></div></section>`
-    );   
-}
-let eliminar = function(n) {
-  jQuery("section").remove(`#${n}`);
-  jQuery("section2").remove(`#${a}`);
-  numero--;
-  nn--;
-}
-</script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-<div class="inputs"></div>
-<div class="w3-row w3-center">
-  <div class="w3-container w3-quarter"></div>
-  <div class="w3-container w3-quarter w3-margin-bottom w3-tooltip">
-    <button onclick="nuevo();" class="w3-button w3-large w3-circle w3-grey">
-        <span style="position:absolute;left:-50px;top:10px" class="w3-text w3-tag w3-large w3-white w3-tiny">
-        Agregar otro indicador
-        </span>+</button>
-  </div>
-</div>
-<!-- Clonador de Organos e indicadores-->
-<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-<script>
-let numero1 = 1;
-let a = 1000;
-let nuevo1 = function() {
 
-  numero1++;
-  a++;
-  jQuery('.inputs1').append(
-    `<section1 id="${numero1}">
-    <div class="w3-container w3-margin-left" style="background-color:#E5E7E9;">
-        <h3>Órgano ${numero1}
-        <button class="btn-danger w3-button w3-large w3-hover-black" onclick="eliminar1(${numero1})">
-x</button></h3>
-    </div>
-    <div class="w3-row-padding w3-margin-left" style="margin-top:10px">
-        <div class="w3-col s3">
-            <h3>Órgano a irradiar*</h3>
-        </div>
-        <div class="w3-col s3">
-            <select class="w3-select w3-border " name="option">
-                <option value="" disabled selected>Selecciona el órgano a irradiar</option>
-                <option value="1">lista4</option>
-                <option value="2">Option 2</option>
-            </select>
-        </div>
-    </div>
-    <div class="w3-row-padding w3-margin-left">
-        <div class="w3-col s3">
-            <h3>El órgano contiene el tumor*</h3>
-        </div>
-        <div class="w3-col s3">
-            <select class="w3-select w3-border " name="option">
-                <option value="" disabled selected>¿El órgano contiene tumor?</option>
-                <option value="1">Si</option>
-                <option value="2">No</option>
-            </select>
-        </div>
-    </div>
-    <div class="w3-row-padding w3-margin-left">
-        <div class="w3-col s3">
-            <h3>Nivel de prioridad del Órgano </h3>
-        </div>
-        <div class="w3-col s3">
-            <input name="nameprioridad" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el nivel de prioridad del Órgano ">
-        </div>
-    </div>
-    <div class="w3-row-padding w3-margin-left">
-        <div class="w3-col s3">
-            <h3>Volumen total del objetivo*</h3>
-        </div>
-            <div class="w3-col s1">
-                <input name="namevolumen" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Volumen">
-            </div>
-            <select class="w3-select w3-border" style="width: 150px" name="option">
-                    <option value="" disabled selected>Unidad</option>
-                    <option value="mm">mm^3</option>
-                    <option value="cm">cm^3</option>
-                    <option value="dm">dm^3</option>
-                    <option value="in">in^3</option>
-                    <option value="ft">ft^3</option>
-            </select>  
-    </div>
-    <div class="w3-row-padding w3-margin-left">
-        <div class="w3-col s3">
-            <h3>Número de vóxels objetivo</h3>
-        </div>
-        <div class="w3-col s3">
-            <input name="namevoxels" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el número de vóxels objetivo">
-        </div>
-    </div>
-    <div class="w3-row-padding w3-margin-left">
-        <div class="w3-col s3">
-            <h3>1. Nombre del Indicador*</h3>
-        </div>
-        <div class="w3-col s3">
-            <select class="w3-select w3-border " name="option">
-                <option value="" disabled selected>Selecciona indicador</option>
-                <option value="1">lista5</option>
-                <option value="2">Option 2</option>
-            </select>
-        </div>
-    </div>
-    <div class="w3-row-padding w3-margin-left">
-        <div class="w3-col s3">
-            <h3>1. Valor del indicador*</h3>
-        </div>
-        <div class="w3-col s3">
-            <input maxlength="10" name="nameindicador" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el valor del indicador">
-        </div>
-    </div>
-    <section2><div id="${a}"></div></section2>
-    </section1>` 
-    );   
-
-    var i;
-    $(document).ready(function(){
-        for (i = 1; i < nn +1; i++)  {
-            
-      var code1 =`<div class="w3-row w3-center w3-container w3-quarter w3-col s1"></div>`;
-      var code2 =`<div class="w3-row-padding w3-margin-left">`+
-      `    <div class="w3-col s3"><h3>${i+1}. Nombre del Indicador*</h3></div>`+
-      `    <div class="w3-col s3"><select class="w3-select w3-border " name="option">`+
-      `    <option value="" disabled selected>Selecciona el indicador</option><option value="1">lista5</option><option value="2">Option 2</option></select></div></div>`;
-      var code3 = `<div class="w3-row-padding w3-margin-left">`+
-      `    <div class="w3-col s3"><h3>${i+1}. Valor del indicador*</h3></div>`+
-      `    <div class="w3-col s3"><input class="w3-input w3-border" type="text" placeholder="Ingresa el valor del indicador"></div></div>`;
-
-          $(`#${a}`).append($(code1));
-          $(`#${a}`).append($(code2));
-          $(`#${a}`).append($(code3));
-
-          }
-    });
-}
-let eliminar1 = function(n1) {
-  jQuery("section1").remove(`#${n1}`);
-  numero1--;
-}
-</script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-<form method="post" action="gestionArticulos.php">
-    <div class="inputs1"></div>
-<div class="w3-row w3-center">
-  <div class="w3-container w3-quarter"></div>
-  <div class="w3-container w3-quarter w3-margin-bottom w3-tooltip">
-    <button type="button" onclick="nuevo1();" class="w3-button w3-large w3-circle w3-dark-grey w3-hover-black">
-        <span style="position:absolute;left:-50px;top:10px" class="w3-text w3-tag w3-large w3-white w3-tiny">
-        Agregar otro órgano
-        </span>+</button>
-  </div>
-</div>
-</form>
-<!-- Archivo Medico comprimido -->
-<div for="myfile" class="w3-row-padding w3-margin-left">
-    <div class="w3-col s3">
-        <h3>Archivo Médico comprimido* </h3>
-    </div>
-    <div class="w3-container w3-quarter w3-margin-top">
-        <input type="file" id="myfile" name="myfile">
-    </div>
-    <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white  w3-margin-top">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-        </svg>
-    </button>
-</div>
 <!-- 4. Titulo cuarta parte -->
 <div class="w3-container w3-margin-left" style="margin-top:20px">
     <h2 style="margin-top:40px"><b>4. Información de contacto </b></h2>
@@ -1004,12 +527,13 @@ let eliminar1 = function(n1) {
             <option value="Zimbabwe">Zimbabwe</option>
         </select>
     </div>
+    <a href="http://127.0.0.1:8000/formularioGlosario#indice21" target="_blank" > 
     <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
             <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
         </svg>
-    </button>
+    </button></a>
 </div>
 <!-- Nombre de la Institucion -->
 <div class="w3-row-padding w3-margin-left">
@@ -1075,12 +599,13 @@ let eliminar1 = function(n1) {
     <div class="w3-col s3">
         <input maxlength="50" name="fname" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el nombre del Autor">
     </div>
+    <a href="http://127.0.0.1:8000/formularioGlosario#indice23" target="_blank" > 
     <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
             <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
         </svg>
-    </button>
+    </button></a>
 </div>
 <!-- Email de Contacto -->
 <div class="w3-row-padding w3-margin-left">
@@ -1090,12 +615,13 @@ let eliminar1 = function(n1) {
     <div class="w3-col s3">
         <input maxlength="50" name="email" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el email de Contacto">
     </div>
+    <a href="http://127.0.0.1:8000/formularioGlosario#indice24" target="_blank" > 
     <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
             <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
         </svg>
-    </button>
+    </button></a>
 </div>
 <div class="w3-row">
     <div class="w3-container" style="margin-top:30px"></div>
