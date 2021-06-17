@@ -263,6 +263,8 @@ $(document).ready(function(){
     $("p_44").hide();
     $("p_45").show();
   });
+
+
   $(".btn45").click(function(){
     $("p23").hide();
     $("p24").show();
@@ -329,11 +331,12 @@ $(document).ready(function(){
     $("p_56").hide();
     $("p_57").show();
   });
+
   $(".btn57").click(function(){
     $("p29").hide();
     $("p30").show();
-    $("p_56").hide();
-    $("p_57").show();
+    $("p_57").hide();
+    $("p_58").show();
   });
 
   $(".btn58").click(function(){
@@ -343,8 +346,8 @@ $(document).ready(function(){
   $(".btn59").click(function(){
     $("p30").hide();
     $("p31").show();
-    $("p_58").hide();
-    $("p_59").show();
+    $("p_59").hide();
+    $("p_60").show();
   });
 
   $(".btn60").click(function(){
@@ -354,8 +357,8 @@ $(document).ready(function(){
   $(".btn61").click(function(){
     $("p31").hide();
     $("p32").show();
-    $("p_60").hide();
-    $("p_61").show();
+    $("p_61").hide();
+    $("p_62").show();
   }); 
 
 
@@ -368,8 +371,8 @@ $(document).ready(function(){
   $(".btn63").click(function(){
     $("p32").hide();
     $("p33").show();
-    $("p_62").hide();
-    $("p_63").show();
+    $("p_63").hide();
+    $("p_64").show();
   }); 
 
   $(".btn64").click(function(){
@@ -379,96 +382,96 @@ $(document).ready(function(){
   $(".btn65").click(function(){
     $("p33").hide();
     $("p34").show();
-    $("p_64").hide();
-    $("p_65").show();
+    $("p_65").hide();
+    $("p_66").show();
   }); 
 
   $(".btn66").click(function(){
-    $("p_65").hide();
-    $("p_66").show();
+    $("p_66").hide();
+    $("p_67").show();
   });
   $(".btn67").click(function(){
     $("p34").hide();
     $("p35").show();
-    $("p_66").hide();
-    $("p_67").show();
+    $("p_67").hide();
+    $("p_68").show();
   }); 
 
   $(".btn68").click(function(){
-    $("p_67").hide();
-    $("p_68").show();
+    $("p_68").hide();
+    $("p_69").show();
   });
   $(".btn69").click(function(){
     $("p35").hide();
     $("p36").show();
-    $("p_68").hide();
-    $("p_69").show();
+    $("p_69").hide();
+    $("p_70").show();
   }); 
 
   $(".btn70").click(function(){
-    $("p_69").hide();
-    $("p_70").show();
+    $("p_70").hide();
+    $("p_71").show();
   });
   $(".btn71").click(function(){
     $("p36").hide();
     $("p37").show();
-    $("p_70").hide();
-    $("p_71").show();
+    $("p_71").hide();
+    $("p_72").show();
   }); 
 
   $(".btn72").click(function(){
-    $("p_71").hide();
-    $("p_72").show();
+    $("p_72").hide();
+    $("p_73").show();
   });
   $(".btn73").click(function(){
     $("p37").hide();
     $("p38").show();
-    $("p_72").hide();
-    $("p_73").show();
+    $("p_73").hide();
+    $("p_74").show();
   }); 
 
   $(".btn74").click(function(){
-    $("p_73").hide();
-    $("p_74").show();
-  });
-  $(".btn75").click(function(){
-    $("p39").hide();
-    $("p40").show();
     $("p_74").hide();
     $("p_75").show();
+  });
+  $(".btn75").click(function(){
+    $("p38").hide();
+    $("p39").show();
+    $("p_75").hide();
+    $("p_76").show();
   }); 
 
   $(".btn76").click(function(){
-    $("p_75").hide();
-    $("p_76").show();
-  });
-  $(".btn77").click(function(){
-    $("p40").hide();
-    $("p41").show();
     $("p_76").hide();
     $("p_77").show();
+  });
+  $(".btn77").click(function(){
+    $("p39").hide();
+    $("p40").show();
+    $("p_77").hide();
+    $("p_78").show();
   }); 
 
   $(".btn78").click(function(){
-    $("p_77").hide();
-    $("p_78").show();
-  });
-  $(".btn79").click(function(){
-    $("p41").hide();
-    $("p42").show();
     $("p_78").hide();
     $("p_79").show();
+  });
+  $(".btn79").click(function(){
+    $("p40").hide();
+    $("p41").show();
+    $("p_79").hide();
+    $("p_80").show();
   }); 
 
   $(".btn80").click(function(){
-    $("p_79").hide();
-    $("p_80").show();
-  });
-  $(".btn81").click(function(){
-    $("p42").hide();
-    $("p43").show();
     $("p_80").hide();
     $("p_81").show();
+  });
+  $(".btn81").click(function(){
+    $("p41").hide();
+    $("p42").show();
+    $("p_81").hide();
+    $("p_82").show();
   }); 
 
 });
@@ -1964,11 +1967,28 @@ $(document).ready(function(){
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- Indicador 1  -->
 <p22 hidden> 
 <!-- Nombre del Indicador -->
-    <div class="w3-row w3-center w3-container w3-quarter w3-col s2">
-            </div></div>
     <div class="w3-row-padding w3-margin-left">
         <div class="w3-col s3">
             <h3>1. Nombre del Indicador*</h3>
@@ -2024,15 +2044,12 @@ $(document).ready(function(){
                     <button class="w3-button w3-green">Ingresar nuevo dato</button>
                 </div>
                 <footer class="w3-padding-16"></footer>
-            </div>
-            </div>
-            </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    </div>
-    </p22>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>    
+</p22>
 
 <p23 hidden>
 <!-- Valor del indicador -->
@@ -2056,8 +2073,6 @@ $(document).ready(function(){
 <!-- Indicador 2  -->
 <p24 hidden> 
 <!-- Nombre del Indicador -->
-    <div class="w3-row w3-center w3-container w3-quarter w3-col s2">
-            </div></div>
     <div class="w3-row-padding w3-margin-left">
         <div class="w3-col s3">
             <h3>2. Nombre del Indicador*</h3>
@@ -2118,9 +2133,6 @@ $(document).ready(function(){
             </div>
             </div>
         </div>
-    </div>
-    </div>
-    </div>
     </p24>
 
 <p25 hidden>
@@ -2145,8 +2157,6 @@ $(document).ready(function(){
 <!-- Indicador 3  -->
 <p26 hidden> 
 <!-- Nombre del Indicador -->
-    <div class="w3-row w3-center w3-container w3-quarter w3-col s2">
-            </div></div>
     <div class="w3-row-padding w3-margin-left">
         <div class="w3-col s3">
             <h3>3. Nombre del Indicador*</h3>
@@ -2207,9 +2217,6 @@ $(document).ready(function(){
             </div>
             </div>
         </div>
-    </div>
-    </div>
-    </div>
     </p26>
 
 <p27 hidden>
@@ -2234,8 +2241,6 @@ $(document).ready(function(){
 <!-- Indicador 4  -->
 <p28 hidden> 
 <!-- Nombre del Indicador -->
-    <div class="w3-row w3-center w3-container w3-quarter w3-col s2">
-            </div></div>
     <div class="w3-row-padding w3-margin-left">
         <div class="w3-col s3">
             <h3>4. Nombre del Indicador*</h3>
@@ -2296,9 +2301,6 @@ $(document).ready(function(){
             </div>
             </div>
         </div>
-    </div>
-    </div>
-    </div>
     </p28>
 
 <p29 hidden>
@@ -2323,8 +2325,6 @@ $(document).ready(function(){
 <!-- Indicador 5  -->
 <p30 hidden> 
 <!-- Nombre del Indicador -->
-    <div class="w3-row w3-center w3-container w3-quarter w3-col s2">
-            </div></div>
     <div class="w3-row-padding w3-margin-left">
         <div class="w3-col s3">
             <h3>5. Nombre del Indicador*</h3>
@@ -2385,9 +2385,6 @@ $(document).ready(function(){
             </div>
             </div>
         </div>
-    </div>
-    </div>
-    </div>
     </p30>
 
 <p31 hidden>
@@ -2412,8 +2409,6 @@ $(document).ready(function(){
 <!-- Indicador 6  -->
 <p32 hidden> 
 <!-- Nombre del Indicador -->
-    <div class="w3-row w3-center w3-container w3-quarter w3-col s2">
-            </div></div>
     <div class="w3-row-padding w3-margin-left">
         <div class="w3-col s3">
             <h3>6. Nombre del Indicador*</h3>
@@ -2474,9 +2469,6 @@ $(document).ready(function(){
             </div>
             </div>
         </div>
-    </div>
-    </div>
-    </div>
     </p32>
 
 <p33 hidden>
@@ -2501,8 +2493,6 @@ $(document).ready(function(){
 <!-- Indicador 7  -->
 <p34 hidden> 
 <!-- Nombre del Indicador -->
-    <div class="w3-row w3-center w3-container w3-quarter w3-col s2">
-            </div></div>
     <div class="w3-row-padding w3-margin-left">
         <div class="w3-col s3">
             <h3>7. Nombre del Indicador*</h3>
@@ -2563,9 +2553,6 @@ $(document).ready(function(){
             </div>
             </div>
         </div>
-    </div>
-    </div>
-    </div>
     </p34>
 
 <p35 hidden>
@@ -2590,8 +2577,6 @@ $(document).ready(function(){
 <!-- Indicador 8  -->
 <p36 hidden> 
 <!-- Nombre del Indicador -->
-    <div class="w3-row w3-center w3-container w3-quarter w3-col s2">
-            </div></div>
     <div class="w3-row-padding w3-margin-left">
         <div class="w3-col s3">
             <h3>8. Nombre del Indicador*</h3>
@@ -2652,9 +2637,6 @@ $(document).ready(function(){
             </div>
             </div>
         </div>
-    </div>
-    </div>
-    </div>
     </p36>
 
 <p37 hidden>
@@ -2679,8 +2661,6 @@ $(document).ready(function(){
 <!-- Indicador 9  -->
 <p38 hidden> 
 <!-- Nombre del Indicador -->
-    <div class="w3-row w3-center w3-container w3-quarter w3-col s2">
-            </div></div>
     <div class="w3-row-padding w3-margin-left">
         <div class="w3-col s3">
             <h3>9. Nombre del Indicador*</h3>
@@ -2741,9 +2721,6 @@ $(document).ready(function(){
             </div>
             </div>
         </div>
-    </div>
-    </div>
-    </div>
     </p38>
 
 <p39 hidden>
@@ -2768,8 +2745,6 @@ $(document).ready(function(){
 <!-- Indicador 10  -->
 <p40 hidden> 
 <!-- Nombre del Indicador -->
-    <div class="w3-row w3-center w3-container w3-quarter w3-col s2">
-            </div></div>
     <div class="w3-row-padding w3-margin-left">
         <div class="w3-col s3">
             <h3>10. Nombre del Indicador*</h3>
@@ -2830,9 +2805,6 @@ $(document).ready(function(){
             </div>
             </div>
         </div>
-    </div>
-    </div>
-    </div>
     </p40>
 
 <p41 hidden>
@@ -2853,6 +2825,7 @@ $(document).ready(function(){
         </button></a>
     </div>
     </p41>
+
 
 
 
@@ -2935,8 +2908,9 @@ $(document).ready(function(){
  <p_5 hidden><!-- Boton5  -->
   <div  class="w3-bar">
     <div class="w3-container" ></div>
-    <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
-    <button class="btn5 w3-button w3-teal w3-xlarge" style="width:15%">Siguente5 &#10095;</button>
+    <div class="w3-col w3-container w3-margin " style="width:30%" ></div>
+    <button class="btn5 w3-button w3-teal w3-xlarge" style="width:15%">Agregar Órgano5 &#10095;</button>
+    <button class="btn_1 w3-button w3-teal w3-xlarge" style="width:15%">Siguente &#10095;&#10095;</button>
   </div>
   </p_5>
   <p_6 hidden><!-- Boton6  -->
@@ -2963,8 +2937,9 @@ $(document).ready(function(){
   <p_9 hidden><!-- Boton9  -->
   <div  class="w3-bar">
     <div class="w3-container" ></div>
-    <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
-    <button class="btn9 w3-button w3-teal w3-xlarge" style="width:15%">Siguente9 &#10095;</button>
+    <div class="w3-col w3-container w3-margin " style="width:30%" ></div>
+    <button class="btn9 w3-button w3-teal w3-xlarge" style="width:15%">Agregar Órgano9 &#10095;</button>
+    <button class="btn_1 w3-button w3-teal w3-xlarge" style="width:15%">Siguente &#10095;&#10095;</button>
   </div>
   </p_9>
   <p_10 hidden><!-- Boton10  -->
@@ -2991,8 +2966,9 @@ $(document).ready(function(){
   <p_13 hidden><!-- Boton13  -->
   <div  class="w3-bar">
     <div class="w3-container" ></div>
-    <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
-    <button class="btn13 w3-button w3-teal w3-xlarge" style="width:15%">Siguente13 &#10095;</button>
+    <div class="w3-col w3-container w3-margin " style="width:30%" ></div>
+    <button class="btn13 w3-button w3-teal w3-xlarge" style="width:15%">Agregar Órgano13 &#10095;</button>
+    <button class="btn_1 w3-button w3-teal w3-xlarge" style="width:15%">Siguente &#10095;&#10095;</button>
   </div>
   </p_13>
   <p_14 hidden><!-- Boton14  -->
@@ -3019,8 +2995,9 @@ $(document).ready(function(){
   <p_17 hidden><!-- Boton17  -->
   <div  class="w3-bar">
     <div class="w3-container" ></div>
-    <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
-    <button class="btn17 w3-button w3-teal w3-xlarge" style="width:15%">Siguente17 &#10095;</button>
+    <div class="w3-col w3-container w3-margin " style="width:30%" ></div>
+    <button class="btn17 w3-button w3-teal w3-xlarge" style="width:15%">Agregar Órgano17 &#10095;</button>
+    <button class="btn_1 w3-button w3-teal w3-xlarge" style="width:15%">Siguente &#10095;&#10095;</button>
   </div>
   </p_17>
   <p_18 hidden><!-- Boton18  -->
@@ -3047,8 +3024,9 @@ $(document).ready(function(){
   <p_21 hidden><!-- Boton21  -->
   <div  class="w3-bar">
     <div class="w3-container" ></div>
-    <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
-    <button class="btn21 w3-button w3-teal w3-xlarge" style="width:15%">Siguente21 &#10095;</button>
+    <div class="w3-col w3-container w3-margin " style="width:30%" ></div>
+    <button class="btn21 w3-button w3-teal w3-xlarge" style="width:15%">Agregar Órgano21 &#10095;</button>
+    <button class="btn_1 w3-button w3-teal w3-xlarge" style="width:15%">Siguente &#10095;&#10095;</button>
   </div>
   </p_21>
   <p_22 hidden><!-- Boton22  -->
@@ -3075,8 +3053,9 @@ $(document).ready(function(){
   <p_25 hidden><!-- Boton25  -->
   <div  class="w3-bar">
     <div class="w3-container" ></div>
-    <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
-    <button class="btn25 w3-button w3-teal w3-xlarge" style="width:15%">Siguente25 &#10095;</button>
+    <div class="w3-col w3-container w3-margin " style="width:30%" ></div>
+    <button class="btn25 w3-button w3-teal w3-xlarge" style="width:15%">Agregar Órgano25 &#10095;</button>
+    <button class="btn_1 w3-button w3-teal w3-xlarge" style="width:15%">Siguente &#10095;&#10095;</button>
   </div>
   </p_25>
   <p_26 hidden><!-- Boton26  -->
@@ -3105,8 +3084,9 @@ $(document).ready(function(){
   <p_29 hidden><!-- Boton29  -->
   <div  class="w3-bar">
     <div class="w3-container" ></div>
-    <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
-    <button class="btn29 w3-button w3-teal w3-xlarge" style="width:15%">Siguente29 &#10095;</button>
+    <div class="w3-col w3-container w3-margin " style="width:30%" ></div>
+    <button class="btn29 w3-button w3-teal w3-xlarge" style="width:15%">Agregar Órgano29 &#10095;</button>
+    <button class="btn_1 w3-button w3-teal w3-xlarge" style="width:15%">Siguente &#10095;&#10095;</button>
   </div>
   </p_29>
   <p_30 hidden><!-- Boton30  -->
@@ -3135,8 +3115,9 @@ $(document).ready(function(){
   <p_33 hidden><!-- Boton33  -->
   <div  class="w3-bar">
     <div class="w3-container" ></div>
-    <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
-    <button class="btn33 w3-button w3-teal w3-xlarge" style="width:15%">Siguente33 &#10095;</button>
+    <div class="w3-col w3-container w3-margin " style="width:30%" ></div>
+    <button class="btn33 w3-button w3-teal w3-xlarge" style="width:15%">Agregar Órgano33 &#10095;</button>
+    <button class="btn_1 w3-button w3-teal w3-xlarge" style="width:15%">Siguente &#10095;&#10095;</button>
   </div>
   </p_33>
   <p_34 hidden><!-- Boton34  -->
@@ -3166,8 +3147,9 @@ $(document).ready(function(){
   <p_37 hidden><!-- Boton37  -->
   <div  class="w3-bar">
     <div class="w3-container" ></div>
-    <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
-    <button class="btn37 w3-button w3-teal w3-xlarge" style="width:15%">Siguente37 &#10095;</button>
+    <div class="w3-col w3-container w3-margin " style="width:30%" ></div>
+    <button class="btn37 w3-button w3-teal w3-xlarge" style="width:15%">Agregar Órgano37 &#10095;</button>
+    <button class="btn_1 w3-button w3-teal w3-xlarge" style="width:15%">Siguente &#10095;&#10095;</button>
   </div>
   </p_37>
   <p_38 hidden><!-- Boton38  -->
@@ -3200,8 +3182,9 @@ $(document).ready(function(){
   <p_41 hidden><!-- Boton41  -->
   <div  class="w3-bar">
     <div class="w3-container" ></div>
-    <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
-    <button class="btn41 w3-button w3-teal w3-xlarge" style="width:15%">Siguente41 &#10095;</button>
+    <div class="w3-col w3-container w3-margin " style="width:30%" ></div>
+    <button class="btn41 w3-button w3-teal w3-xlarge" style="width:15%">Agregar Indicador41 &#10095;</button>
+    <button class="btn_2 w3-button w3-teal w3-xlarge" style="width:15%">Siguente &#10095;&#10095;</button>
   </div>
   </p_41>
   <p_42 hidden><!-- Boton42  -->
@@ -3219,7 +3202,7 @@ $(document).ready(function(){
     <button class="btn43 w3-button w3-teal w3-xlarge" style="width:15%">Siguente43 &#10095;</button>
   </div>
   </p_43>
-  <p_40 hidden><!-- Boton44  -->
+  <p_44 hidden><!-- Boton44  -->
   <div  class="w3-bar">
     <div class="w3-container" ></div>
     <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
@@ -3230,8 +3213,9 @@ $(document).ready(function(){
   <p_45 hidden><!-- Boton45  -->
   <div  class="w3-bar">
     <div class="w3-container" ></div>
-    <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
-    <button class="btn45 w3-button w3-teal w3-xlarge" style="width:15%">Siguente45 &#10095;</button>
+    <div class="w3-col w3-container w3-margin " style="width:30%" ></div>
+    <button class="btn45 w3-button w3-teal w3-xlarge" style="width:15%">Agregar Indicador45 &#10095;</button>
+    <button class="btn_2 w3-button w3-teal w3-xlarge" style="width:15%">Siguente &#10095;&#10095;</button>
   </div>
   </p_45>
   <p_46 hidden><!-- Boton46  -->
@@ -3260,8 +3244,9 @@ $(document).ready(function(){
   <p_49 hidden><!-- Boton49  -->
   <div  class="w3-bar">
     <div class="w3-container" ></div>
-    <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
-    <button class="btn49 w3-button w3-teal w3-xlarge" style="width:15%">Siguente49 &#10095;</button>
+    <div class="w3-col w3-container w3-margin " style="width:30%" ></div>
+    <button class="btn49 w3-button w3-teal w3-xlarge" style="width:15%">Agregar Indicador49 &#10095;</button>
+    <button class="btn_2 w3-button w3-teal w3-xlarge" style="width:15%">Siguente &#10095;&#10095;</button>
   </div>
   </p_49>
   <p_50 hidden><!-- Boton50  -->
@@ -3278,100 +3263,264 @@ $(document).ready(function(){
     <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
     <button class="btn51 w3-button w3-teal w3-xlarge" style="width:15%">Siguente51 &#10095;</button>
   </div>
-  </p_52>
-  <p_53 hidden><!-- Boton52  -->
+  </p_51>
+  <p_52 hidden><!-- Boton52  -->
   <div  class="w3-bar">
     <div class="w3-container" ></div>
     <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
     <button class="btn52 w3-button w3-teal w3-xlarge" style="width:15%">Guardar52 &#10095;</button>
   </div>
-  </p_53>
+  </p_52>
 
-  <p_54 hidden><!-- Boton53  -->
+  <p_53 hidden><!-- Boton53  -->
   <div  class="w3-bar">
     <div class="w3-container" ></div>
-    <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
-    <button class="btn53 w3-button w3-teal w3-xlarge" style="width:15%">Siguente53 &#10095;</button>
+    <div class="w3-col w3-container w3-margin " style="width:30%" ></div>
+    <button class="btn53 w3-button w3-teal w3-xlarge" style="width:15%">Agregar Indicador53 &#10095;</button>
+    <button class="btn_2 w3-button w3-teal w3-xlarge" style="width:15%">Siguente &#10095;&#10095;</button>
   </div>
-  </p_54>
-  <p_55 hidden><!-- Boton54  -->
+  </p_53>
+  <p_54 hidden><!-- Boton54  -->
   <div  class="w3-bar">
     <div class="w3-container" ></div>
     <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
     <button class="btn54 w3-button w3-teal w3-xlarge" style="width:15%">Guardar54 &#10095;</button>
   </div>
-  </p_55>
+  </p_54>
 
-  <p_56 hidden><!-- Boton55  -->
+  <p_55 hidden><!-- Boton55  -->
   <div  class="w3-bar">
     <div class="w3-container" ></div>
     <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
     <button class="btn55 w3-button w3-teal w3-xlarge" style="width:15%">Siguente55 &#10095;</button>
   </div>
-  </p_56>
-  <p_57 hidden><!-- Boton56  -->
+  </p_55>
+  <p_56 hidden><!-- Boton56  -->
   <div  class="w3-bar">
     <div class="w3-container" ></div>
     <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
     <button class="btn56 w3-button w3-teal w3-xlarge" style="width:15%">Guardar56 &#10095;</button>
   </div>
-  </p_57>
+  </p_56>
 
-  <p_58 hidden><!-- Boton57  -->
+  <p_57 hidden><!-- Boton57  -->
   <div  class="w3-bar">
     <div class="w3-container" ></div>
-    <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
-    <button class="btn57 w3-button w3-teal w3-xlarge" style="width:15%">Siguente57 &#10095;</button>
+    <div class="w3-col w3-container w3-margin " style="width:30%" ></div>
+    <button class="btn57 w3-button w3-teal w3-xlarge" style="width:15%">Agregar Indicador57 &#10095;</button>
+    <button class="btn_2 w3-button w3-teal w3-xlarge" style="width:15%">Siguente &#10095;&#10095;</button>
   </div>
-  </p_58>
-  <p_59 hidden><!-- Boton58  -->
+  </p_57>
+  <p_58 hidden><!-- Boton58  -->
   <div  class="w3-bar">
     <div class="w3-container" ></div>
     <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
     <button class="btn58 w3-button w3-teal w3-xlarge" style="width:15%">Guardar58 &#10095;</button>
   </div>
-  </p_59>
+  </p_58>
 
-  <p_60 hidden><!-- Boton59  -->
+  <p_59 hidden><!-- Boton59  -->
   <div  class="w3-bar">
     <div class="w3-container" ></div>
     <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
     <button class="btn59 w3-button w3-teal w3-xlarge" style="width:15%">Siguente59 &#10095;</button>
   </div>
-  </p_60>
-  <p_61 hidden><!-- Boton60  -->
+  </p_59>
+  <p_60 hidden><!-- Boton60  -->
   <div  class="w3-bar">
     <div class="w3-container" ></div>
     <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
     <button class="btn60 w3-button w3-teal w3-xlarge" style="width:15%">Guardar60 &#10095;</button>
   </div>
-  </p_61>
+  </p_60>
 
-  <p_62 hidden><!-- Boton61  -->
+  <p_61 hidden><!-- Boton61  -->
   <div  class="w3-bar">
     <div class="w3-container" ></div>
-    <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
-    <button class="btn61 w3-button w3-teal w3-xlarge" style="width:15%">Siguente61 &#10095;</button>
+    <div class="w3-col w3-container w3-margin " style="width:30%" ></div>
+    <button class="btn61 w3-button w3-teal w3-xlarge" style="width:15%">Agregar Indicador61 &#10095;</button>
+    <button class="btn_2 w3-button w3-teal w3-xlarge" style="width:15%">Siguente &#10095;&#10095;</button>
   </div>
-  </p_62>
-  <p_63 hidden><!-- Boton62  -->
+  </p_61>
+  <p_62 hidden><!-- Boton62  -->
   <div  class="w3-bar">
     <div class="w3-container" ></div>
     <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
     <button class="btn62 w3-button w3-teal w3-xlarge" style="width:15%">Guardar62 &#10095;</button>
   </div>
+  </p_62>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <p_63 hidden><!-- Boton63  -->
+  <div  class="w3-bar">
+    <div class="w3-container" ></div>
+    <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
+    <button class="btn63 w3-button w3-teal w3-xlarge" style="width:15%">Siguente63 &#10095;</button>
+  </div>
   </p_63>
+  <p_64 hidden><!-- Boton64  -->
+  <div  class="w3-bar">
+    <div class="w3-container" ></div>
+    <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
+    <button class="btn64 w3-button w3-teal w3-xlarge" style="width:15%">Guardar64 &#10095;</button>
+  </div>
+  </p_64>
 
+  <p_65 hidden><!-- Boton65  -->
+  <div  class="w3-bar">
+    <div class="w3-container" ></div>
+    <div class="w3-col w3-container w3-margin " style="width:30%" ></div>
+    <button class="btn65 w3-button w3-teal w3-xlarge" style="width:15%">Agregar Indicador65 &#10095;</button>
+    <button class="btn_2 w3-button w3-teal w3-xlarge" style="width:15%">Siguente &#10095;&#10095;</button>
+  </div>
+  </p_65>
+  <p_66 hidden><!-- Boton66  -->
+  <div  class="w3-bar">
+    <div class="w3-container" ></div>
+    <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
+    <button class="btn66 w3-button w3-teal w3-xlarge" style="width:15%">Guardar66 &#10095;</button>
+  </div>
+  </p_66>
 
+  <p_67 hidden><!-- Boton67  -->
+  <div  class="w3-bar">
+    <div class="w3-container" ></div>
+    <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
+    <button class="btn67 w3-button w3-teal w3-xlarge" style="width:15%">Siguente67 &#10095;</button>
+  </div>
+  </p_67>
+  <p_68 hidden><!-- Boton68  -->
+  <div  class="w3-bar">
+    <div class="w3-container" ></div>
+    <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
+    <button class="btn68 w3-button w3-teal w3-xlarge" style="width:15%">Guardar68 &#10095;</button>
+  </div>
+  </p_68>
 
+  <p_69 hidden><!-- Boton69  -->
+  <div  class="w3-bar">
+    <div class="w3-container" ></div>
+    <div class="w3-col w3-container w3-margin " style="width:30%" ></div>
+    <button class="btn69 w3-button w3-teal w3-xlarge" style="width:15%">Agregar Indicador69 &#10095;</button>
+    <button class="btn_2 w3-button w3-teal w3-xlarge" style="width:15%">Siguente &#10095;&#10095;</button>
+  </div>
+  </p_69>
+  <p_70 hidden><!-- Boton70  -->
+  <div  class="w3-bar">
+    <div class="w3-container" ></div>
+    <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
+    <button class="btn70 w3-button w3-teal w3-xlarge" style="width:15%">Guardar70 &#10095;</button>
+  </div>
+  </p_70>
 
+  <p_71 hidden><!-- Boton71  -->
+  <div  class="w3-bar">
+    <div class="w3-container" ></div>
+    <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
+    <button class="btn71 w3-button w3-teal w3-xlarge" style="width:15%">Siguente71 &#10095;</button>
+  </div>
+  </p_71>
+  <p_72 hidden><!-- Boton72  -->
+  <div  class="w3-bar">
+    <div class="w3-container" ></div>
+    <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
+    <button class="btn72 w3-button w3-teal w3-xlarge" style="width:15%">Guardar72 &#10095;</button>
+  </div>
+  </p_72>
 
+  <p_73 hidden><!-- Boton73  -->
+  <div  class="w3-bar">
+    <div class="w3-container" ></div>
+    <div class="w3-col w3-container w3-margin " style="width:30%" ></div>
+    <button class="btn73 w3-button w3-teal w3-xlarge" style="width:15%">Agregar Indicador73 &#10095;</button>
+    <button class="btn_2 w3-button w3-teal w3-xlarge" style="width:15%">Siguente &#10095;&#10095;</button>
+  </div>
+  </p_73>
+  <p_74 hidden><!-- Boton74  -->
+  <div  class="w3-bar">
+    <div class="w3-container" ></div>
+    <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
+    <button class="btn74 w3-button w3-teal w3-xlarge" style="width:15%">Guardar74 &#10095;</button>
+  </div>
+  </p_74>
 
+  <p_75 hidden><!-- Boton75  -->
+  <div  class="w3-bar">
+    <div class="w3-container" ></div>
+    <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
+    <button class="btn75 w3-button w3-teal w3-xlarge" style="width:15%">Siguente75 &#10095;</button>
+  </div>
+  </p_75>
+  <p_76 hidden><!-- Boton76  -->
+  <div  class="w3-bar">
+    <div class="w3-container" ></div>
+    <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
+    <button class="btn76 w3-button w3-teal w3-xlarge" style="width:15%">Guardar76 &#10095;</button>
+  </div>
+  </p_76>
 
+  <p_77 hidden><!-- Boton77  -->
+  <div  class="w3-bar">
+    <div class="w3-container" ></div>
+    <div class="w3-col w3-container w3-margin " style="width:30%" ></div>
+    <button class="btn77 w3-button w3-teal w3-xlarge" style="width:15%">Agregar Indicador77 &#10095;</button>
+    <button class="btn_2 w3-button w3-teal w3-xlarge" style="width:15%">Siguente &#10095;&#10095;</button>
+  </div>
+  </p_77>
+  <p_78 hidden><!-- Boton78  -->
+  <div  class="w3-bar">
+    <div class="w3-container" ></div>
+    <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
+    <button class="btn78 w3-button w3-teal w3-xlarge" style="width:15%">Guardar78 &#10095;</button>
+  </div>
+  </p_78>
 
+  <p_79 hidden><!-- Boton79  -->
+  <div  class="w3-bar">
+    <div class="w3-container" ></div>
+    <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
+    <button class="btn79 w3-button w3-teal w3-xlarge" style="width:15%">Siguente79 &#10095;</button>
+  </div>
+  </p_79>
+  <p_80 hidden><!-- Boton80  -->
+  <div  class="w3-bar">
+    <div class="w3-container" ></div>
+    <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
+    <button class="btn80 w3-button w3-teal w3-xlarge" style="width:15%">Guardar80 &#10095;</button>
+  </div>
+  </p_80>
+
+  <p_81 hidden><!-- Boton81  -->
+  <div  class="w3-bar">
+    <div class="w3-container" ></div>
+    <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
+    <button class="btn81 w3-button w3-teal w3-xlarge" style="width:15%">Siguente81 &#10095;</button>
+  </div>
+  </p_81>
+  <p_82 hidden><!-- Boton82  -->
+  <div  class="w3-bar">
+    <div class="w3-container" ></div>
+    <div class="w3-col w3-container w3-margin " style="width:45%" ></div>
+    <button class="btn82 w3-button w3-teal w3-xlarge" style="width:15%">Guardar82 &#10095;</button>
+  </div>
+  </p_82>
 
 </body>
 </html>
+
+
+
 
 <!-- Pie de Pagina -->
 <footer class="w3-padding-64"></footer>
