@@ -17,9 +17,9 @@ body {font-size:16px;}
 <!-- Contenido de la pagina -->
 <!-- Titulo -->
 <div class="w3-container w3-margin-left" style="margin-top:20px">
-    <h1 class="w3-xxxlarge"><b>Formulario de la Propuesta</b></h1>
+    <h1 class="w3-xxxlarge"><b>Formulario de Tratamiento</b></h1>
     <hr style="width:80px;border:5px solid rgb(0, 128, 128)" class="w3-round">
-    <h2 style="margin-top:10px">Es necesario completar este formulario para ingresar una <i>propuesta al sistema para un Caso</i>.</h2> 
+    <h2 style="margin-top:10px">Es necesario completar este formulario para ingresar un <i>tratamiento al sistema para un Caso</i>.</h2> 
     <h3>* Es necesario completar este campo</h3>
 <!-- 1. Titulo primera parte -->
     <h2 style="margin-top:40px"><b>1. Información general del Caso seleccionado</b></h2>

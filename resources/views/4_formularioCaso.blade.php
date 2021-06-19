@@ -297,9 +297,6 @@ $(".bsaltar1").click(function(){
 
 
 
-
-
-<!-- 1. Titulo primera parte -->
 <p2 hidden>
 <!-- 3. Titulo tercera parte -->
 <div class="w3-container w3-margin-left" style="margin-top:7px">
@@ -698,6 +695,9 @@ let eliminar1 = function(n1) {
   </div>
 </div>
 </form>
+
+
+
 </p2>
 
 

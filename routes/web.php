@@ -17,8 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/propuestas', function () {
-    return view('3_propuestas');
+Route::get('/tratamientos', function () {
+    return view('3_tratamientos');
 });
 
 Route::get('/casos', function () {
@@ -33,8 +33,8 @@ Route::get('/formularioCaso', function () {
     return view('4_formularioCaso');
 });
 
-Route::get('/formularioPropuesta', function () {
-    return view('5_formularioPropuesta');
+Route::get('/formularioTratamiento', function () {
+    return view('5_formularioTratamiento');
 });
 
 Route::get('/formularioGlosario', function () {
@@ -49,8 +49,8 @@ Route::get('/vistaDetalleCaso', function () {
     return view('8_vistaDetalleCaso');
 });
 
-Route::get('/vistaDetallePropuesta', function () {
-    return view('9_vistaDetallePropuesta');
+Route::get('/vistaDetalleTratamiento', function () {
+    return view('9_vistaDetalleTratamiento');
 });
 
 Route::get('/administrador', function () {

@@ -90,7 +90,7 @@ body {font-size:16px;}
 <!-- Contenido de la pagina -->
 <div class="w3-main" style="margin-left:340px;margin-right:40px">
     <div class="w3-container w3-margin-left" style="margin-top:20px">
-        <h1 class="w3-xxxlarge"><b>Propuesta</b></h1>
+        <h1 class="w3-xxxlarge"><b>Tratamiento</b></h1>
         <hr style="width:80px;border:5px solid rgb(0, 128, 128)" class="w3-round"></hr>
         <!-- Caso Referido -->
         <style>
