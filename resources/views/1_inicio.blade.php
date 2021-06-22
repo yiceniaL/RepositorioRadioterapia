@@ -106,7 +106,7 @@ body {font-size:16px;}
   <div class="column">
     <div class="card">
       <h1>X</h1>
-      <p style="font-size:20px;">Propuestas Publicadas</p>
+      <p style="font-size:20px;">Tratamientos Publicadas</p>
     </div>
   </div>
   <div class="column">
@@ -118,7 +118,7 @@ body {font-size:16px;}
   <div class="column">
     <div class="card">
       <h1>X</h1>
-      <p style="font-size:20px;">Autores con Propuestas</p>
+      <p style="font-size:20px;">Autores con Tratamientos</p>
     </div>
   </div>
   <div class="column">
@@ -144,7 +144,7 @@ body {font-size:16px;}
             <li>Es estado que se encuentra el cáncer.</li>
             <li>Una descripción breve del caso.</li>
             <li>La condición en la que se encuentra la Radioterapia.</li>
-            <li>La técnica de propuestas utilizada.</li>
+            <li>La técnica del caso utilizada.</li>
             <li>El tipo de optimización utilizada en la simulación.</li>
             <li>Los órganos a irradiar e identificar que órgano contiene el tumor.</li>
             <li>El volumen total del objetivo del órgano.</li>
@@ -157,7 +157,7 @@ body {font-size:16px;}
         <ul class="w3-ul w3-large" style="margin-left:300px width:50%">
             <li>El código referenciado del caso ya expuesto.</li>
             <li>Una descripción breve de la propuesta.</li>
-            <li>La técnica de propuestas utilizada.</li>
+            <li>La técnica del tratamiento utilizado.</li>
             <li>El tipo de optimización utilizada en la simulación.</li>
             <li>El nombre y valor del indicador seleccionado.</li>
             <li>El Archivo medico comprimido.</li>
