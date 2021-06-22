@@ -13,7 +13,8 @@ body {font-size:16px;}
 .w3-half img:hover{opacity:1}
 </style>
 <body>
-
+ 
+ 
 
 <style>
 .tooltip {
