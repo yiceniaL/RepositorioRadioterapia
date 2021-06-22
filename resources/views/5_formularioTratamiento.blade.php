@@ -13,59 +13,7 @@ body {font-size:16px;}
 .w3-half img:hover{opacity:1}
 </style>
 <body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-$(".bguardar1").click(function(){
-    $("p_1").hide();
-    $("p_2").show();
-  });  
 
-$(".bseguir1").click(function(){
-    $("p_2").hide();
-    $("p_3").show();
-    $("p1").hide();
-    $("p2").show();
-  }); 
-
- $(".bguardar2").click(function(){
-    $("p_3").hide();
-    $("p_4").show();
-  });  
-
-$(".bseguir2").click(function(){
-    $("p_4").hide();
-    $("p_5").show();
-    $("p2").hide();
-    $("p3").show();
-  }); 
-
-$(".bguardar3").click(function(){
-    $("p_5").hide();
-    $("p_6").show();
-  }); 
-
- $(".bseguir3").click(function(){
-    $("p_6").hide();
-    $("p_7").show();
-    $("p3").hide();
-    $("p4").show();
-  }); 
-
-$(".bguardar4").click(function(){
-    $("p_7").hide();
-  }); 
-
-$(".bsaltar1").click(function(){
-    $("p_5").hide();
-    $("p_6").hide();
-    $("p_7").show();
-    $("p3").hide();
-    $("p4").show();
-  }); 
-
-});
-</script>
 
 <style>
 .tooltip {
@@ -197,13 +145,232 @@ $(".bsaltar1").click(function(){
 </div>
 </p1>
 
+<!-- 2. Titulo segunda parte -->
+<p2>
+<div class="w3-container w3-margin-left" style="margin-top:7px">
+    <h2 style="margin-top:7px"><b>2. Información técnica del tratamiento</b></h2>
+</div>
+<!-- Tecnica de Tratamiento -->
+<div class="w3-row-padding w3-margin-left">
+    <div class="w3-col s3">
+        <h3>Técnica de Tratamiento</h3>
+    </div>
+    <div class="w3-col s3">
+        <select class="w3-select w3-border " name="option">
+            <option value="" disabled selected>Selecciona el tipo de tratamiento</option>
+            <option >Radiocirugía estereotáctica (SRS) y Radioterapia estereotáctica (SRT)</option>
+            <option >Radioterapia corporal estereotáctica (SBRT) o Radioterapia corporal ablativa estereotáctica (SABR)</option>
+            <option >Radioterapia conformada tridimensional (3D-CRT)</option>
+            <option >Radioterapia con modulación de intensidad (IMRT)</option>
+            <option >Intensidad modulada volumétrica en arcoterapia (VMAT)</option>
+        </select>
+    </div>
+    <div autocomplete="on" class="w3-col s4 ">
+    <div class="w3-bar">
+        <a href="http://127.0.0.1:8000/formularioGlosario#indice8" target="_blank" > 
+        <button class="w3-bar-item w3-text-grey w3-button w3-white w3-hover-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+            </svg>
+        </button></a>
+<!-- Boton para agregar otro tipo -->
+        <div style="margin-top:8px">
+            <div class="tooltip" onclick="document.getElementById('id02').style.display='block'" class="w3-button w3-large w3-white w3-hover-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-menu-up w3-xxxlarge" viewBox="0 0 16 16">
+                    <path d="M7.646 15.854a.5.5 0 0 0 .708 0L10.207 14H14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3.793l1.853 1.854zM1 9V6h14v3H1zm14 1v2a1 1 0 0 1-1 1h-3.793a1 1 0 0 0-.707.293l-1.5 1.5-1.5-1.5A1 1 0 0 0 5.793 13H2a1 1 0 0 1-1-1v-2h14zm0-5H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v2zM2 11.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 0-1h-8a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h6a.5.5 0 0 0 0-1h-6a.5.5 0 0 0-.5.5z"/>
+                </svg>
+            <span class="tooltiptext">Agregar otro Tipo de tratamiento</span>
+            </div>
+            </div> 
+        <div id="id02" class="w3-modal">
+            <div class="w3-modal-content">
+                <header class="w3-container"> 
+                    <span onclick="document.getElementById('id02').style.display='none'" 
+                    class="w3-button w3-display-topright">&times;</span>
+                    <h3>Agregar otro tipo de tratamiento</h3>
+                </header>
+            <div class="w3-container">
+                <div class="w3-col s4 w3-margin-left">
+                    <p>Nombre del otro tipo de tratamiento</p>
+                </div>
+                <div class="w3-col s4">
+                    <input maxlength="100" name="namei2" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el nombre">
+                </div>
+            </div>
+            <div class="w3-container ">
+                <div class="w3-col s4 w3-margin-left">
+                    <p>Descripción breve del tratamiento</p>
+                </div>
+                <div class="w3-col s4">
+                <textarea maxlength="500" name="named2" autocomplete="on" class="w3-input w3-border w3-rest" style="height: 200px  width: 300px" placeholder="Describe el significado"></textarea>
+                </div>
+            </div>
+            <div class="w3-container w3-center w3-margin-top">
+                <button onclick="document.getElementById('id02').style.display='none'" class="w3-button w3-green">Ingresar nuevo dato</button>
+            </div>
+            <footer class="w3-padding-16"></footer>
+        </div>
+        </div>
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Tipo de Optimizacion -->
+<div class="w3-row-padding w3-margin-left">
+    <div class="w3-col s3">
+        <h3>Tipo de Optimización</h3>
+    </div>
+    <div class="w3-col s3">
+        <select class="w3-select w3-border " name="option">
+            <option value="" disabled selected>Selecciona el tipo de optimización</option>
+            <option >Multicriterio o Multiobjetivo</option>
+            <option >Montecarlo</option>
+            <option >Algoritmo DAO rápido</option>
+            <option >Heurísticas</option>
+        </select>
+    </div>
+    <div autocomplete="on" class="w3-col s4 ">
+    <div class="w3-bar">
+        <a href="http://127.0.0.1:8000/formularioGlosario#indice9" target="_blank" >
+        <button class="w3-bar-item w3-text-grey w3-button w3-white w3-hover-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+            </svg>
+        </button></a>
+<!-- Boton para agregar otro tipo -->        
+        <div style="margin-top:8px">
+            <div class="tooltip" onclick="document.getElementById('id03').style.display='block'" class="w3-button w3-large w3-white w3-hover-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-menu-up w3-xxxlarge" viewBox="0 0 16 16">
+                    <path d="M7.646 15.854a.5.5 0 0 0 .708 0L10.207 14H14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3.793l1.853 1.854zM1 9V6h14v3H1zm14 1v2a1 1 0 0 1-1 1h-3.793a1 1 0 0 0-.707.293l-1.5 1.5-1.5-1.5A1 1 0 0 0 5.793 13H2a1 1 0 0 1-1-1v-2h14zm0-5H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v2zM2 11.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 0-1h-8a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h6a.5.5 0 0 0 0-1h-6a.5.5 0 0 0-.5.5z"/>
+                </svg>
+            <span class="tooltiptext">Agregar otro Tipo de optimización</span>
+            </div>
+            </div>
+        <div id="id03" class="w3-modal">
+            <div class="w3-modal-content">
+                <header class="w3-container"> 
+                    <span onclick="document.getElementById('id03').style.display='none'" 
+                    class="w3-button w3-display-topright">&times;</span>
+                    <h3>Agregar otro tipo de optimización</h3>
+                </header>
+            <div class="w3-container">
+                <div class="w3-col s4 w3-margin-left">
+                    <p>Nombre del otro tipo de optimización</p>
+                </div>
+                <div class="w3-col s4">
+                    <input maxlength="100" name="namei3" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el nombre">
+                </div>
+            </div>
+            <div class="w3-container ">
+                <div class="w3-col s4 w3-margin-left">
+                    <p>Descripción breve de la optimización</p>
+                </div>
+                <div class="w3-col s4">
+                <textarea maxlength="500" name="named3" autocomplete="on" class="w3-input w3-border w3-rest" style="height: 200px  width: 300px" placeholder="Describe el significado"></textarea>
+                </div>
+            </div>
+            <div class="w3-container w3-center w3-margin-top">
+                <button onclick="document.getElementById('id03').style.display='none'" class="w3-button w3-green">Ingresar nuevo dato</button>
+            </div>
+            <footer class="w3-padding-16"></footer>
+        </div>
+        </div>
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<!-- Numero total de beamlets -->
+<div class="w3-row-padding w3-margin-left">
+    <div class="w3-col s3">
+        <h3>Número total de beamlets</h3>
+    </div>
+    <div class="w3-col s3">
+        <input maxlength="3" name="namebeamlets" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el número total de beamlets">
+    </div>
+    <a href="http://127.0.0.1:8000/formularioGlosario#indice10" target="_blank" > 
+    <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+        </svg>
+    </button></a>
+</div>
+<!-- Tamano del beamlets -->
+<div class="w3-row-padding w3-margin-left">
+    <div class="w3-col s3">
+        <h3>Tamaño del beamlets</h3>
+    </div>
+        <div class="w3-col s1">
+            <select class="w3-select w3-border" style="width: 100px" name="option">
+                <option value="" disabled selected>n x n</option>
+                <option value="1 x 1">1 x 1</option>
+                <option value="0.5 x 0.">0.5 x 0.5</option>
+            </select> 
+        </div>
+        <select class="w3-select w3-border" style="width: 150px" name="option">
+                <option value="" disabled selected>Unidad</option>
+                <option value="mm">mm</option>
+                <option value="cm">cm</option>
+                <option value="dm">dm</option>
+                <option value="in">in</option>
+                <option value="ft">ft</option>
+        </select>  
+        <a href="http://127.0.0.1:8000/formularioGlosario#indice11" target="_blank" > 
+        <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+        </svg>
+    </button></a>
+</div>
+<!-- Coplanar -->
+<div class="w3-row-padding w3-margin-left">
+    <div class="w3-col s3">
+        <h3>Coplanar</h3>
+    </div>
+    <div class="w3-col s3">
+        <select class="w3-select w3-border " name="option">
+            <option value="" disabled selected>Selecciona si es cooplanar</option>
+            <option value="1">Si</option>
+            <option value="2">No</option>
+        </select>
+    </div>
+    <a href="http://127.0.0.1:8000/formularioGlosario#indice12" target="_blank" > 
+    <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+        </svg>
+    </button></a>
+</div>
+<!-- Numero de angulos -->
+<div class="w3-row-padding w3-margin-left">
+    <div class="w3-col s3">
+        <h3>Número de Ángulos</h3>
+    </div>
+    <div class="w3-col s3">
+        <input maxlength="3" name="nameangulo" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el número de ángulos">
+    </div>
+    <a href="http://127.0.0.1:8000/formularioGlosario#indice13" target="_blank" > 
+    <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+        </svg>
+    </button></a>
+</div>
+</p2>
 
 
-
-<p2 hidden>
+<p3>
 <!-- 3. Titulo tercera parte -->
 <div class="w3-container w3-margin-left" style="margin-top:7px">
-    <h2 style="margin-top:7px"><b>2. Informacón de la región de interés</b></h2>
+    <h2 style="margin-top:7px"><b>3. Informacón de la región de interés</b></h2>
 </div>
 <!-- Organo -->
 <div class="w3-container w3-margin-left" style="background-color:#E5E7E9;">
@@ -606,235 +773,16 @@ let eliminar1 = function(n1) {
 
 
 
-</p2>
-
-
-<!-- 3. Titulo segunda parte -->
-<p3 hidden>
-<div class="w3-container w3-margin-left" style="margin-top:7px">
-    <h2 style="margin-top:7px"><b>3. Información técnica del tratamiento</b></h2>
-</div>
-<!-- Tecnica de Tratamiento -->
-<div class="w3-row-padding w3-margin-left">
-    <div class="w3-col s3">
-        <h3>Técnica de Tratamiento</h3>
-    </div>
-    <div class="w3-col s3">
-        <select class="w3-select w3-border " name="option">
-            <option value="" disabled selected>Selecciona el tipo de tratamiento</option>
-            <option >Radiocirugía estereotáctica (SRS) y Radioterapia estereotáctica (SRT)</option>
-            <option >Radioterapia corporal estereotáctica (SBRT) o Radioterapia corporal ablativa estereotáctica (SABR)</option>
-            <option >Radioterapia conformada tridimensional (3D-CRT)</option>
-            <option >Radioterapia con modulación de intensidad (IMRT)</option>
-            <option >Intensidad modulada volumétrica en arcoterapia (VMAT)</option>
-        </select>
-    </div>
-    <div autocomplete="on" class="w3-col s4 ">
-    <div class="w3-bar">
-        <a href="http://127.0.0.1:8000/formularioGlosario#indice8" target="_blank" > 
-        <button class="w3-bar-item w3-text-grey w3-button w3-white w3-hover-white">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-            </svg>
-        </button></a>
-<!-- Boton para agregar otro tipo -->
-        <div style="margin-top:8px">
-            <div class="tooltip" onclick="document.getElementById('id02').style.display='block'" class="w3-button w3-large w3-white w3-hover-white">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-menu-up w3-xxxlarge" viewBox="0 0 16 16">
-                    <path d="M7.646 15.854a.5.5 0 0 0 .708 0L10.207 14H14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3.793l1.853 1.854zM1 9V6h14v3H1zm14 1v2a1 1 0 0 1-1 1h-3.793a1 1 0 0 0-.707.293l-1.5 1.5-1.5-1.5A1 1 0 0 0 5.793 13H2a1 1 0 0 1-1-1v-2h14zm0-5H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v2zM2 11.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 0-1h-8a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h6a.5.5 0 0 0 0-1h-6a.5.5 0 0 0-.5.5z"/>
-                </svg>
-            <span class="tooltiptext">Agregar otro Tipo de tratamiento</span>
-            </div>
-            </div> 
-        <div id="id02" class="w3-modal">
-            <div class="w3-modal-content">
-                <header class="w3-container"> 
-                    <span onclick="document.getElementById('id02').style.display='none'" 
-                    class="w3-button w3-display-topright">&times;</span>
-                    <h3>Agregar otro tipo de tratamiento</h3>
-                </header>
-            <div class="w3-container">
-                <div class="w3-col s4 w3-margin-left">
-                    <p>Nombre del otro tipo de tratamiento</p>
-                </div>
-                <div class="w3-col s4">
-                    <input maxlength="100" name="namei2" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el nombre">
-                </div>
-            </div>
-            <div class="w3-container ">
-                <div class="w3-col s4 w3-margin-left">
-                    <p>Descripción breve del tratamiento</p>
-                </div>
-                <div class="w3-col s4">
-                <textarea maxlength="500" name="named2" autocomplete="on" class="w3-input w3-border w3-rest" style="height: 200px  width: 300px" placeholder="Describe el significado"></textarea>
-                </div>
-            </div>
-            <div class="w3-container w3-center w3-margin-top">
-                <button onclick="document.getElementById('id02').style.display='none'" class="w3-button w3-green">Ingresar nuevo dato</button>
-            </div>
-            <footer class="w3-padding-16"></footer>
-        </div>
-        </div>
-        </div>
-        </div>
-    </div>
-</div>
-</div>
-<!-- Tipo de Optimizacion -->
-<div class="w3-row-padding w3-margin-left">
-    <div class="w3-col s3">
-        <h3>Tipo de Optimización</h3>
-    </div>
-    <div class="w3-col s3">
-        <select class="w3-select w3-border " name="option">
-            <option value="" disabled selected>Selecciona el tipo de optimización</option>
-            <option >Multicriterio o Multiobjetivo</option>
-            <option >Montecarlo</option>
-            <option >Algoritmo DAO rápido</option>
-            <option >Heurísticas</option>
-        </select>
-    </div>
-    <div autocomplete="on" class="w3-col s4 ">
-    <div class="w3-bar">
-        <a href="http://127.0.0.1:8000/formularioGlosario#indice9" target="_blank" >
-        <button class="w3-bar-item w3-text-grey w3-button w3-white w3-hover-white">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-            </svg>
-        </button></a>
-<!-- Boton para agregar otro tipo -->        
-        <div style="margin-top:8px">
-            <div class="tooltip" onclick="document.getElementById('id03').style.display='block'" class="w3-button w3-large w3-white w3-hover-white">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-menu-up w3-xxxlarge" viewBox="0 0 16 16">
-                    <path d="M7.646 15.854a.5.5 0 0 0 .708 0L10.207 14H14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3.793l1.853 1.854zM1 9V6h14v3H1zm14 1v2a1 1 0 0 1-1 1h-3.793a1 1 0 0 0-.707.293l-1.5 1.5-1.5-1.5A1 1 0 0 0 5.793 13H2a1 1 0 0 1-1-1v-2h14zm0-5H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v2zM2 11.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 0-1h-8a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h6a.5.5 0 0 0 0-1h-6a.5.5 0 0 0-.5.5z"/>
-                </svg>
-            <span class="tooltiptext">Agregar otro Tipo de optimización</span>
-            </div>
-            </div>
-        <div id="id03" class="w3-modal">
-            <div class="w3-modal-content">
-                <header class="w3-container"> 
-                    <span onclick="document.getElementById('id03').style.display='none'" 
-                    class="w3-button w3-display-topright">&times;</span>
-                    <h3>Agregar otro tipo de optimización</h3>
-                </header>
-            <div class="w3-container">
-                <div class="w3-col s4 w3-margin-left">
-                    <p>Nombre del otro tipo de optimización</p>
-                </div>
-                <div class="w3-col s4">
-                    <input maxlength="100" name="namei3" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el nombre">
-                </div>
-            </div>
-            <div class="w3-container ">
-                <div class="w3-col s4 w3-margin-left">
-                    <p>Descripción breve de la optimización</p>
-                </div>
-                <div class="w3-col s4">
-                <textarea maxlength="500" name="named3" autocomplete="on" class="w3-input w3-border w3-rest" style="height: 200px  width: 300px" placeholder="Describe el significado"></textarea>
-                </div>
-            </div>
-            <div class="w3-container w3-center w3-margin-top">
-                <button onclick="document.getElementById('id03').style.display='none'" class="w3-button w3-green">Ingresar nuevo dato</button>
-            </div>
-            <footer class="w3-padding-16"></footer>
-        </div>
-        </div>
-        </div>
-        </div>
-    </div>
-</div>
-</div>
-</div>
-<!-- Numero total de beamlets -->
-<div class="w3-row-padding w3-margin-left">
-    <div class="w3-col s3">
-        <h3>Número total de beamlets</h3>
-    </div>
-    <div class="w3-col s3">
-        <input maxlength="3" name="namebeamlets" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el número total de beamlets">
-    </div>
-    <a href="http://127.0.0.1:8000/formularioGlosario#indice10" target="_blank" > 
-    <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-        </svg>
-    </button></a>
-</div>
-<!-- Tamano del beamlets -->
-<div class="w3-row-padding w3-margin-left">
-    <div class="w3-col s3">
-        <h3>Tamaño del beamlets</h3>
-    </div>
-        <div class="w3-col s1">
-            <select class="w3-select w3-border" style="width: 100px" name="option">
-                <option value="" disabled selected>n x n</option>
-                <option value="1 x 1">1 x 1</option>
-                <option value="0.5 x 0.">0.5 x 0.5</option>
-            </select> 
-        </div>
-        <select class="w3-select w3-border" style="width: 150px" name="option">
-                <option value="" disabled selected>Unidad</option>
-                <option value="mm">mm</option>
-                <option value="cm">cm</option>
-                <option value="dm">dm</option>
-                <option value="in">in</option>
-                <option value="ft">ft</option>
-        </select>  
-        <a href="http://127.0.0.1:8000/formularioGlosario#indice11" target="_blank" > 
-        <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-        </svg>
-    </button></a>
-</div>
-<!-- Coplanar -->
-<div class="w3-row-padding w3-margin-left">
-    <div class="w3-col s3">
-        <h3>Coplanar</h3>
-    </div>
-    <div class="w3-col s3">
-        <select class="w3-select w3-border " name="option">
-            <option value="" disabled selected>Selecciona si es cooplanar</option>
-            <option value="1">Si</option>
-            <option value="2">No</option>
-        </select>
-    </div>
-    <a href="http://127.0.0.1:8000/formularioGlosario#indice12" target="_blank" > 
-    <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-        </svg>
-    </button></a>
-</div>
-<!-- Numero de angulos -->
-<div class="w3-row-padding w3-margin-left">
-    <div class="w3-col s3">
-        <h3>Número de Ángulos</h3>
-    </div>
-    <div class="w3-col s3">
-        <input maxlength="3" name="nameangulo" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el número de ángulos">
-    </div>
-    <a href="http://127.0.0.1:8000/formularioGlosario#indice13" target="_blank" > 
-    <button class="w3-text-grey w3-button w3-circle w3-white w3-small w3-hover-white">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-        </svg>
-    </button></a>
-</div>
 </p3>
 
 
 
 
+
+
+
 <!-- 4. Titulo cuarta parte -->
-<p4 hidden>
+<p4 >
 <div class="w3-container w3-margin-left" style="margin-top:7px">
     <h2 style="margin-top:7px"><b>4. Información de contacto </b></h2>
 </div>
@@ -1161,64 +1109,12 @@ let eliminar1 = function(n1) {
 
 
 
-<!-- Botones  -->
-<div class="w3-padding-24"></div>
-<p_1><!-- Boton1  -->
-  <div  class="w3-bar">
-    <div class="w3-container" ></div>
-    <div class="w3-col w3-container w3-margin " style="width:30%" ></div>
-    <button class="bguardar1 w3-button w3-teal w3-xlarge" style="width:15%">Guardar1</button>
+<div class="w3-row">
+    <div class="w3-container" style="margin-top:30px"></div>
+    <div class="w3-col w3-container w3-margin " style="width:20%"></div>
+    <button onclick="location.href='http://127.0.0.1:8000/confirmacion'" class="w3-button w3-teal w3-xlarge" style="width:18%">Ingresar Datos </button>
   </div>
-  </p_1>
-
-<p_2 hidden><!-- Boton2  -->
-  <div  class="w3-bar">
-    <div class="w3-container" ></div>
-    <div class="w3-col w3-container w3-margin " style="width:30%" ></div>
-    <button class="bseguir1 w3-button w3-teal w3-xlarge" style="width:15%">Seguir1 &#10095;</button>
-  </div>
-  </p_2>
-
-<p_3 hidden><!-- Boton3  -->
-  <div  class="w3-bar">
-    <div class="w3-container" ></div>
-    <div class="w3-col w3-container w3-margin " style="width:30%" ></div>
-    <button class="bguardar2 w3-button w3-teal w3-xlarge" style="width:15%">Guardar2</button>
-  </div>
-  </p_3>
-
-<p_4 hidden><!-- Boton4  -->
-  <div  class="w3-bar">
-    <div class="w3-container" ></div>
-    <div class="w3-col w3-container w3-margin " style="width:30%" ></div>
-    <button class="bseguir2 w3-button w3-teal w3-xlarge" style="width:15%">Seguir2 &#10095;</button>
-  </div>
-  </p_4>
-
-<p_5 hidden><!-- Boton5  -->
-  <div  class="w3-bar">
-    <div class="w3-container" ></div>
-    <div class="w3-col w3-container w3-margin " style="width:30%" ></div>
-    <button class="bguardar3 w3-button w3-teal w3-xlarge" style="width:15%">Guardar3</button>
-    <button class="bsaltar1 w3-button w3-teal w3-xlarge" style="width:15%">Saltar1 &#10095;&#10095;</button>
-  </div>
-  </p_5>
-
-<p_6 hidden><!-- Boton6  -->
-  <div  class="w3-bar">
-    <div class="w3-container" ></div>
-    <div class="w3-col w3-container w3-margin " style="width:30%" ></div>
-    <button class="bseguir3 w3-button w3-teal w3-xlarge" style="width:15%">Seguir3 &#10095;</button>
-  </div>
-  </p_6>
-
-<p_7 hidden><!-- Boton7  -->
-<div  class="w3-bar">
-    <div class="w3-container" ></div>
-    <div class="w3-col w3-container w3-margin " style="width:30%" ></div>
-    <button onclick="location.href='http://127.0.0.1:8000/confirmacion'" class="bguardar4 w3-button w3-teal w3-xlarge" style="width:18%">Terminar</button>
-  </div>
-  </p_7>
+</div>
   
 <style>
 .header {
