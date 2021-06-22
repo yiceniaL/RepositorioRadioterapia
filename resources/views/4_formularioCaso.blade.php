@@ -63,6 +63,7 @@ $(".bsaltar1").click(function(){
     $("p3").hide();
     $("p4").show();
   }); 
+
 });
 </script>
 
@@ -121,8 +122,11 @@ $(".bsaltar1").click(function(){
     <div class="w3-col s3">
         <select class="w3-select w3-border " name="option">
             <option value="" disabled selected>Selecciona el tipo de cáncer</option>
-            <option value="1">lista1</option>
-            <option value="2">Option 2</option>
+            <option value="1">Próstata</option>
+            <option value="2">Cabeza y cuello</option>
+            <option value="3">Hígado</option>
+            <option value="4">Pulmón</option>
+            <option value="5">Mama</option>
         </select>
     </div>
     <div autocomplete="on" class="w3-col s4 ">
@@ -159,7 +163,7 @@ $(".bsaltar1").click(function(){
                     </div>
                 </div>
                 <div class="w3-container w3-center w3-margin-top">
-                    <button class="w3-button w3-green">Ingresar nuevo dato</button>
+                    <button onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-green">Ingresar nuevo dato</button>
                 </div>
                 <footer class="w3-padding-16"></footer>
             </div>
@@ -314,8 +318,98 @@ $(".bsaltar1").click(function(){
     <div class="w3-col s3">
         <select class="w3-select w3-border " name="option">
             <option value="" disabled selected>Selecciona el órgano a irradiar</option>
-            <option value="1">lista4</option>
-            <option value="2">Option 2</option>
+            <option >Antebrazo derecho</option>
+            <option >Antebrazo izquierdo</option>
+            <option >Bazo</option>
+            <option >Boca</option>
+            <option >Brazo derecho</option>
+            <option >Brazo izquierdo</option>
+            <option >Bronquio derecho</option>
+            <option >Bronquio izquierdo</option>
+            <option >Caja Torácica</option>
+            <option >Cerebro</option>
+            <option >Cintura escapular </option>
+            <option >Cintura pelviana</option>
+            <option >Clítoris</option>
+            <option >Codo derecho</option>
+            <option >Codo izquierdo</option>
+            <option >Columna Vertebral</option>
+            <option >Corazón</option>
+            <option >Costillas derechas</option>
+            <option >Costillas izquierdas</option>
+            <option >Cráneo</option>
+            <option >Diafragma</option>
+            <option >Dientes</option>
+            <option >Duodeno</option>
+            <option >Encéfalo</option>
+            <option >Esófago</option>
+            <option >Esternón</option>
+            <option >Estómago</option>
+            <option >Faringe </option>
+            <option >Fosa Nasal derecha</option>
+            <option >Fosa Nasal izquierda</option>
+            <option >Glándula mamaria derecha</option>
+            <option >Glándula mamaria izquierda</option>
+            <option >Glándula parótida</option>
+            <option >Glándula sublingual</option>
+            <option >Glándula submandibular</option>
+            <option >Glándula Suprarrenal derecha</option>
+            <option >Glándula Suprarrenal izquierda</option>
+            <option >Hígado</option>
+            <option >Hombro derecho</option>
+            <option >Hombro izquierdo</option>
+            <option >Huesos</option>
+            <option >Intestino delgado</option>
+            <option >Intestino grueso </option>
+            <option >Laringe</option>
+            <option >Lengua</option>
+            <option >Mano derecha</option>
+            <option >Mano izquierda</option>
+            <option >Mediastino</option>
+            <option >Médula espinal</option>
+            <option >Mesenterio</option>
+            <option >Muñeca derecha</option>
+            <option >Muñeca izquierda</option>
+            <option >Músculos</option>
+            <option >Muslo derecho</option>
+            <option >Muslo izquierdo</option>
+            <option >Oído derecho</option>
+            <option >Oído izquierdo</option>
+            <option >Ojo derecho</option>
+            <option >Ojo izquierdo</option>
+            <option >Ovario derecho</option>
+            <option >Ovario izquierdo</option>
+            <option >Páncreas</option>
+            <option >Paratiroides</option>
+            <option >Pene</option>
+            <option >Perineo</option>
+            <option >Peritoneo</option>
+            <option >Pie derecho</option>
+            <option >Pie izquierdo</option>
+            <option >Pierna derecha</option>
+            <option >Pierna izquierda</option>
+            <option >Próstata</option>
+            <option >Pulmón derecho</option>
+            <option >Pulmón izquierdo</option>
+            <option >Riñón derecho</option>
+            <option >Riñón izquierdo</option>
+            <option >Rodilla derecha</option>
+            <option >Rodilla izquierda</option>
+            <option >Testículo derecho</option>
+            <option >Testículo izquierdo</option>
+            <option >Timo</option>
+            <option >Tiroides</option>
+            <option >Tobillo derecho</option>
+            <option >Tobillo izquierdo</option>
+            <option >Tráquea</option>
+            <option >Trompa de falopio derecha</option>
+            <option >Trompa de falopio izquierda</option>
+            <option >Útero</option>
+            <option >Vagina</option>
+            <option >Vejiga urinaria</option>
+            <option >Vértebras Cervicales </option>
+            <option >Vesicular biliar</option>
+            <option >Vulva</option>
         </select>
     </div>
     <div autocomplete="on" class="w3-col s4 ">
@@ -352,7 +446,7 @@ $(".bsaltar1").click(function(){
                 </div>
             </div>
             <div class="w3-container w3-center w3-margin-top">
-                <button class="w3-button w3-green">Ingresar nuevo dato</button>
+                <button onclick="document.getElementById('id04').style.display='none'" class="w3-button w3-green">Ingresar nuevo dato</button>
             </div>
             <footer class="w3-padding-16"></footer>
         </div>
@@ -449,8 +543,13 @@ $(".bsaltar1").click(function(){
     <div class="w3-col s3">
         <select class="w3-select w3-border " name="option">
             <option value="" disabled selected>Selecciona indicador</option>
-            <option value="1">lista5</option>
-            <option value="2">Option 2</option>
+            <option >Dosis Mínima (Dx en Grey)</option>
+            <option >Dosis Media (Dx en Grey)</option>
+            <option >Dosis Máxima (Dx en Grey)</option>
+            <option >Volumen porcentual Mínimo (Vx %)</option>
+            <option >Volumen porcentual Medio (Vx %)</option>
+            <option >Volumen porcentual Máximo (Vx %)</option>
+            <option >Fracciones de Radiación</option>
         </select>
     </div>
     <div autocomplete="on" class="w3-col s4 ">
@@ -495,7 +594,7 @@ $(".bsaltar1").click(function(){
                 </div>
             </div>
             <div class="w3-container w3-center w3-margin-top">
-                <button class="w3-button w3-green">Ingresar nuevo dato</button>
+                <button onclick="document.getElementById('id05').style.display='none'" class="w3-button w3-green">Ingresar nuevo dato</button>
             </div>
             <footer class="w3-padding-16"></footer>
         </div>
@@ -714,8 +813,11 @@ let eliminar1 = function(n1) {
     <div class="w3-col s3">
         <select class="w3-select w3-border " name="option">
             <option value="" disabled selected>Selecciona el tipo de tratamiento</option>
-            <option value="1">lista2</option>
-            <option value="2">Option 2</option>
+            <option >Radiocirugía estereotáctica (SRS) y Radioterapia estereotáctica (SRT)</option>
+            <option >Radioterapia corporal estereotáctica (SBRT) o Radioterapia corporal ablativa estereotáctica (SABR)</option>
+            <option >Radioterapia conformada tridimensional (3D-CRT)</option>
+            <option >Radioterapia con modulación de intensidad (IMRT)</option>
+            <option >Intensidad modulada volumétrica en arcoterapia (VMAT)</option>
         </select>
     </div>
     <div autocomplete="on" class="w3-col s4 ">
@@ -760,7 +862,7 @@ let eliminar1 = function(n1) {
                 </div>
             </div>
             <div class="w3-container w3-center w3-margin-top">
-                <button class="w3-button w3-green">Ingresar nuevo dato</button>
+                <button onclick="document.getElementById('id02').style.display='none'" class="w3-button w3-green">Ingresar nuevo dato</button>
             </div>
             <footer class="w3-padding-16"></footer>
         </div>
@@ -778,8 +880,10 @@ let eliminar1 = function(n1) {
     <div class="w3-col s3">
         <select class="w3-select w3-border " name="option">
             <option value="" disabled selected>Selecciona el tipo de optimización</option>
-            <option value="1">lista3</option>
-            <option value="2">Option 2</option>
+            <option >Multicriterio o Multiobjetivo</option>
+            <option >Montecarlo</option>
+            <option >Algoritmo DAO rápido</option>
+            <option >Heurísticas</option>
         </select>
     </div>
     <div autocomplete="on" class="w3-col s4 ">
@@ -824,7 +928,7 @@ let eliminar1 = function(n1) {
                 </div>
             </div>
             <div class="w3-container w3-center w3-margin-top">
-                <button class="w3-button w3-green">Ingresar nuevo dato</button>
+                <button onclick="document.getElementById('id03').style.display='none'" class="w3-button w3-green">Ingresar nuevo dato</button>
             </div>
             <footer class="w3-padding-16"></footer>
         </div>
@@ -1147,8 +1251,8 @@ let eliminar1 = function(n1) {
     <div class="w3-col s3">
         <select class="w3-select w3-border " name="option">
             <option value="" disabled selected>Selecciona el nombre de la institución</option>
-            <option value="1">lista5</option>
-            <option value="2">Option 2</option>
+            <option >Universidad Católica del Norte</option>
+            <option >Universidad Católica de Valparaíso</option>
         </select>
     </div>
     <div autocomplete="on" class="w3-col s4 ">
@@ -1185,7 +1289,7 @@ let eliminar1 = function(n1) {
                 </div>
             </div>
             <div class="w3-container w3-center w3-margin-top">
-                <button class="w3-button w3-green">Ingresar nuevo dato</button>
+                <button onclick="document.getElementById('id06').style.display='none'" class="w3-button w3-green">Ingresar nuevo dato</button>
             </div>
             <footer class="w3-padding-16"></footer>
         </div>

@@ -53,8 +53,8 @@ Route::get('/vistaDetalleTratamiento', function () {
     return view('9_vistaDetalleTratamiento');
 });
 
-Route::get('/administrador', function () {
-    return view('10_administrador');
+Route::get('/mantenedores', function () {
+    return view('10_mantenedores');
 });
 
 Route::get('/prueba', function () {
