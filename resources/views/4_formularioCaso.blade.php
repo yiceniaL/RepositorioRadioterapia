@@ -703,9 +703,9 @@ body {font-size:16px;}
         </svg>
     </button></a>
 </div>
+<p_indicador1 hidden>
 <!-- Nombre del Indicador -->
-<div class="w3-row w3-center w3-container w3-quarter w3-col s2">
-        </div></div>
+<div class="w3-row w3-center w3-container w3-quarter w3-col s2"></div>
 <div class="w3-row-padding w3-margin-left">
     <div class="w3-col s3">
         <h3>1. Nombre del Indicador*</h3>
@@ -723,6 +723,7 @@ body {font-size:16px;}
         </select>
     </div>
     <div autocomplete="on" class="w3-col s4 ">
+    <button class="botonindicador0 btn-danger w3-button w3-large w3-hover-grey">x</button>
     <div class="w3-bar">
         <a href="http://127.0.0.1:8000/formularioGlosario#indice19" target="_blank" > 
         <button class="w3-bar-item w3-text-grey w3-button w3-white w3-hover-white">
@@ -791,24 +792,38 @@ body {font-size:16px;}
         </svg>
     </button></a>
 </div>
+</p_indicador1>
 <!-- Clonador de indicadores -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
 let numero = 1;
 let nn = 0;
+$(document).ready(function(){
+$(".botonindicador1").click(function(){
+    $("p_botonindicador1").hide();
+    $("p_botonindicador2").show();
+    $("p_indicador1").show();
+  });  
+}); 
+$(document).ready(function(){
+$(".botonindicador0").click(function(){
+    $("p_botonindicador2").hide();
+    $("p_botonindicador1").show();
+    $("p_indicador1").hide();
+  });  
+}); 
 let nuevo = function() {
   numero++;
   nn++;
   jQuery('.inputs').append(
     `<section id="${numero}">
-    <div class="w3-row w3-center w3-container w3-quarter w3-col s2">
-        
-        </div></div>
+    <div class="w3-row w3-center w3-container w3-quarter w3-col s2"></div>
     <div class="w3-row-padding w3-margin-left">
-        <div class="w3-col s3"><h3>${numero}. Nombre del Indicador*</h3></div>
+        <div class="w3-col s3"><h3>${numero}. Nombre del Indicador</h3></div>
         <div class="w3-col s3"><select class="w3-select w3-border " name="option"><option value="" disabled selected>Selecciona el indicador</option><option value="1">lista5</option><option value="2">Option 2</option></select>
         </div><button class="btn-danger w3-button w3-large w3-hover-grey" onclick="eliminar(${numero})">x</button></div>
     <div class="w3-row-padding w3-margin-left">
-        <div class="w3-col s3"><h3>${numero}. Valor del indicador*</h3></div>
+        <div class="w3-col s3"><h3>${numero}. Valor del indicador</h3></div>
         <div class="w3-col s3"><input maxlength="10" name="indicador" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el valor del indicador"></div></div></section>`
     );   
 }
@@ -819,7 +834,23 @@ let eliminar = function(n) {
   nn--;
 }
 </script>
+
+
+<p_botonindicador1>
+<div class="inputs"></div>
+<div class="w3-row w3-center">
+  <div class="w3-container w3-quarter"></div>
+  <div class="w3-container w3-quarter w3-margin-bottom w3-tooltip">
+    <button class="botonindicador1 w3-button w3-large w3-circle w3-grey">
+        <span style="position:absolute;left:-50px;top:10px" class="w3-text w3-tag w3-large w3-white w3-tiny">
+        Agregar otro indicador
+        </span>+</button>
+  </div>
+</div>
+</p_botonindicador1>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<p_botonindicador2 hidden>
 <div class="inputs"></div>
 <div class="w3-row w3-center">
   <div class="w3-container w3-quarter"></div>
@@ -830,13 +861,15 @@ let eliminar = function(n) {
         </span>+</button>
   </div>
 </div>
+</p_botonindicador2>
+
+
 <!-- Clonador de Organos e indicadores-->
 <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 <script>
 let numero1 = 1;
 let a = 1000;
 let nuevo1 = function() {
-
   numero1++;
   a++;
   jQuery('.inputs1').append(
@@ -902,41 +935,21 @@ x</button></h3>
             <input name="namevoxels" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el número de vóxels objetivo">
         </div>
     </div>
-    <div class="w3-row-padding w3-margin-left">
-        <div class="w3-col s3">
-            <h3>1. Nombre del Indicador*</h3>
-        </div>
-        <div class="w3-col s3">
-            <select class="w3-select w3-border " name="option">
-                <option value="" disabled selected>Selecciona indicador</option>
-                <option value="1">lista5</option>
-                <option value="2">Option 2</option>
-            </select>
-        </div>
-    </div>
-    <div class="w3-row-padding w3-margin-left">
-        <div class="w3-col s3">
-            <h3>1. Valor del indicador*</h3>
-        </div>
-        <div class="w3-col s3">
-            <input maxlength="10" name="nameindicador" autocomplete="on" class="w3-input w3-border" type="text" placeholder="Ingresa el valor del indicador">
-        </div>
-    </div>
     <section2><div id="${a}"></div></section2>
     </section1>` 
     );   
 
     var i;
     $(document).ready(function(){
-        for (i = 1; i < nn +1; i++)  {
+        for (i = 0; i < nn ; i++)  {
             
       var code1 =`<div class="w3-row w3-center w3-container w3-quarter w3-col s1"></div>`;
       var code2 =`<div class="w3-row-padding w3-margin-left">`+
-      `    <div class="w3-col s3"><h3>${i+1}. Nombre del Indicador*</h3></div>`+
+      `    <div class="w3-col s3"><h3>${i+1}. Nombre del Indicador</h3></div>`+
       `    <div class="w3-col s3"><select class="w3-select w3-border " name="option">`+
       `    <option value="" disabled selected>Selecciona el indicador</option><option value="1">lista5</option><option value="2">Option 2</option></select></div></div>`;
       var code3 = `<div class="w3-row-padding w3-margin-left">`+
-      `    <div class="w3-col s3"><h3>${i+1}. Valor del indicador*</h3></div>`+
+      `    <div class="w3-col s3"><h3>${i+1}. Valor del indicador</h3></div>`+
       `    <div class="w3-col s3"><input class="w3-input w3-border" type="text" placeholder="Ingresa el valor del indicador"></div></div>`;
 
           $(`#${a}`).append($(code1));

@@ -14,7 +14,7 @@ body {font-size:16px;}
 </style>
 <body>
  
- 
+
 
 <style>
 .tooltip {
@@ -61,7 +61,7 @@ body {font-size:16px;}
 <!-- 1. Titulo primera parte -->
 <p1 >
 <div class="w3-container w3-margin-left" style="margin-top:7px">
-    <h2 style="margin-top:7px"><b>1. Información general del Caso </b></h2>
+    <h2 style="margin-top:7px"><b>1. Información general del Tratamiento </b></h2>
 </div>
 <!-- Caso Referido -->
 <style>
